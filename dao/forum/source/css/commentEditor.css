@@ -1,0 +1,91 @@
+/*
+* add by tht 
+* 2017-6-17
+* for comment editor
+*/
+
+
+/*评论编辑器 开始*/
+
+.comment_editor_con_f{
+	height:60px;
+}
+.comment_editor_con_f .comment_editor,.comment_editor_con_f a.sub_comm_btn{
+	float:left;
+}
+.comment_editor_con_f .comment_editor{
+	position:relative;
+	width:636px;height:60px;
+}
+.comment_editor_con_f .comment_editor .edui-editor-body .edui-body-container p{
+	margin:7px 0 0;
+}
+.comment_editor_con_f .comment_editor .replay_obj{
+	position:absolute;left:74px;top:1px;
+	z-index:1000;
+	width:778px;height:58px;line-height:58px;
+	text-align:left;color:#bdbdbd;
+}
+.comment_editor_con_f .sub_comm_btn{
+	width:60px;height:60px;line-height:60px;
+	background:url("http://img.gyyxcdn.cn/dao/forum/images/Icon_comment_editor.png") no-repeat left -24px;
+	cursor:pointer;font-size:18px;font-weight:bold;color:#ff0000;text-align:center;
+}
+.comment_editor_con_f .sub_comm_btn:hover{
+	width:60px;height:60px;
+	background-position:left -84px;
+}
+
+.comment_editor_con_f .comment_editor div.edui-container{
+	border:1px solid #74beea; border-right:none;
+}
+.comment_editor_con_f .comment_editor div.edui-container.on{
+	border:1px solid #74beea; border-right:none;
+}
+.comment_editor_con_f .comment_editor div.edui-container .edui-toolbar {
+	float:left;
+	margin:9px 0 0;
+	width:58px;height:40;
+	border:none;
+}
+.comment_editor_con_f .comment_editor div.edui-container .edui-btn-toolbar{
+	padding:7px 0 0 17px;
+	height:33px;
+	border:none; border-right:1px solid #ebebeb;
+}
+.comment_editor_con_f .comment_editor div.edui-container .edui-btn-toolbar .edui-hover,
+.comment_editor_con_f .comment_editor div.edui-container .edui-btn-toolbar .edui-active{
+	border:none;
+	padding:1px;
+}
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-emoji{
+	margin:0;
+	width:22px;height:28px;
+}
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-emoji .edui-icon{
+	margin:0 0 0 -2px;
+	width:24px;height:24px;
+	background:url("http://img.gyyxcdn.cn/dao/forum/images/Icon_comment_editor.png") no-repeat left top;
+}
+
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-splitbutton-forecolor,
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-bold,
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-video,
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-image,
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-link,
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-insertunorderedlist,
+.comment_editor_con_f .comment_editor div.edui-btn-toolbar .edui-btn-insertorderedlist
+{ float:left; display:none; }
+.comment_editor_con_f .comment_editor div.edui-container .edui-body-container{
+	padding:9px 15px 9px;
+}
+.comment_editor_con_f .comment_editor div.edui-container .edui-body-container p img{
+	display:inline;
+}
+/*.comment_editor_con_f .comment_editor div.edui-dialog-container .edui-emotion-Jtabnav{ display:none; }*/
+.comment_editor_con_f .comment_editor .reply_to_nickname{
+	float:left; 
+	padding:0 0 0 10px;
+	line-height:58px;color:#666666;
+}
+/*评论编辑器 结束*/

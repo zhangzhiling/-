@@ -1,0 +1,27 @@
+### IDEA ###
+*.iml
+.idea/
+
+###web.config###
+
+*.config
+
+###gulp####
+wealth/css/*.min.css
+wealth/js/*.min.js
+wealth/js/maps/*.min.js.map
+
+user/css/*.min.css
+user/js/*.min.js
+user/js/maps/*.min.js.map
+
+forum/css/*.min.css
+forum/js/*.min.js
+forum/js/maps/*.min.js.map
+
+forum/cssWap/*.min.css
+forum/jsWap/*.min.js
+forum/jsWap/maps/*.min.js.map
+
+forum/ueditor/maps/*.min.js.map
+forum/ueditor/umeditor.min.js

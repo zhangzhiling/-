@@ -1,0 +1,263 @@
+    @charset "utf-8";
+    /* CSS Document */
+    .clear{zoom:1;}
+    .clear:after{ content:""; display:block; clear:both;}
+      .cursor{
+        cursor:pointer;
+    }
+    .lf{
+        float:left;
+    }
+    .ri{
+        float:right;
+    }
+    .tc{
+        display:none;
+        position:fixed;
+        overflow:hidden;
+        z-index:1002000;
+    }
+    .tc .js_close{
+        width:30px;
+        height:24px;
+        position: absolute;
+        top:17px; 
+        *top:32px;
+        right:17px;
+        font-size:24px;
+        background:url("http://img.gyyxcdn.cn/dao/wealth/images/icon_T1.png") no-repeat -139px -321px;
+        transition: transform .2s linear;
+        -moz-transition: transform .2s linear;
+        -webkit-transition: transform .2s linear;
+    }
+    .tc .js_close:hover{
+      transform:rotate(-180deg);
+      -moz-transform:rotate(-180deg);
+      -webkit-transform:rotate(-180deg)
+    }
+    .jyF{
+        width:104px;
+        height:48px;
+        overflow:hidden;
+        float: left;
+        margin-left: 56px;
+        color:#757575;
+    }
+    .jF{
+        margin-bottom: 4px;
+    }
+    .jyF i{
+        color:#52a8e8;
+    }
+    .jF .c3{
+        padding-left: 22px;
+        background:url("http://img.gyyxcdn.cn/dao/wealth/images/jinyin.png") no-repeat left -1px;
+    }
+    .yF .c4{
+        padding-left: 22px;
+        background:url("http://img.gyyxcdn.cn/dao/wealth/images/jinyin.png") no-repeat left -37px;
+    }
+    .actives {
+        visibility: hidden;
+        margin: 22px 18px 0 30px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #ccc;
+    }
+    .actives span.cur {
+        padding-bottom: 3px;
+        border-bottom: 2px solid #52a8e8;
+    }
+    .activeConvert{
+          float: right;
+         margin-right: 22px;
+    }
+    .t2 .Pays {
+        margin-top: 18px;
+    }
+    .t2 .myActive{
+      margin-left:11px;
+    }
+    .tc02{
+	     display:none;
+	     width:765px;
+	     height:606px;
+	     background:url("http://img.gyyxcdn.cn/dao/wealth/images/tc02Bg.png") no-repeat left 0;
+    }
+    .tc02 .js_close{
+	    top: 20px;
+	    right: 52px;
+    }
+    .tc02 .con{
+           width: 719px;
+          margin: 27px 0 0 5px;
+    }
+    .tc04,.tc03{
+         width: 528px;
+	    height: 258px;
+	    text-align: center;
+	    background: url(http://img.gyyxcdn.cn/dao/wealth/images/popInBg.png) no-repeat center center;
+        color: #000;
+        font-size: 20px;
+    }
+     .tc03 .easyvcord{
+        display: inline-block;
+	    width: 100px;
+	    border: 2px solid #52a8e8;
+	    height: 25px;
+	    line-height: 25px;
+	    *margin-top:16px;
+	    position: relative;
+        top: -18px;
+        *top:0px;
+    }
+     .js_getCord{
+       display: inline-block;
+	    width: 150px;
+	    height: 60px;
+	    text-align: center;
+	    color: #fff;
+	    border: 0 none;
+     } 
+     .tc03 .yzm{
+       margin:42px 0 0 0;
+       padding-left: 46px;
+     }
+     .js_cordUp,.cordCancel{
+            margin-right: 70px;
+		    background: #6495ed;
+		    padding: 5px;
+		    width: 83px;
+		    display: inline-block;
+		    color: #fff;
+     }
+     .cordCancel{
+       margin-right:0px;
+     }
+     .cordErr{
+        height: 18px;
+        line-height: 18px;
+       font-size:14px;
+       margin:18px 0;
+       color:red;
+       text-align:center; 
+     }
+    .payTit .jyjl{
+      display:block;
+      width:148px;
+      height:48px;
+      line-height:48px;
+      background:#52a8e8;
+      font-szie:16px;
+      color:#fff;
+      text-align:center;
+    }
+    .tc02 .jF i,.tc02 .yF i{
+      color:#dfa432;
+      padding: 0 5px;
+    }
+    .tc02 .jF{
+       margin: 14px 22px 4px 0px;
+    }
+    .tc02 .yF{
+      margin: 14px 22px 4px 0px;
+    }
+    .typeQuery{
+     overflow:hidden;
+     padding:0 40px;
+    }
+    .typeQuery .cx{
+    overflow:hidden;
+     color:#757575;
+     font-size:14px;
+     margin:34px 0 15px 0; 
+    }
+    .cx .jfq,.cx .yfq,.cx .txdh{
+      padding-left: 27px;
+      margin:7px 40px 0 0;
+      background:url("http://img.gyyxcdn.cn/dao/wealth/images/icon_T1.png") no-repeat 0 -94px;
+      cursor:pointer;
+    }
+    .cx .jfq.active,.cx .yfq.active,.cx .txdh.active{
+       background:url("http://img.gyyxcdn.cn/dao/wealth/images/icon_T1.png") no-repeat 0 -141px;
+    }
+    .cx .tis{
+      margin-top:7px;
+    }
+    .selTimes{
+      width:113px;
+      height:30px;
+      line-height:30px;
+      color:#757575;
+    }
+    .noJL{
+       display:none;
+       text-align: center;
+       font-size: 18px;
+       color: #52a8e8;
+       margin-top: 100px
+    }
+    .cx .js_cx{
+      display:block;
+      width:88px;
+      height:32px;
+      line-height:32px;
+      color:#fff;
+      font-size:16px;
+      text-align:center;
+      background:#52a8e8;
+      cursor:pointer;
+    }
+    #jxTable{
+     width:100%;
+     text-align: center;
+     font-size:16px;
+     line-height:53px;
+     color:#666666;
+    }
+    #jxTable thead,#jxTable tbody tr{
+      border-bottom:1px dashed #ccc;
+    }
+    .dataTables_paginate a {
+    color: #000;
+    margin: 0 6px;
+}
+    .sourceTimes{
+     color:#a0a0a0;
+    }
+    .jlTiShi{
+	    font-size: 14px;
+	    color: #999999;
+	    text-align: center;
+	    position: absolute;
+	    bottom: 45px;
+	    left: 188px;
+    }
+    .jlTiShi a{
+     color:#0047fb;
+    }
+/****NewPageStyle*****/
+.ellipsisTxt{display:block; width:100px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.pageMenu li::selection{background:transparent;}
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display: block;clear: both;}
+.pageBox{height: 364px;position:relative;margin: 0 auto;}
+.pageDiv{width: 98.75%;background: #fff;padding-left: 1.25%;margin-bottom: 10px;}
+.pageDiv li{margin-bottom: 10px;border:1px solid #dbdbdb;width: 21.5%;margin-right: 1.25%;float:left;margin-top: 10px;padding: 1%;text-align: center;}
+.hide{display: none;}
+.notContent{padding: 15px 0;text-align: center;font-size: 18px; color: #52a8e8;}
+.pageMenu{display:inline;justify-content:center;}
+.pageMenu li{border: solid thin #ddd;margin: 3px;font-size:12px;padding: 1px 7px;cursor: pointer;background: #fff;display:inline; zoom:1}
+.pageMenu li.firstPage{display:inline}
+.pageMenu li.prevPage{display:inline;padding-left: 15px;background: url("http://img.gyyxcdn.cn/dao/wealth/images/Icon_tools_info.png") #fff no-repeat 8px -299px;}
+.pageMenu li.pageNum{display:inline}
+.pageMenu li.nextPage{display:inline;padding-right: 15px;background:url("http://img.gyyxcdn.cn/dao/wealth/images/Icon_tools_info.png") #fff no-repeat 50px -349px;}
+.pageMenu li.lastPage{display:inline}
+.pageMenu li.disabled{background-color: #f6f6f6;color:#ccc;  cursor: not-allowed;opacity:.6;filter:alpha(opacity=60);}
+.pageMenu li.active{background-color: #f6f6f6;color: #b5b5b5;}
+.pageMenu li.last{background: transparent;border:0;position: relative;top: -4px;}
+.page .keuInput{padding: 0 5px;width: 30px;border: solid thin #ddd;height: 29px;outline: none;text-align: center;font-size: 16px;}
+.page .btnSure{padding: 4px 8px;border: solid thin #ddd;outline: none;text-align: center;font-size: 16px;background: #fff;position: relative;top: 2px;}
+.page .btnSure:hover{cursor: pointer;}
+.pageMenu .pageObj{display:inline; overflow:hidden;}
+.tc02 .page{padding:8px 0;text-align:center;position: absolute;bottom: 0px;left:50%; margin-left:-68px;}
+

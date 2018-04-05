@@ -1,0 +1,60 @@
+.navs .road{
+	font-size:16px;
+}
+.navs .road a:hover{
+	color:#5eaeef;
+}
+.usStatus .editos{
+	background:none;
+}
+.usNOther{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: default;
+    line-height: 19px;
+}
+.daojieSf{
+    background-image: url(http://img.gyyxcdn.cn/dao/user/images/daojieSf.png);
+    background-repeat: no-repeat;
+}
+.gonggaoSf{
+    background-image: url(http://img.gyyxcdn.cn/dao/user/images/ggbtd.png);
+    background-repeat: no-repeat;
+}
+.usLOther{
+	width: 42px;
+	height: 42px;
+	margin-left:15px;
+}
+.shenfes .yilun{
+	visibility: hidden;
+}
+.detailsGame{
+	display:block;
+}
+.detailsGame .d1{
+	display:block;
+}
+.noGit{
+	line-height: 198px;
+    text-align: center;
+    color:#aaaaaa;
+    font-size:16px;
+}
+.ituOther{
+	display: inline-block;
+    width: 95px;
+    height: 64px;
+    margin-left: 4px;
+    cursor: auto;
+	background-image: url(http://img.gyyxcdn.cn/dao/user/images/sfqAll.png);
+    background-repeat: no-repeat;
+}
+.noOtherInfo{   
+	line-height: 208px;
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 16px;
+}

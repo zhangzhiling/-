@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+.clear{zoom:1;}
+.clear:after{ content:""; display:block; clear:both;}
+  .cursor{
+    cursor:pointer;
+}
+.lf{
+    float:left;
+}
+.ri{
+    float:right;
+}
+  /*排行榜-start*/
+.rankingBg{
+	margin-top: 10px;
+	width: 240px;
+	background:#f7f9fc;
+}
+.rankingBg .rankTitle,.rankingBg .rankTitle .rankTitle_icon,
+.specRankInfo_wrap .mySpecRank .mySpecRank_icon01,
+.specRankInfo_wrap .mySpecRank .mySpecRank_icon02,
+.specRankInfo_wrap .noLoginBtn,
+.specRankInfo_wrap .noLoginBtn .lookMySpecRank_icon,
+.rankingList .rankingListIcon,
+.rankingBg .rankingList li .cap{
+	background: url(http://img.gyyxcdn.cn/dao/wealth/images/ranking_icon.png) 0 0 no-repeat;
+}
+.rankingBg .rankTitle{
+	background-position: 0 0;
+    display: block;
+    height: 63px;
+    line-height: 48px;
+    font-size: 18px;
+    position: relative;
+    color: #1c86d1;
+    text-indent: 32px;
+}
+.rankingBg .rankTitle .rankIng_time{
+	font-size: 12px;
+	display: block;
+	position: absolute;
+	top: 22px;
+	left: 2px;
+	color:#6ea8d3;
+	letter-spacing:1px;
+}
+.rankingBg .rankTitle .rankTitle_icon{
+    background-position: -222px -77px;
+    display: block;
+    width: 19px;
+    height: 19px;
+    overflow: hidden;
+    text-indent: -999px;
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    
+}
+.specRankInfo_wrap{
+	
+}
+.specRankInfo_wrap .mySpecRankInfo{
+    overflow: hidden;
+    width: 220px;
+    padding: 10px;
+}
+.specRankInfo_wrap .mySpecRankInfo .mySpecRank{
+	width: 104px;
+    height: 40px;
+    border: 1px solid #c9e8ff;
+    background: #e9f7ff;
+    text-align: center;
+    border-radius: 3px;
+    color: #46a1e3;
+    position: relative;
+    padding-top: 6px;
+    text-indent: 18px; 
+}
+.specRankInfo_wrap .mySpecRank .mySpecRank_icon01,
+.specRankInfo_wrap .mySpecRank .mySpecRank_icon02{
+ 	width: 11px;
+    height: 12px;
+    text-indent: -999px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 15px; 
+}
+.specRankInfo_wrap .mySpecRank .mySpecRank_icon01{
+    background-position: -229px -98px;
+}
+.specRankInfo_wrap .mySpecRank .mySpecRank_icon02{
+	background-position: -229px -116px;
+}
+.specRankInfo_wrap .mySpecRank .RankInfoNum{
+	color: #ff6666;    
+	display: block;    
+	text-indent: 1px;
+}
+.specRankInfo_wrap .noLoginBtn{
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    width: 222px;
+    background-position: 0px -240px;
+    color: #46a2e3;
+    font-size: 18px;
+    margin: 10px auto;position:relative;cursor:pointer;
+}
+.specRankInfo_wrap .noLoginBtn:hover{
+	color: #77c3f6;
+}
+.specRankInfo_wrap .noLoginBtn .lookMySpecRank_icon{
+    background-position: 0px -226px;
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 18px;
+    right: 40px;
+    overflow: hidden;
+    text-indent: -999px;
+}
+.rankingList li .rankingListIcon{
+	background-position: -224px -258px;
+    width: 17px;
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;margin-top:6px;
+}
+.rankingList .rankingListIcon00 .rankingListIcon{
+	background-position: -223px -129px;
+}
+.rankingList .rankingListIcon01 .rankingListIcon{
+	background-position: -223px -154px;
+}
+.rankingList .rankingListIcon02 .rankingListIcon{
+	background-position: -223px -180px;
+}
+.rankingList .rankingListIcon03 .rankingListIcon{
+	background-position: -223px -205px;
+}
+.rankingList .rankingListIcon04 .rankingListIcon{
+	background-position: -223px -231px;
+}
+.rankingList .rankingListIcon05 .rankingListIcon{
+	background-position: -224px -258px;
+}
+
+.rankingList .rankingMoney{
+	color: #8aa2c5;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+.rankingList .redkingMoney{
+	color: #ff6666;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+.rankingList .t_nickHead{
+   	margin: 0 3px;
+   	display: block;
+   	position: absolute;
+   	width: 32px;
+   	top: 10px;
+   	left: 22px;
+   	height: 32px;
+}
+.rankingList .headImg{
+    width: 31px;
+    height: 31px;
+    border: 1px solid #acbdcd;
+    border-radius: 50%;
+}
+.rankingList .t_nickUser{
+	font-size: 12px;
+    position: absolute;
+    left: 66px;
+    top: 15px;
+    width: 120px;
+    color: #878787;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.rankingList .t_nickName{
+	
+}
+.rankingBg .rankingList li{
+    margin: 0px auto 0px;
+    position: relative;
+    overflow: hidden;
+    height: 35px;
+    width: 222px;
+    padding: 7px 0;
+    border-bottom: 1px #e7e7e7 dashed;
+}
+.rankingBg .rankingList li a{
+	color:#696969;overflow: hidden;
+}
+.rankingBg .rankingList li a:hover,.rankingBg .rankingList li{
+	color:#61abe2;
+}
+.rankingBg .rankingList li .cap{
+	background-position: 0px -158px;
+	position: absolute;
+	top: -3px;
+	left: 39px;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	overflow: hidden;
+	text-indent: -999px;
+	z-index: 999;
+}
+.rankingBg .rankingList li .jinCap{
+	background-position: 0px -184px;
+}
+/*排行榜-end*/
+

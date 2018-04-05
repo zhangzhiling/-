@@ -1,0 +1,230 @@
+.cbNav .activeBox{
+	display: block;
+	width: 68px;
+    padding: 0;
+    height: auto;
+    margin-bottom: 15px;
+    margin-left:-4px;
+}
+.cbNav .activeBox.cur{
+	background:none;
+}
+.boxForJYPOP{
+	width:68px;
+}
+.boxForJYPOP .boxs{
+	display:block;
+	position: relative;
+	width:68px;
+	height:55px;
+    cursor: pointer;background:url("http://img.gyyxcdn.cn/dao/wealth/images/jyBox.png") no-repeat 0 0;
+}
+.alertSurePay,.alertTsg{
+	width: 528px;
+    height: 258px;
+    text-align: center;
+    font-size: 18px;
+    color: #52a8e8;
+    background: url("http://img.gyyxcdn.cn/dao/wealth/images/jyTc.png") no-repeat 0 0;
+}
+.jpayButton{
+	 overflow: hidden;
+	 margin-bottom: 35px;
+}
+.alertSurePay .userInfoExit,.alertSurePay .userInfoError{
+	margin-left: 50px !important;
+}
+.alertSurePay .userInfoExit{
+    width: 193px;
+    height: 47px;
+    margin: 30px auto 0;
+    cursor: pointer;
+    color: #4d4d4d;
+    line-height: 47px;
+    text-align: center;
+    float: left;
+     background: url("http://img.gyyxcdn.cn/dao/wealth/images/jyButton.png") no-repeat 0 0;
+}
+.alertSurePay .userInfoExit:hover{
+	background-position:0 -52px;
+}
+.alertSurePay .userInfoError{
+	display:block;
+	 width: 193px;
+    height: 47px;
+     line-height: 47px;
+    text-align: center;
+    float: left;
+     cursor: pointer;
+     background: url("http://img.gyyxcdn.cn/dao/wealth/images/jyButton.png") no-repeat 0 -106px;
+}
+.alertSurePay .userInfoError:hover{
+	background-position:0 -159px;
+}
+.boxForJYPOP .jBox{
+	background-position: 3px -91px;
+}
+.boxForJYPOP .yBox{
+	background-position: 3px -23px;
+}
+.boxForJYPOP .jBoxFlicker{
+	background:#f88f8f;
+}
+/* .boxForJYPOP .yBoxFlicker{
+	background:blueviolet;
+} */
+#verticalBox .jBox{
+    margin-bottom: 9px;
+}
+.boxForJYPOP .boxNum{
+	display:none;
+	position: absolute;
+	width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    color:#fff;
+    font-size:14px;
+    right: -13px;
+    top: -8px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/jyBox.png") no-repeat 0 0;
+}
+.boxForJYPOP .strTime{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: -10px;
+    color: #940a00;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.boxForJYPOP .wapStrTime{
+    display:none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: -14px;
+    color: #940a00;
+    font-weight: bolder;
+    font-size: 12px;
+    height:60px;
+    border:1px solid #ccc;
+    padding:0 5px;
+    left:-6px;
+    z-index:1px;
+}
+.boxForJYPOP .jBoxFlicker{
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/jBoxFlicker.gif") no-repeat 0 0;
+}
+.boxForJYPOP .yBoxFlicker{
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/yBoxFlicker.gif") no-repeat 0 0;
+}
+.alertSurePay .js_alertMsg{
+	font-size:20px;
+	margin-top: 70px;
+}
+.boxForJYPOP .boxRule{
+	display:none;
+	color:red;
+}
+.alertSurePay .msgForDang{
+	color:red;
+	font-size:14px;
+	text-align:center;
+}
+
+/*宝箱规则弹层*/
+ .boxForJYPOP{
+	position:relative;
+} 
+/*金银宝箱规则弹层*/
+.js_boxJRule,.boxRule{
+	display: block;
+	/* z-index: 9; */
+	width: 498px;
+	background: url(http://img.gyyxcdn.cn/dao/wealth/images/boxRuleBg.png) no-repeat 0 0;
+	right: 45px;
+	height: 259px;
+	position: absolute;
+	color:#333;
+	text-align:left;
+	padding: 15px;
+}
+.js_boxJRule{
+	top: -115px;
+}
+.boxRule{
+	top: -55px;
+}
+.js_boxJRule .boxShowPicWrap{
+	overflow: hidden;
+    height: 73px;
+    width: 410px;
+    border: 1px dashed #9bc7f7;
+    border-radius: 50px;
+    margin: 25px 15px 15px;
+    padding:22px 0 0 26px;
+}
+.boxRule .boxShowPicWrap{
+	overflow: hidden;
+	height: 102px;
+    width: 410px;
+    margin: 10px 15px 15px; 
+   
+}
+.js_boxJRule .yboxShowPic,.js_boxJRule .jboxShowPic,.js_boxJRule .boxAddIcon,.js_boxJRule .boxEqualIcon,
+.boxRule .yboxShowPic{
+	 background: url(http://img.gyyxcdn.cn/dao/wealth/images/jyBox.png) no-repeat 0 0;display: inline-block;float:left;
+}
+.js_boxJRule .yboxShowPic,.js_boxJRule .jboxShowPic{
+    width: 68px;
+    height: 55px;
+}
+.js_boxJRule .yboxShowPic{
+	margin-left:8px;
+	background-position: 3px -23px;
+}
+.boxRule .yboxShowPic{
+	background-position: 0px -330px;
+	width: 100px;
+    height: 102px;
+    color:#345175;font-size:14px; line-height:180px;text-align:center;margin-left:34px;
+}
+.js_boxJRule .jboxShowPic{
+	margin-left:8px;
+	background-position: 3px -91px;
+}
+.js_boxJRule .boxAddIcon{
+	margin:15px 0 0 8px;
+	width:16px;height:16px;
+	background-position: -25px -305px;
+}
+.js_boxJRule .boxEqualIcon{
+	margin:15px 0 0 8px;
+	width:16px;height:16px;
+	background-position: -51px -305px;
+}
+.js_boxJRule .jBoxRuleContent,
+.boxRule .yBoxRuleContent{
+	width:404px; margin:15px auto;
+}
+.js_boxJRule .jBoxRuleContent p,
+.boxRule .yBoxRuleContent p{
+	color:#345175;font-size:14px; line-height:24px;font-weight:bold;
+}
+.js_boxJRule .jBoxRuleContent .boxTxtIcon,
+.boxRule .yBoxRuleContent .boxTxtIcon{
+	background: url(http://img.gyyxcdn.cn/dao/wealth/images/jyBox.png) no-repeat 0px -305px;
+	width:13px;
+	height:15px;
+	font-size:12px;
+	display: inline-block;
+	line-height:15px;
+	margin-right:5px;
+	text-align:center;
+	font-weight:lighter;
+}
+
+.js_boxJRule .txt_indent20,
+.boxRule .txt_indent20{text-indent:20px;}

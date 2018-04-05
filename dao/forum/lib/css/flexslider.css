@@ -1,0 +1,36 @@
+/*
+ * jQuery FlexSlider v1.2
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider,.flexslider2 {width: 100%; margin: 0; padding: 0;}
+.flexslider .slides img {width: 100%; display: block;height: 2.72rem;}
+.flexslider2 .slides img {width: 100%; display: block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider,.flexslider2 {position: relative;}
+.flexslider .slides  li,.flexslider2 .slides  li {position: relative;cursor: pointer;overflow:hidden;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flexslider-container {position: relative;}
+.flexslider .slides  li .bg,.flexslider2 .slides li .bg{
+	position: absolute;left:0;bottom:0;z-index:1;
+	width:100%;height:42px;
+	background:#000;opacity:.85;filter:alpha(opacity=85);
+}
+.flexslider .slides  li .title,.flexslider2 .slides li .title{
+	position: absolute;left:0;bottom:0;z-index:2;
+    width:1186px;height:42px;line-height:42px;padding:0 16px 0 0;
+	font-size:16px;color:#cbd3d9;text-align:right;
+}
+/* Caption style */
+.flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 15px; line-height: 18px;}
+/* Control Nav */
+.flex-control-nav {margin-top: -0.2rem;position: absolute;z-index: 3;right: 0.2rem;} 
+.flex-control-nav li a { text-indent: -99999px;display: block;cursor: pointer;background: #FFF;width: 100%;height: 100%;border-radius: 50%;width:0.12rem;height:0.12rem; margin: 0 0.11rem 0 0;}

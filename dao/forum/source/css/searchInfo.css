@@ -1,0 +1,383 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.searchInfo_wrap{
+    color: #5eaeef;
+    border: 1px solid #d6d6d6;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+    padding-bottom: 15px;
+    min-height: 550px;
+    
+}
+.js_searchList .red {color:red}
+#searchInfo_wrap{
+    margin-top:197px;
+}
+.searchInfo_wrap .tabMainSearch{
+    overflow: hidden; 
+    padding-top: 20px;
+    background: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+.searchInfo_wrap .tabMainSearch li {
+	width: 148px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	padding-bottom: 20px;
+	position: relative;
+}
+.searchInfo_wrap .tabMainSearch .frinds {
+	display: block;
+}
+
+.searchInfo_wrap .tabMainSearch span {
+	font-size: 18px;
+	margin-left: 60px;
+	color: #666666;
+}
+.searchInfo_wrap .tabMainSearch .cur {
+	border-bottom: 2px solid #5eaeef;
+}
+.searchInfo_wrap .tabMainSearch .cur span {
+	color: #5eaeef;
+}
+.searchInfo_wrap .tabMainSearch .icoMN {
+	display: none;
+	width: 1px;
+	height: 1px;
+	line-height: 0px;
+	text-align: center;
+	color: red;
+	font-size: 60px;
+	position: absolute;
+    top: -12px;
+    right: 50px;
+}
+.searchInfo_wrap .search_tool_wrap{
+    width: 630px;
+    height: 38px;
+    line-height: 38px;
+    margin: 50px auto 0;
+    position: relative; display: none
+}
+.searchInfo_wrap #searchInfo{
+    border: 1px solid #d6d6d6;
+    border-right: none;
+    width: 519px;
+    height: 38px;
+    padding: 0 10px;
+    line-height: 38px;
+    }
+.searchInfo_wrap .search_tool_wrap  .searchBtn{
+    background: #5db3ed url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) -225px -103px no-repeat;
+    display: block;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    line-height: 38px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.searchInfo_wrap .search_tool_wrap  .searchBtn:hover{
+    background: #4aa9e8 url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) -225px -103px no-repeat;
+}
+.search_listWrap{
+    clear:both;
+}
+.search_listWrap .allMsg {
+	display: block;
+	overflow: hidden;
+}
+.search_listWrap .allMsg li{border: none;padding: 0}
+.search_listWrap  .msForOne {
+	display: none;
+	overflow: hidden;
+	margin: 29px 0 0 24px;
+}
+
+.search_listWrap .msForOne li {
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    float: left;
+    margin-right: 0;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #5db3ed;
+    color: #848485;
+    background: none;
+}
+.search_listWrap .msForOne .cur {
+	color: #fff;
+    background: #5db3ed;
+    border: 1px solid #5db3ed;
+}
+.search_listWrap .noSearchWrap{
+    width: 282px;
+    margin: 0 auto;
+    display: none;
+}
+.search_listWrap .noSearchWrap .noSearchImg{
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/searchInfo_icon.png) no-repeat 0 0;
+    display: block;
+    width: 100%;
+    height: 196px;
+}
+.search_listWrap .noSearchTxt{
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+}
+.search_listWrap .goIndexLink{
+    background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) 0 -172px no-repeat;
+    height: 42px;
+    line-height: 42px;
+    width: 282px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.search_listWrap .comingSoon{
+    text-align: center;
+}
+.clearFloat{
+    clear: both;
+    overflow: hidden;
+    width: 92%;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #d1d1d1;margin-bottom: 13px;
+}
+
+/*用户搜索-start*/
+.searchInfo_wrap li.userSearchCon{
+    display: block;
+    width: 365px;
+    margin: 26px 8px 0px;
+    border: 1px solid #cbcbcb;
+    background: #fcfcfc;
+}
+.userSearchCon .loadingForInfos{
+    text-align: center;
+    margin-top: 100px;
+}
+.userSearchCon .headImg{
+    width: 80px;
+    height: 80px;
+    padding: 16px;
+}
+.userSearchCon .info_tx{
+    width: 110px;
+}
+.userSearchCon .headNiakName{
+    font-size:16px;
+    color:#2d64b3;
+    line-height: 19px;
+}
+.userSearchCon .concernNum{
+    font-size:12px;
+    color:#666666;
+    padding-left: 23px;
+    margin-top: 5px;
+}
+.userSearchCon .detailFor{
+    width: 240px;
+    overflow: hidden;
+    font-size: 12px;
+    position: relative;
+    margin-top: 30px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/searchInfo_sicon.png) 231px 21px no-repeat;
+}
+.userSearchCon .c99Font{
+       margin-top: 10px;
+    font-size: 14px;color: #666;
+}
+.userSearchCon .daohang{
+    padding-top: 8px;
+}
+.userSearchCon .daohang .dh{
+    display: inline-block;
+    width: 145px;
+}
+.userSearchCon .daohang .tc05_dh{
+    display: inline-block;
+    padding: 0 15px 0 5px;
+}
+.userSearchCon .hasSF{
+    height:24px; line-height: 24px;
+}
+.userSearchCon .postWrap{
+    height:24px; line-height: 24px;padding-top: 8px;
+}
+.userSearchCon .hasSF .sf{
+    display: inline-block;
+    width:36px;
+    height:23px;
+    margin:0 2px;
+    position: relative;
+    top: 8px;
+} 
+.userSearchCon  .tc05_thread,
+.userSearchCon  .tc05_post{
+display: inline-block;color: #666;font-size: 12px;
+}
+
+.userSearchCon .myinfos{
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+}
+.userSearchCon .myPage{
+    display:inline-block;
+    height:24px;
+    line-height:24px;
+    color:#61abe2;
+    margin-left:18px;
+    width:94px;
+    text-indent: 26px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png) no-repeat 8px -315px;
+    border: 1px solid #d1d1d1;
+    color: #4c4c4c;
+}
+.userSearchCon .myletter{
+    display:none;
+    height:26px;
+    line-height:26px;
+    color:#afb0b2;
+    padding-left:28px;
+    background:url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -140px -53px;
+}
+.userSearchCon .dhText{
+    color: #999;
+    padding-left:5px;
+    font-size: 12px;
+}
+/*搜索结果页面关注样式*/
+.userSearchCon .myPage:hover{
+    background-position:-13px -291px;
+    border:1px solid #52a8e8;
+    color:#52a8e8;
+}
+.userSearchCon .followGropt{
+    width:100%;
+}
+.userSearchCon .followGropt .follow,
+.userSearchCon .followGropt .addFollow,
+.userSearchCon .followGropt .eachOtherFollow{
+    width:100%;
+    height:34px;    
+    color: #4c4c4c;
+    display: block;
+    text-align: center;
+    line-height: 34px;    
+    font-size: 14px;
+    overflow: hidden;
+}
+.userSearchCon .followLine{
+	font-size: 12px;
+	color: #ccc;
+	padding: 0 5px;
+}
+.userSearchCon a.searchUserLink{
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+}
+.userSearchCon  .searchUserNum{
+    overflow: hidden;
+    clear: both;
+    border-top: 1px solid #e5e5e5;    
+    width: 92%;
+    margin: 0px auto;
+    padding:3px 0;
+    height: 30px;
+}
+.search_listWrap .searchUserNum li.lf{
+    width: 32%;width: 31%\0;text-align: center;padding: 5px 0; overflow: hidden;
+}
+.search_listWrap .searchUserNum li.borderLR{
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/searchInfo_sicon.png) no-repeat 0px -40px;
+}
+.userSearchCon  .searchUserNum .js_follow_num{
+    font-size: 12px; color: #666666;
+}
+.userSearchCon .followGropt .addFollow{
+    color: #5db3ed;
+}
+.userSearchCon .followGropt .follow i,
+.userSearchCon .followGropt .addFollow i,
+.userSearchCon .followGropt .delFollow i,
+.userSearchCon .followGropt .eachOtherFollow i{
+	display: inline-block;width:18px;height: 24px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png) no-repeat;
+}
+.userSearchCon .followGropt .follow i{ background-position: -11px -239px; cursor: default}
+.userSearchCon .followGropt .addFollow i{ background-position: -21px -422px;}
+.userSearchCon .followGropt .delFollow i{background-position: 2px -228px;}
+.userSearchCon .followGropt .eachOtherFollow i{background-position: 2px -262px; cursor: default}
+/*无搜索结果*/
+.search_listWrap .noSearchWrap{
+    width: 282px;
+    margin: 80px auto 0;
+}
+.search_listWrap .noSearchWrap .noSearchImg{
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/searchInfo_icon.png) no-repeat center 0;
+    display: block;
+    width: 100%;
+    height: 196px;
+}
+.search_listWrap .noSearchTxt{
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+}
+.search_listWrap .goIndexLink{
+    background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) 0 -172px no-repeat;
+    height: 42px;
+    line-height: 42px;
+    width: 282px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.noMessage {
+    width:250px;
+    margin:0 auto;
+}
+.noMessage span{
+    width: 283px;
+    padding-top: 222px;
+    color: #696969;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 23px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/searchInfo_icon.png) center 0 no-repeat;
+    display: block;
+    margin: 50px auto 0;
+}
+.goIndex {
+    height: 42px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) no-repeat 0 -172px;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    width:282px;
+    display: block;
+}
+/*用户搜索-end*/

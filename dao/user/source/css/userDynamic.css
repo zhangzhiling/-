@@ -1,0 +1,278 @@
+/*
+*add by tht 2017-11-1 
+*for userself or other user dynamics
+*/
+/*==========动态列表==========开始*/
+li.dynamic_li{
+	overflow:visible;position:relative;
+}
+/*第一行====开始*/
+.dynamic_li .first_line{
+	clear:both;
+	line-height:24px;
+}
+.dynamic_li .first_line .iconPost{
+	float:left;
+	margin-right:9px;
+	width:54px;height:24px;line-height:24px;
+	color:#60a0d6;text-align:center;font-size:14px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/dcmcType.png) no-repeat 0 -80px;
+}
+.dynamic_li .first_line .show_title{
+	float:left;
+	color:#2d64b3;font-size:16px;
+}
+.dynamic_li .first_line .show_title_gift{
+	float:left;
+	color:#2d64b3;font-size:16px;cursor:default;
+}
+
+/* 他人送礼*/
+.dynamic_li .giver_icon{
+	width:32px; 
+	height:32px;
+	border-radius:50%;
+    float: left;
+    margin-right: 8px;
+}
+.dynamic_li .first_line .giver_wrap .show_title{
+	float:inherit;display:block;
+	color:#2d64b3;font-size:16px;
+}
+.dynamic_li .first_line .giver_wrap .reply_forum_to_con{
+	padding-top: 10px;
+    float: inherit;
+    width: 100%;
+}
+.dynamic_li .first_line .giver_wrap{
+	width:88%;float: left;
+}
+.daojieSf{
+    display: inline-block;
+    width: 95px;
+    height: 64px;
+    margin-left: 4px;
+    cursor: auto;
+    background-image: url(http://img.gyyxcdn.cn/dao/user/images/daojieSf.png);
+    background-repeat: no-repeat;
+}
+.gonggaoSf{
+	 display: inline-block;
+    width: 95px;
+    height: 64px;
+    margin-left: 4px;
+    cursor: auto;
+    background-image: url(http://img.gyyxcdn.cn/dao/user/images/ggsfx.png);
+    background-repeat: no-repeat;
+    background-position:0 -77px;
+}
+.reply_forum_to_con span{color:#989898}
+.reply_forum_to_con a.content{
+	color:#666;padding-left:5px;
+}
+.reply_forum_to_con a.content:hover{
+	text-decoration:underline;
+}
+.reply_forum_to_con .content{
+	color:#666;padding-left:5px;
+}
+.reply_forum_to_con .content:hover{
+	text-decoration:underline;
+}
+.dynamic_li .first_line .giver_name01{
+	color:#2d64b3; padding:0 5px;font-size: 14px;
+}
+.dynamic_li .first_line .giver_name02{
+	color:#9f9f9f; padding:0 5px;
+}
+.dynamic_li .first_line .giver_name03{
+	color:#ff6f4d; padding:0 5px;}
+/*主贴标签*/
+.dynamic_li .first_line .title_icon_wrap{
+	float:left;
+	margin:2px 0 0 18px;
+}
+.dynamic_li .first_line .title_icon_wrap .title_icon{
+	float:left;
+	margin:0 15px 0 0;
+	height:21px;
+	background:url("http://img.gyyxcdn.cn/dao/forum/images/Icon_info_f.png") no-repeat left top;
+	
+}
+.dynamic_li .first_line .title_icon_wrap .title_icon.top{
+	width:54px;
+	background-position:left -50px;
+}
+.dynamic_li .first_line .title_icon_wrap .title_icon.best{
+	width:21px;
+	background-position:-54px -50px;
+}
+.dynamic_li .first_line .title_icon_wrap .title_icon.wealths{
+	position:relative;
+	width:21px;
+	background-position:-75px -50px;
+	cursor:pointer;
+}
+/*道具等级图标样式修改-star*/
+.dynamic_li .first_line .title_icon_wrap .js_wealthsIcon01{
+	position:relative;
+	width:25px;
+	background-position:-134px -50px;
+	cursor:pointer;
+}
+.dynamic_li .first_line .title_icon_wrap .js_wealthsIcon02{
+	position:relative;
+	width:25px;
+	background-position:-173px -50px;
+	cursor:pointer;
+}
+.dynamic_li .first_line .title_icon_wrap .js_wealthsIcon03{
+	position:relative;
+	width:25px;
+	background-position:-211px -50px;
+	cursor:pointer;
+}
+.dynamic_li .first_line .title_icon_wrap .js_wealthsIcon04{
+	position:relative;
+	width:33px;
+	background-position:-245px -50px;
+	cursor:pointer;
+}
+.dynamic_li .first_line .title_icon_wrap .js_wealthsIconNone{
+	display:none;
+}
+
+/*道具等级图标样式修改-end*/
+.dynamic_li .first_line .title_icon_wrap .title_icon.wealths .num{
+	visibility:hidden;width:60px;top:-30px;left:-20px;
+	position:absolute;
+	padding:0 5px;
+	height:23px; line-height:23px;
+	background:#fff;border:1px solid #cccccc;border-radius:2px;
+	color:#9a9a9a;font-size:12px;text-align:center;
+}
+.dynamic_li .first_line .title_icon_wrap .title_icon.wealths .num i{
+	position:absolute;left:50%;bottom:-6px;
+	display: block;margin:0 0 0 -4px;
+	width:8px;height:6px;
+	background:url("http://img.gyyxcdn.cn/dao/forum/images/Icon_info_f.png") no-repeat -119px -50px;
+}
+/*回复、分享*/
+.dynamic_li .first_line .fun_btn_wrap{
+	margin:0 12px 0 0;
+	float:right;
+}
+.dynamic_li .first_line .fun_btn_wrap .forThisReply{
+	float:left;
+	padding-left:30px;
+	height:22px;line-height:22px;
+	color:#afb0b2;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/feedIcon.png") no-repeat 0 -85px;
+}
+.dynamic_li .first_line .fun_btn_wrap .forThisReply a{
+	color:#afb0b2;cursor:pointer;
+}
+.dynamic_li .first_line .fun_btn_wrap .forThisShare{
+	float:left;
+	margin-left: 24px;
+	width:32px;height:32px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/feedIcon.png") no-repeat 0 -133px;
+}
+/*第一行====结束*/
+/*第二行====开始*/
+.dynamic_li .second_line{
+	clear:both;
+	overflow:hidden;
+}
+/*回帖*/
+.dynamic_li .second_line .reply_forum_to_con{
+	float:left;
+	margin:10px 0 0;padding:0 0 0 62px;
+	height:16px;line-height:14px;
+}
+.dynamic_li .second_line .reply_forum_to_con span{
+	float:left;
+  font-size:14px;color:#989898;
+  line-height: 14px;
+}
+.dynamic_li .second_line .reply_forum_to_con span.nick_name,
+.dynamic_li .second_line .reply_forum_to_con span.content
+{
+	margin:0 12px;
+	color:#666666;
+}
+.dynamic_li .second_line .reply_forum_to_con span.content a{
+	color:#666666;
+}
+.dynamic_li .second_line .reply_forum_to_con span.content a:hover{
+	color:#666666;text-decoration:underline;
+}
+/*主贴*/
+.dynamic_li .second_line .forum_to_con{
+	position:relative;padding:0 0 0 62px;
+	clear:both;overflow:hidden;
+}
+.dynamic_li .second_line .forum_to_con .forum_to_img{
+	clear:both;
+	margin:14px 0 0;
+}
+.dynamic_li .second_line .forum_to_con .forum_to_img li{
+	float:left;overflow:hidden;
+	margin:0 15px 0 0;padding:0;
+	max-width:189px;max-height:108px;border:none;
+}
+.dynamic_li .second_line .forum_to_con .forum_to_img li img{
+	max-width:189px;max-height:108px;
+	display:block;
+}
+.dynamic_li .second_line .forum_to_con .forum_to_img li embed{
+	width:192px;height:108px;
+}
+.dynamic_li .second_line .forum_to_con .a_link{
+	display:block;
+	position:absolute;left:0;top:0;
+	width:600px;height:100%;
+}
+/*第二行====结束*/
+/*第三行====开始 */
+.third_line{
+	clear:both;
+	margin:16px 0 0;
+	height:15px;
+}
+.third_line .time{
+	float:left;
+	font-size:12px;color:#bdbdbd;
+}
+.third_line .about_num {
+	float:right;
+	margin:0 10px 0 0;
+	color:#bdbdbd;font-size:12px;
+}
+.third_line .about_num span{
+	margin:0 6px;
+	height:15px; line-height:15px;
+	float:left;
+}
+.third_line .about_num span.pvs,
+.third_line .about_num span.comment,
+.third_line .about_num span.zan
+{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/dynamicListIcon.png") no-repeat 0 0;
+}
+.third_line .about_num span.pvs{
+	padding:0 0 0 22px;
+}
+.third_line .about_num span.comment{
+	background-position:0 -15px;
+	padding:0 0 0 22px;
+}
+.third_line .about_num span.zan{
+	background-position:0 -30px;
+	padding:0 0 0 22px;
+	cursor: pointer;
+	
+}
+
+/*第三行====结束*/
+/*==========动态列表==========结束*/

@@ -1,0 +1,130 @@
+/*
+*add by tht 2017-5-17 
+*for recharge  common style
+*/
+body {
+	color: #333;
+}
+*{padding:0; margin:0;}
+
+.hide{ display:none; }
+/* margin 开始*/
+.m_t_5{ margin-top:5px !important; }
+.m_t_12{ margin-top:12px !important; }
+.m_t_16{ margin-top:16px !important; }
+.m_t_24{ margin-top:24px !important; }
+.m_t_26{ margin-top:26px !important; }
+/* margin 结束*/
+
+/*公用弹层===开始*/
+.popD {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index:100001;
+	background: url("http://img.gyyxcdn.cn/dao/forum/images/pop_bg.jpg") repeat left top;
+	border:1px solid #cccccc;
+}
+
+.closeD { cursor:pointer;
+	display:block;
+	width:24px;
+	height:24px;
+	background:url("http://img.gyyxcdn.cn/dao/forum/images/rechageIcon.png") no-repeat left top;
+	color:#fff;
+	transition:transform .2s linear; 
+	-moz-transition:transform .2s linear; 
+	-webkit-transition:transform .2s linear; 
+}
+.closeD:hover { 
+	transform:rotate(-180deg); 
+	-moz-transform:rotate(-180deg); 
+	-webkit-transform:rotate(-180deg);
+}
+
+.close_con{
+	position:absolute;
+	top:21px;
+	right:24px;
+	width:24px;
+	height:24px;
+	margin:0 !important;
+}
+.maskD{ 
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:100000;
+	width:100%; 
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);	
+}
+/*公用弹层===结束*/
+
+/*错误提示层===开始*/
+.popErrorCon{ 
+	position:fixed; left:50%; top:50%;
+	margin:-125px 0 0 -200px;
+	width:400px;height:250px;
+	z-index:1000001;
+	background: url("http://img.gyyxcdn.cn/dao/forum/images/pop_bg.jpg") repeat left top;
+	border:1px solid #cccccc;
+
+ }
+ .popErrorCon .img{
+	 display:block;
+	 margin:40px auto 20px;
+	 width:45px;height:45px;
+	 background:url("http://img.gyyxcdn.cn/dao/forum/images/popErrorTip.png") repeat left top;
+ }
+.popErrorCon p{
+	text-align:center;
+ }
+.popErrorCon .btn{
+	display:block;
+	margin:20px auto 0;
+	width:100px; height:40px; line-height:40px;text-decoration: none;
+	text-align: center;color:#fff;cursor:pointer;font-size:16px;
+	background:#52a8e8;border:none;
+}
+.maskErrorD{ 
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:1000000;
+	width:100%; 
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);	
+}
+/*错误提示层===结束*/
+
+/*警告提示层===开始----------------------使用大部分错误提示层样式  除两按钮外*/
+.popErrorCon .btn_wrap{
+	margin:20px 0 0;
+	text-align:center;
+}
+.popErrorCon .btn_wrap .btn{
+	display:inline-block;
+	margin:0 20px;
+	width:100px; height:40px; line-height:40px;text-decoration: none;
+	text-align: center;color:#fff;cursor:pointer;font-size:16px;
+	background:#52a8e8;border:none;
+}
+.popErrorCon .btn_wrap .giveUp{
+	background:#b7b7b7;
+}
+/*警告提示层===结束*/
+
+/*帖子昵称默认颜色*/
+.nikeDefaultF{
+	color:#aaa !important;cursor:default !important;
+}
+
+/*评论默认提示语颜色*/
+.edui-video-focus{
+	color:#dfa432;
+}

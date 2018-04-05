@@ -1,0 +1,321 @@
+/*
+*add by tht 2017-5-17 
+*for recharge style
+*/
+
+/*金、银符余额展示*/
+.money_con .money_remain_show{ height:37px; line-height:37px; padding:28px 0 0 29px; clear:both; }
+.money_con .money_remain_show li{ color:#757575; font-size:14px; height:24px; line-height:24px;}
+
+.money_con .money_remain_show li.gold,
+.money_con .money_remain_show li.silver
+{ 
+	margin:0 20px 0 0; 
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left top; float:left;  
+}
+.money_con .money_remain_show li.gold{ 
+	background-position:-224px 0; padding:0 0 0 21px; 
+}
+.money_con .money_remain_show li.silver{   
+	background-position:-224px -24px; padding:0 0 0 21px;  
+}
+.money_con .money_remain_show li span{ margin:0 0 0 9px; color:#dfa432; }
+
+/*充值tab*/
+.recharge_con{ position:relative; width:718px; height:652px; }
+.recharge_con .money_con .tab_title{ position:relative; border-bottom:1px solid #52a8e8; height:47px; line-height:47px; background:#f7f7f7; }
+.recharge_con .money_con .tab_title ul{ position:relative; clear:both; height:47px; padding:0 0 0 26px; }
+.recharge_con .money_con .tab_title li{ font-size:16px; float:left; width:147px; text-align:center; cursor:pointer; color:#666666; }
+.recharge_con .money_con .tab_title li.cur{ float:left; width:147px; text-align:center; cursor:pointer; color:#fff; background:#52a8e8; }
+
+.recharge_con .money_con .tab_con .p{ 
+	clear:both; overflow: hidden;
+	line-height:42px; 
+	font-size:14px; 
+	padding:0 0 0 59px;
+	margin:18px 0 0;
+}
+.recharge_con .money_con .tab_con .p label.tag_title,
+.recharge_con .money_con .tab_con .p .account{ float:left; color:#242424; }
+.recharge_con .money_con .tab_con .p label.tag_title{ color:#999999; width:70px; text-align:center; margin:0 15px 0 0; }
+.recharge_con .money_con .tab_con .p ul{ width:510px; float:left; }
+.recharge_con .money_con .tab_con .p ul.gold_num{ height:156px; overflow:hidden; }
+.recharge_con .money_con .tab_con .p ul.gold_num li{
+	margin:0 15px 15px 0; 
+}
+.recharge_con .money_con .tab_con .p ul.silver_num{ height:99px; overflow:hidden; }
+.recharge_con .money_con .tab_con .p ul.silver_num li{
+	margin:0 15px 15px 0; 
+}
+.recharge_con .money_con .tab_con .p ul li{ 
+	color:#4d4d4d; cursor:pointer; float:left; 
+	width:240px;height:42px; line-height:42px; text-align:center; 
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left -228px; 
+}
+.recharge_con .money_con .tab_con .p ul li i{ 
+	margin:0 0 0 8px;
+	color:#999999; font-style:normal; 
+}
+.recharge_con .money_con .tab_con .p ul li.cur{ 
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left -186px; 
+}
+.recharge_con .money_con .tab_con .p ul li span{ color:#999999; }
+.recharge_con .money_con .tab_con .p ul li label.zfb{ 
+	color:#4d4d4d; display:block; 
+	text-align:left;
+	text-indent:92px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat 60px -48px;
+}
+.recharge_con .money_con .tab_con .p ul li label.gold{ 
+	color:#4d4d4d; display:block; 
+	text-align:left;
+	text-indent:110px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat -137px -48px;
+}
+.recharge_con .money_con .tab_con .p .give_money{ 
+	font-size:14px;
+	color:#999999;
+}
+.recharge_con .money_con .tab_con .p .give_money span{ 
+	font-size:18px;
+	color:#ed2d30;
+	font-weight:bold;
+	margin:0 5px 0 0;
+}
+.recharge_con .money_con .tab_con .rules { 
+	font-size:14px;
+	color:#666666;
+	height:17px;
+	line-height:17px;
+	padding:0 0 0 144px;
+}
+.recharge_con .money_con .tab_con .rules input,
+.recharge_con .money_con .tab_con .rules label,
+.recharge_con .money_con .tab_con .rules a{
+	float:left;
+}
+.recharge_con .money_con .tab_con .rules input{ 
+	margin:0 5px 0 0;
+}
+.recharge_con .money_con .tab_con .rules a{ 
+	color:#0047fb;
+	text-decoration:underline;
+	margin:0 0 0 3px;
+}
+.recharge_con .money_con .tab_con .sub_btn{
+	padding:0 0 0 144px;
+}
+.recharge_con .money_con .tab_con .sub_btn a{ 
+	display:block;width:240px;height:48px;
+	line-height:48px;text-align:center;
+	font-size:22px;color:#fff;cursor:pointer;letter-spacing:8px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left -90px;
+}
+.recharge_con .money_con .tab_con .sub_btn a:hover{ 
+	background-position:left -138px;
+}
+.recharge_con .money_con .tab_con .sub_btn a.silverChangeBtn{
+	letter-spacing:0px;
+}
+.recharge_con .money_con .tab_con .sub_btn a.silverChangeBtn{
+	letter-spacing:0px;
+}
+.recharge_con .money_con .tab_con .sub_btn a:hover{ 
+	background-position:left -138px;
+}
+.recharge_con .money_con .tab_con .notice label{ 
+	color:#999999;
+ }
+ .recharge_con .money_con .tab_con .form_error{ 
+	 font-size:16px;  color:#ed2d30;
+	 height:30px;line-height:30px;
+}
+/*充值提示层---开始*/
+.recharge_con .tip_con{ position:absolute; left:0; top:0; width:718px; height:652px; }
+.recharge_con .tip_con .mask_inner{ z-index:1; position:absolute; left:0; top:0; width:100%;height:100%; background:#000; opacity:0.8;filter:alpha(opacity=80); }
+
+/*用户确认*/
+.recharge_con .tip_con .account_confirm{
+	position:absolute; left:95px; top:77px;
+	z-index:2;
+	width:528px;height:258px;
+	font-size:20px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popInBg_528_258.jpg") no-repeat left top;
+}
+.recharge_con .tip_con .account_confirm p{
+	padding:50px 0 0;
+	text-align:center;
+}
+.recharge_con .tip_con .account_confirm p.consume{
+	padding:10px 0 0;
+}
+.recharge_con .tip_con .account_confirm p span{
+	color:#52a8e8;
+	margin:0 16px 0;
+}
+.recharge_con .tip_con .account_confirm .btns{ 
+	clear:both;margin:48px 0 0;
+	height:48px; line-height:48px; 
+
+}
+.recharge_con .tip_con .account_confirm .btns a{ 
+	float:left;margin:0 0 0 48px;
+	width:192px; 
+	text-align:center;color:#fff;cursor:pointer;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/qrcodeBtn.png") no-repeat left top;
+}
+.recharge_con .tip_con .account_confirm .btns a.suc{ 
+	background-position:left -96px;
+}
+.recharge_con .tip_con .account_confirm .btns a.suc:hover{ 
+	background-position:left -144px;
+}
+.recharge_con .tip_con .account_confirm .btns a.quit{ 
+	background-position:left 0;
+}
+.recharge_con .tip_con .account_confirm .btns a.quit:hover{ 
+	background-position:left -48px;
+}
+/*二维码*/
+.recharge_con .tip_con .qrcode_show{
+	position:absolute; left:143px; top:120px;
+	z-index:2;
+	width:432px;height:377px;
+	
+}
+.recharge_con .tip_con .qrcode_show .qrcode_con{ 
+	margin:0 auto;padding:23px 0 0;
+	width:306px;height:215px; 
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/qrcodeBg.png") no-repeat left top;
+}
+.recharge_con .tip_con .qrcode_show .qrcode_con img{ 
+	display:block;
+	margin:6px 0 6px 66px;
+	width:180px;height:180px;
+}
+.recharge_con .tip_con .qrcode_show p{
+	margin:22px 0 0;
+	font-size:18px;color:#fff;text-align:center; font-weight:bold;
+}
+.recharge_con .tip_con .qrcode_show .btns{ 
+	clear:both;margin:45px 0 0;
+	height:48px; line-height:48px;
+
+}
+.recharge_con .tip_con .qrcode_show .btns a{ 
+	float:left;
+	width:192px; 
+	text-align:center;color:#fff;cursor:pointer;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/qrcodeBtn.png") no-repeat left top;
+}
+.recharge_con .tip_con .qrcode_show .btns a.error{ 
+	text-decoration:none;
+	margin:0 0 0 48px;
+	background-position:left -192px;
+}
+.recharge_con .tip_con .qrcode_show .btns a.error:hover{ 
+	background-position:left -240px;
+}
+.recharge_con .tip_con .qrcode_show .btns a.quit{ 
+	background-position:left 0;
+}
+.recharge_con .tip_con .qrcode_show .btns a.quit:hover{ 
+	background-position:left -48px;
+}
+.recharge_con .tip_con .qrcode_show .qrcode_con .qrcode_cover{ 
+	position:relative;
+	margin:-192px 0 0 60px;
+	width:192px;height:192px;
+ }
+ .recharge_con .tip_con .qrcode_show .qrcode_con .qrcode_cover .mask{ 
+	width:192px;height:192px;
+	background:#47a5e7;opacity:0.9;
+ }
+.recharge_con .tip_con .qrcode_show .qrcode_con .qrcode_cover .con{
+	position:absolute; left:0; top:0;
+	padding:44px 0 0;
+	z-index:1;
+	width:192px;height:148px;
+}
+.recharge_con .tip_con .qrcode_show .qrcode_con .qrcode_cover .con .loadIcon{ 
+	margin:0 auto;
+	width:36px;height:36px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left -270px;
+}
+.recharge_con .tip_con .qrcode_show .qrcode_con .qrcode_cover .con p{
+	margin:12px 0 0;
+	font-size:18px;color:#ffffff;font-weight:100;
+}
+.recharge_con .tip_con .qrcode_show .qrcode_con .qrcode_cover .con p.qrcode_reload{
+	color:#173de0;font-weight:100;text-decoration:underline;cursor: pointer;
+}
+/*支付成功*/
+.recharge_con .tip_con .recharge_suc{
+	position:absolute; left:155px; top:77px;
+	z-index:2;
+	padding:72px 0 0 0;
+	width:408px; height:336px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popInBg_408_408.jpg") no-repeat left top;
+}
+.recharge_con .tip_con .recharge_suc .close_con{
+	position: absolute;
+    top: 21px;
+    right: 24px;
+    margin: 0!important;
+}
+.recharge_con .tip_con .recharge_suc .close_con .close_btn { cursor:pointer;
+	display:block;
+	width:24px;
+	height:24px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left top;
+	color:#fff;
+	transition:transform .2s linear; 
+	-moz-transition:transform .2s linear; 
+	-webkit-transition:transform .2s linear; 
+}
+.recharge_con .tip_con .recharge_suc .close_con .close_btn:hover { 
+	transform:rotate(-180deg); 
+	-moz-transform:rotate(-180deg); 
+	-webkit-transform:rotate(-180deg);
+}
+.recharge_con .tip_con .recharge_suc .title{
+	padding:0 0 0 66px;margin:0 auto;
+	width:180px;height:54px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left -317px;
+}
+.recharge_con .tip_con .recharge_suc .title h2{
+	line-height:26px;
+	font-size:25px;font-weight:100;
+}
+.recharge_con .tip_con .recharge_suc .title p{
+	margin:17px 0 0;
+	line-height:14px;
+	font-size:14px;color:#999999;
+}
+.recharge_con .tip_con .recharge_suc .title p span{
+	margin:0 8px 0 0;
+	color:#4d4d4d;
+}
+.recharge_con .tip_con .recharge_suc .suc_info{
+	padding:0 0 0 81px;margin:42px 0 0;
+	font-size:14px; color:#999999;
+}
+.recharge_con .tip_con .recharge_suc .suc_info li{ 
+	clear:both;
+	line-height: 36px;
+}
+.recharge_con .tip_con .recharge_suc .suc_info li label,
+.recharge_con .tip_con .recharge_suc .suc_info li span{ 
+	float:left;
+}
+.recharge_con .tip_con .recharge_suc .suc_info li span{
+	margin:0 0 0 13px;
+	color:#4d4d4d;	
+}
+.recharge_con .tip_con .recharge_suc .suc_info li span.account{
+	color:#242424;	
+}
+.recharge_con .tip_con .recharge_suc .suc_info li span.give_money{
+	color:#ed2d30;font-weight: bold;	
+}
+/*充值提示层---结束*/

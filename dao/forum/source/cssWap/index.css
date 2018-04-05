@@ -1,0 +1,246 @@
+
+/*焦点图切换*/
+.scroll_bigImg{display: none;z-index: 9999;position: fixed;top: 50%;left:50%;width: 100%;}
+.flex-control-nav li {height:0.12rem; float:left; }
+.flex-control-nav li a.flex-active { background: #34b2e2;display: block;border-radius: initial;width: 0.12rem;height: 0.12rem;border-radius: 50%;}
+.flex-control-nav {margin-left:0;}
+.slides{position:relative;z-index:1;}
+/*最新最热帖子切换*/
+.box-tabTie{ width:100%; position:relative;  float:left;}
+.favor-header-bar{width: 100%;position: relative;background: #FFF;}/*border-bottom: 1px solid #efefef;*/
+.wordTs{color:#888;font-size: 0.25rem; text-align: center;  padding-top: 0.8rem;}
+.favor-header-barFixed{position: fixed;top: 0;left: 0;z-index: 10;border-bottom: 1px solid #efefef;}
+.tabs {text-align: left;background: #FFF;height: 0.97rem;line-height: 0.97rem;width: 100%;}
+
+.favor-header-bar li{ font-size: 0.27rem;color: #666;height: 0.97rem;line-height: 0.97rem;text-align: center;width: 1.4rem;display: block;float: left;}	 
+.favor-header-bar a{    color: #818181;display: block;font-weight: bold;text-decoration: none;}
+.js_comment_list li{ font-size: 0.27rem;display: block;color: #666;height: auto;line-height: 0.48rem;text-align: left;width: 100%;float: left;}
+.js_comment_list a{    color: #818181;display: block;font-weight: normal;text-decoration: none;}
+.favor-header-bar li.active a{color:#333;background: url(http://img.gyyxcdn.cn/dao/forum/imagesWap/lineScroll.png) no-repeat 50% 0.8rem;background-size: 0.32rem;}
+.swiper-container{width:100%;}
+.news_list {padding:0 0.32rem;}
+.lastPageShua,.lastPageShua2{display: none;font-size: 0.24rem;text-align: center;color: #a29e9e;padding: 0.4rem 0;  }
+.nolist {  font-size: 0.24rem;   padding: 0.3rem 0 1.5rem 0;text-align: center;color: #a29e9e;}
+.iconPc {background:url(http://img.gyyxcdn.cn/dao/forum/imagesWap/iconPc.png) no-repeat 0 0;display:block;width:0.64rem;height:0.64rem;position:fixed;bottom:0.25rem;right:0.25rem;background-size:100%;z-index:100;}
+/*帖子列表展示*/
+.tie_tit .tit,.tie_tit .t_fbTimes,.tieDetail .zhaiyao{font-size: .32rem;color: #333;text-decoration: none;}
+/*道具等级图标样式修改-star*/
+.title .dengji .wealths {width: 0.38rem; height: 0.32rem;position:absolute;left:.01rem;top: .07rem;display:inline;}
+.icon_wealthsTop{width: .38rem;display:none;height: .32rem;position: absolute;left:.01rem;top: .07rem;}
+i.js_wealthsIcon01,.title .dengji i.js_wealthsIcon01 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/wealthsIcon01.png") no-repeat;background-size: 90% 90%;width: .44rem;cursor:pointer;height: .32rem;top: .08rem;}
+i.js_wealthsIcon02,.title .dengji i.js_wealthsIcon02 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/wealthsIcon02.png") no-repeat;background-size: 90% 90%;cursor:pointer;}
+i.js_wealthsIcon03,.title .dengji i.js_wealthsIcon03 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/wealthsIcon03.png") no-repeat;background-size: 90% 90%;width: .44rem;cursor:pointer;height: .32rem;top: .08rem;}
+i.js_wealthsIcon04,.title .dengji i.js_wealthsIcon04 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/wealthsIcon04.png") no-repeat;background-size: 90% 90%;width: .44rem;cursor:pointer;height: .32rem;top: .08rem;}
+
+.tie_tit .num {position:absolute;top:-29px;left:50%;padding:0 5px;height:23px;line-height:23px;background:#fff;border:1px solid #cccccc;border-radius:2px;color:#9a9a9a;font-size:12px;z-index:99;display:block;text-align:center;}
+.tie_tit .ico_tie i.arrow {position:absolute;left:50%;display:block;margin:0 0 0 -4px;width:8px;height:6px;background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/topicon.png") no-repeat;z-index:99999;}
+/*道具等级图标样式修改-end*/
+/*公告帖加浏览量评论量Css  */
+.tieDetail .conD .noticePost{position: absolute; right: 0rem;top: .35rem;}
+.tie_tit{margin: .24rem 0 0; position: relative; overflow: hidden;}
+.conD{overflow: hidden;margin-bottom: .24rem;}
+.tie_tit .tit {font-size: 0.32rem;color: #333; text-decoration: none; float: left; height: auto; line-height: .45rem; word-break: break-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; width: 100%; padding-bottom: .03rem;}
+.tie_title{overflow: hidden; position: relative;}
+.tie_title .zhiding,
+.tie_title .hotTie,
+.ggTie,.hdTie,
+.tie_title .jingpin,
+.title .top,.title .best{display: inline-block; width: .3rem; height: .3rem;margin-right: .15rem;z-index: 100;position: absolute;}
+.tie_title .zhiding,
+.title .top{background: url(http://img.gyyxcdn.cn/dao/forum/imagesWap/topicon.png) no-repeat;background-size: 100% 100%;left: 0rem;top:.06rem;display: none}
+.tie_title .hotTie{background: url(http://img.gyyxcdn.cn/dao/forum/imagesWap/hoticon.png) no-repeat;background-size: 100% 100%;left: 0rem;top:.06rem;display: none}
+.tie_title .jingpin,
+.title .best{background: url(http://img.gyyxcdn.cn/dao/forum/imagesWap/hoticon.png) no-repeat;background-size: 100% 100%;left: 0rem;top:.06rem;display: none}
+.ggTie{background: url(http://img.gyyxcdn.cn/dao/forum/imagesWap/ggTie.png) no-repeat;background-size: 100% 100%;left: 0rem;top: .06rem; width: .6rem; height: .3rem; display: none}
+.hdTie{background: url(http://img.gyyxcdn.cn/dao/forum/imagesWap/hdTie.png) no-repeat;background-size: 100% 100%;left: 0rem;top: .06rem; width: .6rem; height: .3rem;display: none}
+.title .top,
+.title .best{top:.1rem;}
+.biaoqian .bq{ display: inline-block;height: 22px;line-height: 22px; text-align: center; font-size: 12px; border: 1px solid #6a91be;border-radius: 4px;color: #6a91be;margin-right: 12px; padding:0 5px;}
+/*昵称头像更换  */
+.tiePeop{font-size:.20rem; color:#8E8D8E;overflow: hidden; position: relative;padding:.05rem 0rem .3rem;}
+.tiePeop .headImg {width:.8rem;height:.8rem;border-radius:50%;float:left;}
+.tiePeop .nickImgWrap {height:.8rem;display:block;text-decoration:none;}
+.tiePeop .t_nickUser {display:inline-block;font-size:0.28rem;color:#333;padding-bottom:0.08rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-left:.2rem;margin-top:.05rem;float:left;max-width:60%;}
+.tiePeop+.tie_cz{margin-top:3px;}
+.t_nickNmae a{color:#878787; }
+/*用户身份样式*/
+.shenfenD1 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 52%;background-size:100%;margin-top:.11rem;}
+.shenfenD2 {background:url(http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png) no-repeat 0 43%;background-size:100%;margin-top:.11rem;}
+.shenfenD3 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 61%;background-size:100%;margin-top:.1rem;}
+.shenfenD4 {background:url(http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png) no-repeat 0 78%;background-size:100%;margin-top:.11rem;}
+.shenfenD5 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 70%;background-size:100%;margin-top:.12rem;}
+.shenfenD6 {background:url(http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png) no-repeat 0 9%;background-size:100%;margin-top:.11rem;}
+.shenfenD7 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 -1%;background-size:100%;margin-top:.11rem;}
+.shenfenD8 {background:url(http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png) no-repeat 0 17%;background-size:100%;margin-top:.11rem;}
+.shenfenD9 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 35%;background-size:100%;margin-top:.12rem;}
+.shenfenD10 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 97%;background-size:100%;margin-top:.11rem;}
+.shenfenD11 {background:url("http://img.gyyxcdn.cn/dao/forum/imagesWap/xx_dqAll.png") no-repeat 0 87%;background-size:100%;margin-top:.1rem;}
+.shenfenD12 {background:url("http://img.gyyxcdn.cn/dao/forum/images/xx_dqAll.png") no-repeat 0 100%;background-size:100%;margin-top:.1rem;}
+
+/*首页帖子列表*/
+.tiePeop .t_currentSf{ display: inline-block;  width: .3rem; height: .3rem;margin-left: .05rem; float: left;}
+.t_nickNmae+.t_currentSf{margin-left: 10px;}
+.tieDetail{ border-bottom: 1px solid #efefef; padding-bottom: .06rem;}
+.tieDetail .zhaiyao{ color: #333333; font-size:0.28rem;  overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+.serverWrap{font-size: .2rem;position: absolute; left: 1rem; bottom: .32rem;}
+.serverWrap .t_server,
+.serverWrap .t_qz,
+.serverWrap .t_nickNmae{padding:0rem .08rem 0rem; color: #8e8d8e;}
+.serverWrap .t_server{padding:0rem .08rem 0rem 0}
+.t_fbTimes,.look_num,.cz_num {font-size:0.24rem; color:#8d8e8d;display:inline-block; float: left}
+.conD .detailData{padding:.2rem 0rem 0rem;}
+.postWrap{ float: right;}
+.tieDetail .zhaiyao a{color: #333333; text-decoration:none;}
+.biaoqian{overflow:hidden;}
+.tieDetail .zhaiyao {padding: 0rem 0rem .24rem;}
+.tie_cz span {font-size:0.24rem;color:#8d8e8d}
+.tie_cz span:nth-child(1){padding-right:.15rem;}
+.tie_title .tit {font-size:0.32rem;color:#333; text-decoration:none;float: left;height:auto;line-height: .45rem;word-break: break-all;display: -webkit-box;  -webkit-line-clamp: 2; -webkit-box-orient: vertical;width: 100%;padding-bottom:.03rem}
+.videos_imgs {overflow: hidden;}
+.videos_imgs img{margin: .2rem 0 .08rem 0;display:block;}
+.videos_imgs li{float: left;}
+.videos_imgs li img{display: block;}
+.videos_imgs li:nth-child(2){padding:0rem .18rem;}
+.videoEbG{display: block;width: 100%; position: relative; z-index: 100;  cursor:pointer; }
+
+/*详情页css*/
+.user_info {font-size:.20rem;color:#8E8D8E;overflow:hidden;position:relative;padding: 0rem 0rem .1rem;}
+.user_info .headImg {width:.8rem;height:.8rem;border-radius:50%;float:left;}
+.user_info .t_nickUser {display:inline-block;font-size:0.28rem;color:#333;padding-bottom:0.08rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding-left:.2rem;margin-top:.05rem;float:left;max-width:60%;}
+ .times {font-size:0.24rem;color:#8d8e8d;display:block}
+.sub_f .l .tags {display:block;overflow:hidden;margin:.1rem 0rem .2rem 0rem;}
+.sub_f .l .tags span {float:left;margin:.1rem .1rem 0rem 0;height:.4rem;line-height:.4rem;padding:0 .1rem;background:#fff;border:1px solid #7fa4d1;border-radius:.05rem;font-size:.2rem;color:#7fa4d1;text-align:center;overflow:hidden;}
+ .title {overflow:hidden;position:relative;}
+ .title h2 {font-size:0.38rem;color:#333;text-decoration:none;float:left;height:auto;line-height:.48rem;word-break:break-all;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;width:100%;padding-bottom:.03rem;}
+.title .top {left:0rem;top:.06rem;position:absolute;z-index:999;width:.3rem;height:.3rem;display:inline-block;}
+
+.title .dengji {top:.1rem;}
+ .cai, .zan {font-size:0.24rem;color:#8d8e8d;display:inline-block;}
+.user_info .serverWrap {font-size:.2rem;position:absolute;left:1rem;bottom: .12rem;}
+.top_tools {position:relative;}
+.top_tools .zan {position:absolute;right:0;bottom:0;}
+.replay,
+.info_f  .content,
+.info_f  .content p,
+.info_f  .content img,
+.postFBorder .content,
+.postFBorder .content p,
+.postFBorder .content img{font-size:0.32rem;line-height:.48rem;color:#474747;word-wrap:break-word; display: block;margin-top:.1rem;}
+.info_f  .content img.videoShowImg {display:block;width:100%;}
+.info_f {padding-bottom: .22rem;}
+.info_f  .content p img,
+.postFBorder .content p img{margin: 0;}
+.info_f  .content p a,
+.top_tools .zan,
+.comments .comment_num_btn{font-weight: inherit;}
+.replyPostsNum {font-size:.24rem;border-top:.32rem #f7f8fc solid;color:#8e8d8e;line-height:.8rem;height:.8rem;padding:0 0rem 0rem .32rem;}
+.replyPostsline {padding-bottom:.32rem;border-top:.01rem #efefef solid;}
+.top_tools .times .floorNum{margin-right: .15rem;display: inline-block; height: .26rem; overflow: hidden; margin-left: .15rem;}
+.comments{margin-top: .12rem;clear: both;}
+.comments .comment_num_btn {font-size:.24rem;color:#2d64b4;display: block;}
+.swiper-pagination{color: #FFF;font-size: 0.3rem;}
+.postFBorder{border-bottom: 1px solid #efefef;width: 90%;margin: 0 auto .22rem auto;overflow: hidden;}
+.postFBorder .content{ overflow: hidden;padding-left: .99rem;}
+.postFBorder .noImgShowContent{max-height: 2.2rem; position: relative;}
+.firstPost{padding: .2rem .32rem .32rem .32rem;}
+.postFBorder .top_tools{padding-left: .99rem;}
+.postFBorder .showMoreContentBtn{font-size: .2rem;color:#2d64b4;display: block;text-align: center; padding:.2rem 0rem 0rem}
+.noLink{position: fixed;top: 0.1rem;right: 0.1rem;font-size: 0.8rem;text-decoration: none;color: #efefef;z-index: 9999; display: none;}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{display: none}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{display: none}
+.user_info .lz{font-size: 0.22rem;color: #2d64b4;padding-left: .1rem;margin-top: .12rem;display: inline-block;}
+.favor-header-bar a.js_comments_btn{display: none}
+
+ .comments{background:#f7f8fc;margin-left: .99rem;padding:0.08rem 0 .08rem 0.15rem;}
+ .js_comment_list{overflow: hidden;}
+.js_comment_list .commentListWrap {overflow: hidden;}
+ .comments .comment_add_editor{
+	margin:12px 0 0;
+	position:relative;
+}
+ .comments .comment_add_editor .comment_tip{font-size:14px;color:#afb0b2;}
+ .comments .comment_add_editor .comment_tip .error{font-size:12px;color:#7a7a7a;display:block;text-indent: 30px;width: 170px;position: absolute;top: -42px;height:36px; line-height:30px;left: 50%;margin: 0 -82px;background:url(http://img.gyyxcdn.cn/dao/forum/images/Icon_forumInfo.png) no-repeat left top;}
+ .comments .comment_add_editor .comment_tip .count i{
+	font-style:normal;
+}
+ .comments .comment_list li.commentListLi{
+	overflow:hidden; padding-bottom: 0.08rem;
+}
+ .comments .comment_list li.commentListLi img.nike_img{
+	/* float:left; */
+	width:35px;height:35px;
+	cursor:pointer;border:none;
+}
+ .comments .comment_list li.commentListLi .comment_con{
+	float:left;
+	margin:0 ;
+	width:auto;
+}
+ .comments .comment_list li.commentListLi .comment_con .con{
+	color:#333333;font-size:0.28rem;word-break:break-all;
+}
+ .comments .comment_list li.commentListLi .comment_con .con *{
+	display:inline;
+}
+ .comments .comment_list li.commentListLi .comment_con .con p{
+	display:inline;    line-height: 0.43rem;
+}
+ .comments .comment_list li.commentListLi .comment_con .con a{
+	color:#2d64b3;cursor:pointer;
+}
+ .comments .comment_list li.commentListLi .comment_con .con span{
+	margin:0 5px;color: #9b9b9b;
+}
+ .comments .comment_list li.commentListLi .comment_con .con img{
+	width:25px;height:25px;
+}
+
+ .comments .comment_list li.commentListLi .botton_tools{
+	height:14px;line-height:14px;
+	font-size:12px;
+}
+ .comments .comment_list li.commentListLi .botton_tools a,
+ .comments .comment_list li.commentListLi .botton_tools span{
+	float:left;
+}
+ .comments .comment_list li.commentListLi .botton_tools a{
+	color:#5d9fec;cursor:pointer;
+}
+ .comments .comment_list li.commentListLi .botton_tools span{
+	color:#999999;
+}
+ .comments .comment_list li.commentListLi .botton_tools .l{
+	float:left;
+}
+ .comments .comment_list li.commentListLi .botton_tools .r{
+	float:right;
+}
+ .comments .comment_list li.commentListLi .botton_tools a.zan{
+	padding:0 0 0 21px;/* margin:0 15px 0 0; */
+	background:url("http://img.gyyxcdn.cn/dao/forum/images/Icon_tools_info.png") no-repeat left -240px;
+	color:#999999;
+}
+ .comments .comment_list li.commentListLi .botton_tools a.zan:hover,
+ .comments .comment_list li.commentListLi .botton_tools a.zan.on
+{
+	background-position:0 -254px;
+	color:#61abe2;
+}
+ .comments .comment_list li.commentListLi .botton_tools a.cai:hover,
+ .comments .comment_list li.commentListLi .botton_tools a.cai.on
+{
+	background-position:0 -282px;
+	color:#61abe2;
+}
+.commentNum{background: #f7f8fc;width: 95%;height: 0.64rem; color: #9b9b9b;font-size: 0.28rem;line-height: 0.64rem;padding-left: 5%;}
+.js_commentBox{width: 90%;background: none;padding: 0;margin: 0 auto;}
+.js_commentBox .user_info .serverWrap{bottom: 0}
+.js_commentBox .times{padding-left: 1rem;}
+.js_commentBox .user_info{padding-top: 0.3rem;}
+.js_commentBox .comment_list li.commentListLi{border-bottom: 1px solid #eee;padding-bottom:0.25rem}
+.js_commentBox p{display: inline;}
+.js_comment_list a.js_checkEveryUserInfo{color:#2d64b4;display: inline;}/*float: left;*/
+.js_commentNum{font-weight: normal}
+.js_content li{ font-size: 0.32rem;color: #333;height: auto;line-height: normal;text-align: left;width: 96%;display: list-item;float: none;margin: 0 0 0 5%;}	 
+.js_content ul li {list-style: disc;}
+.js_content  ol li{list-style: decimal;}

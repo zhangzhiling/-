@@ -1,0 +1,1874 @@
+/*用户中心*/
+.navs {
+	overflow: hidden;
+	padding-top: 20px;
+	width: 1200px;
+	margin: 195px auto 0;
+    height: 40px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+	border: 1px solid #d6d6d6;
+}
+
+.navs .road {
+	font-size: 14px;
+	color: #666666;
+}
+
+.navs .js_tradRecord {
+	margin-right: 26px;
+}
+
+.navs .road a {
+	color: #666666;
+}
+
+.navs .road a:hover {
+	color: #5eaeef;
+}
+
+.navs .road .loca {
+	color: #999999
+}
+
+.navCenter a {
+	display: inline-block;
+	margin-right: 47px;
+	font-size: 16px;
+	color: #666666;
+}
+
+#infoEdit {
+	font-size: 14px;
+    width: 1160px;
+    padding: 25px 0 40px 46px;
+    padding-bottom: 40px;
+    margin: 12px auto 0px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+    border: 1px solid #d6d6d6;
+}
+
+#infoEdit .js_account {
+	display: block;
+	float: left;
+	height: 44px;
+	line-height: 44px;
+}
+
+#infoEdit .error {
+	display: block;
+	padding-left: 103px;
+	margin-top: 11px;
+	color: red;
+}
+
+.userIns {
+	display: none;
+	color: #000;
+	font-size: 16px;
+}
+
+#infoEdit .label {
+	display: block;
+	font-size: 16px;
+	color: #999999;
+	float: left;
+	height: 42px;
+	line-height: 36px;
+}
+
+.ieD1 {
+	float: left;
+}
+
+.headUp {
+	padding-left: 15px;
+}
+
+.headUp .label {
+	line-height: 20px !important;
+}
+
+.headUp .conts {
+	width: 650px;
+}
+
+#infoEdit .required {
+	position: relative;
+	padding-left: 15px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat 0 -34px;
+}
+
+#infoEdit .m {
+	margin-top: 33px;
+	overflow: hidden;
+}
+
+#infoEdit .userIns .quzu02, #infoEdit .userIns .server02, #infoEdit .userIns .role02{
+	display: inline-block;;
+	height: 44px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.labelForI{
+  color:#ddd
+}
+#infoEdit .mm {
+	margin-top: 33px;
+	margin-left: -15px;
+	overflow: hidden;
+}
+
+#infoEdit .mm .label {
+	margin-right: 18px;
+}
+
+#infoEdit .reVcodes {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/icon_T1.png) no-repeat 5px -28px;
+}
+
+#infoEdit .reVcodes .label {
+	width: 71px;
+	display: inline-block;
+	text-align: right;
+}
+
+#infoEdit .bindPhoneErr {
+	display: none;
+	line-height: 43px;
+	margin-bottom: 40px;
+}
+
+#infoEdit .bindPhoneErr .sx {
+	color: #4aa8e7;
+	text-decoration: underline;
+}
+
+#infoEdit .choosePhone, #infoEdit .reVcodes .vcodes {
+	display: inline-block;
+	width: 103px;
+	height: 42px;
+	line-height: 42px !important;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	padding: 0;
+	border: 0;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/vcodeBg.png) no-repeat 0 -42px;
+}
+
+.js_vcodes {
+	margin-top: 2px;
+}
+
+#infoEdit .choosePhone {
+	display: none;
+	width: 104px;
+	height: 42px;
+}
+
+#infoEdit .choosePhone:hover, #infoEdit .reVcodes .vcodes:hover {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/vcodeBg.png) no-repeat 0 0;
+}
+
+.vcodeAl {
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #8590a6;
+	margin-top: 11px;
+}
+
+.nickname, .ipts {
+	display: block;
+	float: left;
+	width: 224px;
+	height: 40px;
+	line-height: 42px;
+	color: #4d4d4d;
+	padding-left: 14px;
+	border: 1px solid #ddd;
+	margin-right: 24px;
+}
+
+.bindPhone, .phoneNums {
+	width: 228px;
+}
+
+.bindPhone {
+	line-height: 44px !important;
+}
+
+.nicknameTextBorder {
+	border: 1px solid red;
+	color: red;
+}
+
+.nicknameIconTrue {
+	display: none;
+	position: absolute;
+	width: 21px;
+	height: 20px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/nickTrue.png) no-repeat center center;
+	left: 303px;
+	top: 11px;
+}
+
+.nicknameIconErr {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/nickErr.png) no-repeat center center;
+}
+
+#imgs {
+	outline: none;
+	border: 0 none;
+	*outline: none;
+	*border: 0 none;
+}
+
+.upIngLF {
+	padding-right: 62px;
+	border-right: 1px solid #ccc;
+}
+
+.uploadimg {
+	display: block;
+}
+
+#SWFUpload_0 {
+	position: relative;
+	width: 144px;
+	height: 48px;
+	float:left;
+	cursor: pointer;
+	z-index:10
+}
+.uploadCutImg {
+	display: inline-block;
+	width: 300px;
+	height: 48px;
+	border: 0 none;
+	cursor: pointer;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -1002px;
+}
+
+.cut_img_pop h2 {
+	font-size: 16px;
+	line-height: 30px;
+	font-size: #ccc;
+	text-align: center;
+}
+
+#cupImgPop {
+	margin-left: 46px;
+}
+#btnUpImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter:alpha(opacity=0);  
+    -moz-opacity:0;  
+    -khtml-opacity: 0;  
+    width: 144px;
+    height: 48px;
+    cursor: pointer;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+    z-index:9999
+    
+}
+#falshNo{
+	display: none;
+    position: fixed;
+    height:40px;
+    line-height:40px;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #ccc;
+}
+#falshNo .gofalsh{
+	color:red;
+	font-size:14px;
+}
+.js_cutSubmit {
+	width: 145px;
+	height: 48px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/buttonAll.png) no-repeat 0 -519px;
+	margin-left: 12px;
+	border: 0 none;
+	cursor: pointer;
+	float: left;
+}
+
+.js_cutSubmit:hover {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/buttonAll.png) no-repeat 0 -471px;
+}
+
+.cut_img_area {
+	width: 144px;
+	height: 144px;
+	position: relative;
+	/*background: url("http://img.gyyxcdn.cn/dao/user/images/up2.png") no-repeat center center;*/
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.cut_img_pop h2 {
+	font-size: 16px;
+	line-height: 30px;
+	font-size: #ccc;
+	text-align: center;
+}
+
+.show_img_area {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	/*background:url("http://img.gyyxcdn.cn/dao/user/images/morenTP.png") no-repeat center center*/
+}
+
+.show_img_area .nicknameIconTrue {
+	left: 75px;
+	top: 74px;
+}
+
+#js_curTX {
+	display: none;
+	width: 100px;
+	height: 100px;
+}
+
+.xs {
+	font-size: 14px;
+	color: #8590a6;
+	margin: 15px 0;
+}
+
+.titleimgs {
+	display: block;
+	width: 575px;
+	position: relative;
+	min-height: 216px;
+	*min-height: 216px;
+	background: #f1eded;
+}
+
+.titleimgs_add {
+	display: block;
+}
+
+.upT {
+	display: inline-block;
+	margin: 15px 0 24px 0;
+	color: #8590a6;
+}
+
+.hint {
+	color:#8590a6;
+	float: left;
+	height: 44px;
+	line-height: 44px;
+}
+
+/* add by angki 2017-07-28 */
+.select_border {
+	border: 1px solid #ddd;
+	padding: 6px 0;
+	float: left;
+}
+
+.select_marke {
+	border: 3px solid #FFF;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 2px;
+}
+.wdAccount{
+    float: left;
+    display: block;
+    width: 240px;
+    margin-right: 16px;
+    height: 42px;
+}
+.wdAccount .defColor{
+    display: inline-block;
+    width: 232px;
+    height: 38px;
+    padding-left: 4px;
+    color: #7b6d6d;
+    border: 1px solid #ddd;
+}
+/* add end */
+#infoEdit select {
+	display: block;
+	*height: 26px;
+	width: 240px;
+	color:#968e8e;
+	margin: -4px;
+}
+
+.wdAccount ::-webkit-input-placeholder{
+  color:#968e8e;
+  }
+  
+.wdAccount ::-moz-placeholder{
+  color:#968e8e;
+  }
+  
+.wdAccount ::-moz-placeholder{
+  color:#968e8e;
+  }
+  
+.wdAccount ::-ms-input-placeholder{
+  color:#968e8e;
+  }
+
+#infoEdit .select_border {
+	margin-right: 16px;
+}
+
+.gain {
+	display: inline-block;
+	width: 102px;
+	height: 42px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -240px;
+	cursor: pointer;
+	float: left;
+}
+
+.gain:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -366px;
+}
+
+.js_tb {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -282px;
+}
+
+.js_tb:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -324px;
+}
+
+.saveAll {
+	display: inline-block;
+	width: 301px;
+	height: 48px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -1050px;
+	cursor: pointer;
+	margin-left: 89px;
+}
+
+.saveAll:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -1098px;
+}
+
+.roles {
+	width: 872px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	line-height: 42px;
+}
+.roles span {
+	display: inline-block;
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #ddd;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.roles .cur {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -959px;
+	border: 0 none;
+}
+
+.rolsLbael {
+	margin-top: 8px;
+}
+
+.norol {
+	position: relative;
+	top: 5px;
+	color: #666666;
+}
+.alertInfoBlue .norol{
+  color:#52a8e8;
+  top:0;
+  text-decoration: underline;
+}
+.titMsg {
+	margin-top: 15px;
+	padding-left: 91px;
+	color: #8590a6;
+}
+
+.bindPhoneErr {
+	height: 0px;
+	font-size: 16px;
+	color: red;
+	margin-top: 21px;
+	cursor: pointer;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/icon_T1.png) no-repeat 0 -37px;
+}
+
+.bindPhoneErr .label {
+	margin-right: 17px;
+	padding-left: 1px;
+}
+/*账号中心*/
+.navCenter a:hover {
+	color: #5eaeef;
+}
+.navCenter a.cur{
+  display: none;
+}
+.navCenter a:first-child{
+  display:none;
+}
+.usStatus {
+	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.usStatus .names {
+	position: relative;
+    overflow: hidden;
+    margin: 12px 0 0 0px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+    border: 1px solid #d6d6d6;
+    padding: 10px 0;
+    height: 75px;
+    width: 238px;	
+}
+
+.usStatus .usL {
+	width: 42px;
+	height: 42px;
+	margin-left:15px;
+}
+
+.usStatus .details {
+	width: 128px;
+    margin-left: 10px;
+    padding-top: 12px;
+}
+
+.usStatus .usN {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  display: block;
+  line-height: 19px;
+}
+.handleForYouTie .sourceNick{
+  line-height: 19px;
+}
+.usStatus .noN, .usStatus .accnt {
+	display: none;
+}
+
+.usStatus .noN .textNo {
+	display: inline-block;
+	width: 126px;
+	height: 25px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -446px;
+}
+
+.usStatus .accnt {
+	color: #ccc;
+}
+
+.usStatus .editos {
+	display: block;
+	width: 27px;
+	height: 22px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -140px -367px;
+	position: absolute;
+	bottom: 8px;
+	cursor: pointer;
+}
+.usStatus .js_guanzu{
+	width: 100%;
+    height: 33px;
+    line-height: 33px;
+    text-align: left;
+    font-size: 12px;
+    color: #4c4c4c;
+    bottom: 0;
+    text-indent: 19px;
+	}
+.usStatus .addFollow,.usStatus .follow{
+	text-indent: 92px;
+}
+.usStatus .ranks {
+	display: inline-block;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+    margin-top: 12px;
+    border: 1px solid #d6d6d6;
+    height: 94px;
+	float: right;
+	width: 946px;
+}
+
+.usStatus .carm {
+	display: inline-block;
+    font-size: 18px;
+    color: #7985b7;
+    height: 94px;
+    width: 143px;
+    text-align: center;
+    line-height: 96px;
+    background: #d6e3f4;
+}
+
+.usStatus .carm .camarT {
+	display: inline-block;
+	width: 26px;
+	height: 25px;
+	position: relative;
+	top: 6px;
+	*top: 0;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -140px -160px;
+}
+/*用户个人中心，他人中心左侧用户信息样式修改-start*/
+.usStatus .user_handle_wrap{
+	clear: both;    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+	width:100%;height: 33px; line-height:32px;border-top: 1px solid #e7e7e7;
+}
+.user_handle_wrap .user_edit_btn,
+.user_handle_wrap .user_editPwd_btn{
+	width: 118px;
+	font-size: 12px;
+	color: #666;
+	height: 32px;
+	line-height: 32px; 
+	display: block;
+	cursor: pointer;
+	position: relative;
+	text-indent: 48px;
+}
+.user_handle_wrap .user_edit_btn:hover,
+.user_handle_wrap .user_editPwd_btn:hover{
+	color: #71acd7;
+}
+.user_handle_wrap .user_edit_btn{
+	float: left;border-right:1px solid #e7e7e7;
+}
+.user_handle_wrap .user_editPwd_btn{
+	float: right;text-indent: 45px;
+}
+.user_handle_wrap .user_edit_btn i,
+.user_handle_wrap .user_editPwd_btn i{
+	background: url("http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png") no-repeat 0 0;
+	display: inline-block;
+	width: 15px; 
+	height: 15px;
+	position: absolute;
+    top: 9px;
+    left: 28px;
+}
+.user_handle_wrap .user_edit_btn i{
+	background-position: 0px -535px;
+}
+.user_handle_wrap .user_editPwd_btn i{
+	background-position: 0px -495px;
+   
+}
+.user_handle_wrap .user_edit_btn:hover i{
+background-position: -49px -535px;
+}
+.user_handle_wrap .user_editPwd_btn:hover i{
+background-position: -53px -495px;
+}
+
+
+.usStatus .guanzhuGroup .follow,
+.usStatus .guanzhuGroup .addFollow,
+.usStatus .guanzhuGroup .delFollow,
+.usStatus .guanzhuGroup .eachOtherFollow
+{
+	background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+}
+.usStatus .guanzhuGroup .delFollow,
+.usStatus .guanzhuGroup .eachOtherFollow{
+	text-indent: 85px;
+}
+.usStatus .guanzhuGroup .delFollow{
+	z-index:114;color:#52a8e8;
+}
+.usStatus .guanzhuGroup .follow i,
+.usStatus .guanzhuGroup .addFollow i,
+.usStatus .guanzhuGroup .delFollow i,
+.usStatus .guanzhuGroup .eachOtherFollow i{
+	display: inline-block;width:16px;height: 16px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png) no-repeat 0 0;
+}
+.usStatus .guanzhuGroup .follow i{background-position:-13px -247px;}
+.usStatus .guanzhuGroup .follow:hover i{background-position:-12px -380px; color:#52a8e8;}
+.usStatus .guanzhuGroup .addFollow i{background-position: 2px -227px;}
+.usStatus .guanzhuGroup .addFollow:hover i{background-position: 2px -227px; color:#52a8e8;}
+.usStatus .guanzhuGroup .delFollow i{background-position: 2px -228px;}
+.usStatus .guanzhuGroup .eachOtherFollow i{background-position: 1px -268px}
+/*用户个人中心，他人中心左侧用户信息样式修改-end*/
+.guanzhuGroup{
+	
+	width:100%;height:33px;line-height: 32px;
+}
+.guanzhuGroup .follow_suc_tip{
+	opacity:0;
+	filter:alpha(opacity=0);
+	position: absolute;
+    color: #2b8cd5;
+    font-weight: bold;
+    z-index: 999;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    bottom:30px;
+}
+
+.ranks .itu {
+	display: inline-block;
+	width: 95px;
+	*width: 99px;
+	height: 64px;
+	margin-left: 0;
+	cursor: pointer;
+}
+
+.shenfes {
+	display: block;
+	white-space: nowrap;
+    width: 949px;
+    height: 94px;
+	position: relative;
+}
+
+.shenfes .types {
+	    width: 677px;
+    overflow: hidden;
+    position: absolute;
+    right: 60px;
+    top: 16px;
+}
+
+.shenfes .yilun {
+	display: block;
+	float: left;
+	width: 34px;
+	height: 60px;
+	margin-top: 11px;
+}
+
+.shenfes .zuoyi {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/buttonAll.png) 0 -180px no-repeat;
+    position: absolute;
+    left: 165px;
+    top: 6px;
+}
+
+.shenfes .zuoyi:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -120px;
+}
+
+.shenfes .youyi {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -60px;
+	position: absolute;
+    right: 15px;
+    top: 6px;
+}
+
+.shenfes .youyi:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 0;
+}
+
+.ranks .itu {
+	background-image: url("http://img.gyyxcdn.cn/dao/user/images/sfqAll.png");
+	background-repeat: no-repeat;
+}
+.gosx,.js_sxrel{
+	text-decoration: underline;
+}
+.ranks .mr1 {
+	background-position: 0 0;
+}
+
+.ranks .mr2 {
+	background-position: -100px 0;
+}
+
+.ranks .mr3 {
+	background-position: -200px 0;
+}
+
+.ranks .mr4 {
+	background-position: -300px 0;
+}
+
+.ranks .mr5 {
+	background-position: -399px 0;
+}
+
+.ranks .mr6 {
+	background-position: 0 -69px;
+}
+
+.ranks .mr7 {
+	background-position: -99px -69px;
+}
+
+.ranks .mr8 {
+	background-position: -201px -70px;
+}
+
+.ranks .mr9 {
+	background-position: -301px -70px;
+}
+
+.ranks .mr10 {
+	background-position: -384px -70px;
+}
+.ranks .mr11{
+    background-image: url(http://img.gyyxcdn.cn/dao/user/images/ggsfx.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+}
+.ranks .shenfen01 {
+	background-position: 0 -139px;
+}
+
+.ranks .shenfen02 {
+	background-position: -99px -139px;
+}
+
+.ranks .shenfen03 {
+	background-position: -201px -139px;
+}
+
+.ranks .shenfen04 {
+	background-position: -301px -139px;
+}
+
+.ranks .shenfen05 {
+	background-position: -400px -140px;
+}
+
+.ranks .shenfen06 {
+	background-position: 0 -209px;
+}
+
+.ranks .shenfen07 {
+	background-position: -100px -210px;
+}
+
+.ranks .shenfen08 {
+	background-position: -200px -210px;
+}
+
+.ranks .shenfen09 {
+	background-position: -301px -210px;
+}
+
+.ranks .shenfen010 {
+	background-position: -401px -211px;
+}
+.ranks .shenfen011 {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/ggsfx.png) no-repeat -94px 0;
+}
+.ranks .shenfen012 {
+	background-position: 0px -419px;
+}
+.ranks .shenfenD1 {
+	background-position: 0 -279px;
+}
+
+.ranks .shenfenD2 {
+	background-position: -100px -279px;
+}
+
+.ranks .shenfenD3 {
+	background-position: -200px -279px;
+}
+
+.ranks .shenfenD4 {
+	background-position: -300px -279px;
+}
+
+.ranks .shenfenD5 {
+	background-position: -401px -280px;
+}
+
+.ranks .shenfenD6 {
+	background-position: 0 -348px;
+}
+
+.ranks .shenfenD7 {
+	background-position: -100px -349px;
+}
+
+.ranks .shenfenD8 {
+	background-position: -199px -349px;
+}
+
+.ranks .shenfenD9 {
+	background-position: -299px -349px;
+}
+
+.ranks .shenfenD10 {
+	background-position: -401px -349px;
+}
+.ranks .shenfenD11 {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/ggsfx.png) no-repeat -94px 0;
+}
+.ranks .shenfenD12 {
+	background-position: 0 -419px;
+}
+/*复杂验证码*/
+#formmima {
+	display: none;
+	width: 340px;
+	position: fixed;
+	top: 294px;
+	left: 365px;
+	background: #fff;
+	z-index: 999;
+	padding-bottom: 20px;
+}
+
+#formmima .chinaCaptchaSubmit_Btn {
+	margin-left: 53px;
+	width: 62% !important;
+}
+
+.dynamicCenter {
+	overflow: hidden;
+	width: 1200px;
+	margin: 12px auto 0 auto;
+}
+
+.ca_01 {
+	width: 240px;
+    height: auto;
+}
+
+.ca_01 .peopCard {
+	font-size: 18px;
+    color: #7a85b7;
+    padding-left: 15px;
+    height: 65px;
+    line-height: 65px;
+    background: #d5e2f3;
+	border: 1px solid #d6d6d6;
+	border-bottom:none;
+}
+
+.ca_01 .peopCard .mycardT {
+	display: inline-block;
+	width: 28px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+	*top: 0;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -142px -269px;
+}
+
+.ca_01 .giftT {
+	display: inline-block;
+	width: 24px;
+	height: 25px;
+	position: relative;
+	top: 5px;
+	*top: 0;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -138px 0;
+}
+
+.gamesInfo {
+	height: 200px;
+	position: relative;
+	border: 1px solid #d6d6d6;
+	border-top: none;
+	background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+	padding-bottom: 12px;
+}
+
+.noGameI {
+	display: none;
+	width: 100%;
+	line-height: 208px;
+	color: #aaa;
+    font-size: 16px;
+	text-align: center;
+}
+
+.detailsGame {
+	display: none;
+	overflow: hidden;
+	font-size: 14px;
+	padding: 0 15px;
+}
+
+.detailsGame>p {
+	overflow: hidden;
+	margin: 18px 0;
+}
+
+.detailsGame .qsrNoInfos {
+	color: #5eaeef;
+	cursor: pointer;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	top: 42px;
+}
+
+.qsr>span {
+	display: inline-block;
+}
+
+.qsr .role02 {
+	width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+	color: #666666;
+	position: relative;
+    top: 0px;
+}
+
+.qsr .quzu02, .qsr .server02 {
+	color: #666666;
+}
+
+.c99Font {
+	color: #999999;
+	font-size: 14px;
+}
+.detailsGame .c99Font span{float: left; display: inline;}
+.detailsGame .d1 {
+	color: #999999;
+}
+
+.detailsGame .d1 span {
+	float: left;
+}
+
+.detailsGame .activeTable .active {
+	color: #666666;
+}
+
+.daohang span {
+	color: #666666;
+}
+
+.detailsGame .daohang span {
+	color: #999999;
+}
+
+.detailsGame .daohang .dh {
+	color: #666666;
+}
+
+.activeTable {
+	margin-bottom: 14px;
+}
+
+.gamesInfo .jinfu, .gamesInfo .yinfu {
+	display: inline-block;
+	width: 62px;
+	height: 29px;
+}
+
+.jinfu, .yinfu {
+	color: #cfaf78;
+}
+
+.Pays, .convert {
+	display: inline-block;
+	width: 89px;
+	height: 28px;
+	cursor: pointer;
+}
+
+.Pays {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/contrlGan.png") no-repeat 0 0;
+}
+
+.Pays:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/contrlGan_h.png") no-repeat 0 0;
+}
+
+.convert {
+	background: url(http://img.gyyxcdn.cn/dao/user/images/contrlGan.png) no-repeat 0 -37px;
+}
+
+.convert:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/contrlGan_h.png") no-repeat 0 -37px;
+}
+
+.dynamicCenter .jfB {
+	height: 29px;
+	line-height: 29px;
+	padding-left: 24px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/jinyin.png) no-repeat 0 3px;
+	margin: 0 !important;
+}
+
+.yfB {
+	height: 29px;
+	line-height: 29px;
+	padding-left: 24px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/jinyin.png) no-repeat 0 -33px;
+	margin: 0 0 0 0 !important;
+}
+
+.myGift {
+	margin: 8px 0 0;
+}
+
+.moreGift {
+	display: none;
+	margin-left: 22px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #8a96ca;
+	position: relative;
+	top: -2px;
+}
+
+.moreGift:hover {
+	color: #7185dd;
+}
+
+.noGit {
+	line-height: 198px;
+	text-align: center;
+	color: #aaaaaa;
+	font-size: 16px;
+}
+
+.gitsInfo {
+	width: 238px;
+	height: 192px;
+	text-align: center;
+	background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+	border: 1px solid #d6d6d6;
+	border-top:none;
+	padding-top:8px;
+}
+
+.gitsInfo li {
+	position: relative;
+	width: 39px;
+	height: 42px;
+	margin: 21px 9px 0px 9px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	*margin-top: 26px;
+	*margin-bottom: -6px;
+}
+
+.gitsInfo .fixdG {
+	width: 49px;
+	margin-top: 2px;
+	overflow: hidden;
+	height: 42px;
+	cursor: pointer;
+}
+
+.gitsInfo .giType {
+	display: block;
+	float: left;
+	width: 41px;
+	height: 42px;
+}
+
+.gitsInfo .gi .gPic {
+	max-width: 27px;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+.gitsInfo li .giName {
+	display: none;
+	position: absolute;
+	width: 112px;
+	height: 25px;
+	line-height: 21px;
+	padding: 0 5px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/gifTc.png) no-repeat 0 0;
+	color: #666666;
+	font-size: 12px;
+	top: -20px;
+  left: 4px;
+  z-index:99;
+}
+
+.gitsInfo li .giNum {
+	display: block;
+	width: 25px;
+	height: 37px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/giNum.png) no-repeat 0 0;
+	position: absolute;
+	left: 24px;
+	top: 3px;
+}
+
+.aDImge {
+	display: block;
+	height: 357px;
+	margin: 10px 0;
+}
+
+.adImageFirst {
+	margin: 12px 0px;
+}
+/*个人,他人中心页面左下角两张小广告图位置-stat*/
+.smallBanner01{
+	background: url(http://img.gyyxcdn.cn/dao/user/images/adshow01.jpg) no-repeat 0 0;
+}
+.smallBanner02{
+	background: url(http://img.gyyxcdn.cn/dao/user/images/drawChance01.jpg) no-repeat 0 0;
+}
+/*个人中心页面左下角两张小广告图位置-end*/
+.ca_02 {
+	width: 944px;
+    margin:0 0 20px 12px;	
+	min-height: 1334px;
+    position: relative;
+    color: #5eaeef;
+    border: 1px solid #d6d6d6;
+	background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+}
+
+.typeMsg li {
+	width: 148px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.typeMsg .frinds {
+	display: block;
+}
+
+.typeMsg {
+	overflow: hidden;
+    padding-top: 20px;
+    background: #f8f9fd;
+}
+
+.typeMsg span {
+	font-size: 18px;
+	margin-left: 60px;
+	color: #666666;
+}
+
+.typeMsg .cur {
+	border-bottom: 2px solid #5eaeef;
+}
+
+.typeMsg .cur span {
+	color: #5eaeef;
+}
+
+.typeMsg .icoMN {
+	display: none;
+	width: 1px;
+	height: 1px;
+	line-height: 0px;
+	text-align: center;
+	color: red;
+	font-size: 60px;
+	position: absolute;
+    top: -12px;
+    right: 50px;
+}
+
+.msForOne {
+	display: none;
+	overflow: hidden;
+	margin: 29px 0 0 24px;
+}
+
+.msForOne li {
+	width: 98px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	float: left;
+	margin-right: 24px;
+	text-align: center;
+	cursor: pointer;
+	color:#848485;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/dcmcType.png") no-repeat 0 0;
+}
+
+.msForOne .cur {
+	color: #2b8cd5;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/dcmcType.png") no-repeat 0 -38px;
+}
+
+.msgTypeCont {
+	padding: 0 24px;
+}
+.msgTypeCont .comingSoon{
+	display:none;
+	text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+.pleaseWait{
+  font-size: 22px;
+}
+.allMsg {
+	display: none;
+	overflow: hidden;
+}
+.allMsg li {
+	padding: 22px 0;
+	border-bottom: 1px dashed #ccc;
+	overflow: hidden;
+	font-size: 14px;
+	position: relative;
+}
+.allMsg li>a {
+    display: block;
+    overflow: hidden;
+    word-wrap: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    margin-left: 14px;
+    max-width: 215px;
+    *max-width: 215px;
+}
+.allMsg li .con {
+	width: 607px;
+	padding-left: 13px;
+}
+.allMsg li .riCon {
+	width: 125px;
+	margin-top: -3px;
+	float: right;
+}
+.con .infosC {
+	width: 100%;
+}
+
+.con .infosHF {
+	margin-top: 19px;
+}
+
+.allMsg .fatie .imgs {
+	margin-bottom: 30px;
+}
+.allMsg .dynamicAll .cons,.allMsg .dynamicAll .infoDo,.allMsg .dynamicAll .infoDo p,.allMsg .dynamicAll .PostType{
+	overflow:hidden;
+}
+.allMsg .dynamicAll .infoDo{
+	font-size: 12px;    
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	color:#bdbdbd;
+}
+.dynamicAll .infoDo .forThisReply{
+	display:inline-block;
+	width:29px;
+	height:22px;
+	line-height:22px;
+	padding-left: 33px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/feedIcon.png") no-repeat 0 -85px;
+}
+.dynamicAll .infoDo .forThisShare{
+	display:inline-block;
+	width:34px;
+	height:32px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/feedIcon.png") no-repeat 0 -133px;
+	position: relative;
+    top: -3px;
+    margin-left: 24px;
+}
+.dynamicAll .infoDo .thisLine{
+	display: inline-block;
+    margin: 0 10px;
+}
+.dynamicAll .infoDo .forThisMessage{
+	display:inline-block;
+	height:19px;
+	line-height:19px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/feedIcon.png") no-repeat 0 -42px;
+	padding-left: 25px;
+    margin-left: 10px;
+}
+
+.dynamicAll .infoDo span.pvs{
+	display:inline-block;
+	height:18px;
+	line-height:19px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/dynamicListIcon.png") no-repeat 0 3px;
+	padding:0 0 0 22px;
+    margin-left: 10px;
+}
+
+.dynamicAll .infoDo .forThisLike{
+	display:inline-block;
+	height:19px;
+	line-height:19px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/feedIcon.png") no-repeat 0 0;
+	padding-left: 21px;
+}
+
+.allMsg .dynamicAll .iconPost{
+	display:inline-block;
+	width:54px;
+	height:27px;
+	line-height:27px;
+	color:#60a0d6;
+	text-align:center;
+	font-size:14px;
+	float:left;
+	margin-right:8px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/dcmcType.png) no-repeat 0 -79px;
+}
+.allMsg .dynamicAll .infoCon{
+	margin-top:10px;
+}
+.allMsg .dynamicAll .infoDo .lop02{
+	margin-top: 28px;
+}
+
+.allMsg .dynamicAll  .titleForPost{
+	font-size:16px;
+	color:#2d64b3;
+}
+.allMsg .dynamicAll .ovInfo{
+	overflow:hidden;
+	width: 756px;
+}
+.pageCut {
+	display: none;
+}
+.allMsg .dynamicAll .infoCon,.allMsg .dynamicAll .infoCon .replyInfo{
+	color:#989898;
+}
+.allMsg .dynamicAll .infoCon .toNickname,.allMsg .dynamicAll .infoCon .toTitle{
+	color:#666666
+}
+.allMsg .dynamicAll .infoCon .toNickname{
+	margin:0 15px;
+}
+.allMsg .dynamicAll .infoCon .toTitle{
+	margin-left:11px;
+}
+.allMsg .dynamicAll .infoCon .toTitle:hover{
+	text-decoration:underline;
+}
+.allMsg .dynamicAll .creatTime{
+ color:#bdbdbd;
+ font-size:12px;
+ margin-top:16px;
+}
+.comingSoon {
+	display: none;
+	text-align: center;
+	margin-top: 210px;
+	font-size: 30px;
+}
+
+.ca_02 .topic_F {
+	width: 768px;
+	height: 26px;
+	line-height: 26px;
+	color: #2d64b3;
+	font-size: 14px;
+}
+
+.ca_02 .topic_F .tit {
+	display: block;
+	width: 575px;
+	overflow: hidden;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.fatie .con {
+	margin-bottom: 25px;
+}
+
+.ca_02 .typePic {
+	display: block;
+	width: 56px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	color: #53a2e3;
+	font-size: 14px;
+	margin-right: 9px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -266px -85px;
+}
+
+.ca_02 .times {
+	color: #bdbdbd;
+	font-size: 14px;
+	height: 26px;
+	line-height: 26px;
+}
+
+.ca_02 .tj_sp {
+	width: 240px;
+	height: 135px;
+	margin-right: 17px;
+	cursor: pointer;
+}
+
+.ca_02 .show_report {
+	display: none;
+	float: right;
+	margin-top: 9px;
+}
+
+.ca_02 .show_report span {
+	display: inline-block;
+	width: 58px;
+	cursor: pointer;
+}
+
+.ca_02 .show_report .show {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_cz.png") no-repeat -99px 0;
+}
+
+.ca_02 .show_report .report {
+	margin-left: 25px;
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_cz.png") no-repeat -262px 0;
+}
+
+.hf_con {
+	width: 666px;
+	color: #989898;
+	font-size: 14px;
+	overflow: hidden;
+	padding-left: 66px;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+}
+
+.hf_con span {
+	color: #666666;
+}
+
+.infosHF .actionTo {
+	
+}
+
+.actionTo, .someInfo {
+	margin: 0 13px;
+}
+
+.actionNoMr .actionTo {
+	margin-left: 0;
+}
+
+.sourceNick, .tieInfo, .systemWord .actionTo, .gifTypeName, .tieInfo a {
+	color: #2d64b3;
+}
+
+.actionTo, .systemWord .sourceNick, .systemWord .tieInfo, .gifResult,
+	.froyou, .gifNum {
+	color: #989898;
+}
+.actionToForBox+.tieInfo{
+	color:#989898;
+}
+.gyCall {
+	color: #0047fb;
+	text-decoration: underline;
+}
+#btnUploadForForForm{
+	position: relative;
+    width: 144px;
+    height: 48px;
+    float:left;
+    border: 0 none;
+    background:url("http://img.gyyxcdn.cn/dao/user/images/reelect.png") no-repeat 0 0;
+    cursor: pointer;
+    z-index:10
+}
+#btnUpload:hover,#btnUploadForForForm:hover{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/reelect.png") no-repeat 0 -48px
+}
+.froyou {
+	margin-left: 13px;
+}
+.handleForYouTie .actionToForBox{
+	margin:0px;
+}
+.handleForYouTie .actionToForBox,
+.handleForYouTie .baoxtype,
+.handleForYouTie .getBox,
+.liftBan,
+.accountForbidden,
+.handleForYouTie .contentHidden{
+	color:#989898;
+}
+/*被隐藏消息--开始*/
+.handleForYouTie .contentHidden a{
+	color:#2d64b3;
+}
+.handleForYouTie .contentHidden a.cont{
+	cursor:default;
+	color:#989898;
+}
+.handleForYouTie .contentHidden a.tit{
+	margin:0 0 0 13px;
+	font-weight:bold;color:#989898;cursor:default;
+}
+/*被隐藏消息--结束*/
+
+/*被禁言消息--开始*/
+.accountForbidden a{
+	color:#2d64b3;
+}
+.accountForbidden a.cont{
+	cursor:default;
+	color:#989898;
+}
+/*被禁言消息--开始*/
+.actionToForBox+.tieInfo{
+	color:#989898;
+}
+.show_report span {
+	display: inline-block;
+	width: 57px;
+	height: 22px;
+}
+
+.show_report .returnMsg {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_tieCZ.png") no-repeat 0 0;
+}
+
+.show_report .returnMsg:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_tieCZ.png") no-repeat 0 -22px;
+}
+
+.show_report .acknowledge {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_tieCZ.png") no-repeat 0 -44px;
+}
+
+.show_report .acknowledge:hover {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/icon_tieCZ.png") no-repeat 0 -66px;
+}
+
+.gifList {
+	overflow: hidden;
+}
+
+.gifsPop {
+	width: 670px;
+	height: 493px;
+	background: #fff;
+}
+
+.gifsPop .gifTit {
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	text-indent: 30px;
+	border-bottom: 1px solid #ccc;
+	color: #9f9f9f;
+	font-size: 18px;
+}
+
+.gifsPop .con {
+	height: 100%;
+	padding: 0 21px;
+}
+
+.gifsPop .gifD {
+	width: 273px;
+	height: 48px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+}
+
+.gifsPop .gifBorderRight {
+	border-right: 1px solid #ccc;
+}
+
+.gifsPop .zsD {
+	width: 204px;
+	font-size: 14px;
+}
+
+.gifPic {
+	display: block;
+	width: 52px;
+	height: 52px;
+	margin-right: 17px;
+}
+
+.gifsPop .picName {
+	margin-right: 16px;
+}
+
+.gifD .mg {
+	background: url("http://img.gyyxcdn.cn/dao/user/images/gifDe.png") no-repeat 0 0;
+}
+
+.gifD .picName {
+	font-size: 16px;
+	color: #808080;
+}
+
+.gifD .lop, .gifD .picNum {
+	color: red;
+}
+
+.gifD .gifSourceNick {
+	margin-top: 7px;
+}
+
+.gifD .gifSourceNick .sourceN {
+	color: #2d64b3;
+}
+
+.gifD .gifSourceNick .sourceT {
+	color: #9f9f9f;
+	margin: 0 15px 0 5px;
+}
+
+.gifD .gifSourceNick .zsTimes {
+	color: #bdbdbd;
+}
+.typeMsg .msgs span,.typeMsg .msgs i{
+	float:left;
+}
+.dissaveinfo{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/dissaveinfo.png") no-repeat 0 0 !important;
+}
+/*修改密码样式-start*/
+.userEditPwd_wrapper .submitPwd_btn{
+	background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) no-repeat;
+}
+.userEditPwd_wrapper{
+	width: 502px;
+    height: 420px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+    padding-top: 22px;
+}
+.userEditPwd_wrapper .title{
+	text-align: center;
+    font-size: 20px;
+    padding: 25px 0;
+}
+.userEditPwd_wrapper .verify_phone{
+	color: #a0a0a0;font-size: 14px;
+}
+.userEditPwd_wrapper .userEditPwd_content{
+	width: 282px;
+    margin: 0 auto;
+}
+.userEditPwd_ul li input{
+	width: 280px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    text-indent: 10px;
+    color: #4d4d4d;
+}
+
+.userEditPwd_ul li input.code_btn{
+	position: absolute;
+    line-height: 20px;
+    height: 20px;
+    right: 12px;
+    top: 25px;
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    background: 0 0;
+    color: #55a9e7;
+    cursor: pointer;
+    border-left: 1px solid #ddd;
+}
+.userEditPwd_ul li input.notAllowed{
+        cursor: not-allowed;
+    }
+.userEditPwd_content .userEditPwd_ul li{
+	position: relative;
+	padding: 15px 0 0;
+}
+.userEditPwd_content .userEditPwd_ul li.setPwd_btn{
+	padding: 5px 0 0;
+}
+.userEditPwd_wrapper .submitPwd_btn{
+	width: 282px;
+    height: 42px;
+    line-height: 42px;
+    background-position: 0 -172px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.userEditPwd_wrapper .setting_error{
+    color: #f86565;
+    height: 20px;
+    font-size: 12px;
+    display: block;
+    visibility: hidden;
+}
+.userEditPwd_wrapper .succ_pop .js_countDown{
+	display: inline;
+    color:#67db44;
+    
+}
+.userEditPwd_wrapper .succ_pop{
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    z-index: 9;
+    width: 502px;
+    height: 300px;
+    padding-top: 142px;
+    background: url(http://img.gyyxcdn.cn/dao/forum/images/indexBgW.png) center center;
+}
+.userEditPwd_wrapper .succ_pop .succ_icon{
+	display: block;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) 0 -236px no-repeat;
+    width: 48px;
+    height: 48px;
+    margin: 10px auto;
+}
+/*修改密码样式-end*/

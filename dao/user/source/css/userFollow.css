@@ -1,0 +1,100 @@
+/*
+*add by tht 2017-11-13 
+*for userself or other user dynamics
+*/
+/*==========关注列表==========开始*/
+.js_followTab{
+	display:none;
+}
+.follow_list{
+}
+.follow_list .followHeaderImg,.follow_list .followHeaderImg img{
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin-left: 0;
+}
+.follow_list .followContent{
+width: 636px;
+margin-left: 15px;
+font-size: 14px;
+color: #999;
+height: 96px;
+}
+.follow_list .followContent .followTitle{
+color: #2d64b3;
+font-size: 16px;
+}
+.follow_list .followContent .followTitle:hover{
+	text-decoration:underline;
+}
+.follow_list .followContent .followFans span,.follow_list .followContent .followAllNum span{
+padding:0 5px
+}
+.follow_list .followContent .followFans{padding: 5px 0;}
+.follow_list .followContent .followAllNum{
+}
+.follow_list .followAllNum .followNum{
+}
+.follow_list .followContent .followNickName{
+	padding: 5px 0 0 0;
+}
+.follow_list .followNickName .followLine{
+	font-size: 12px;
+	color: #ccc;
+	padding: 0 5px;
+}
+.follow_list .followGroupBtn a{
+	background: url(http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png) no-repeat 0 0;
+	display:block;
+	width:138px;
+	height:34px;
+	line-height:34px;
+	border:1px solid #d1d1d1;
+	text-align: left;
+	margin-top: 3px;
+	color:#666;
+	text-indent: 50px;
+}
+.follow_list .followGroupBtn a:hover{
+border:1px solid #52a8e8;color:#52a8e8;
+}
+.follow_list .followGroupBtn .followLink{
+background-position: 23px 5px;
+}
+.follow_list .followGroupBtn .followLink:hover{
+background-position: -18px -25px;
+}
+.follow_list .followGroupBtn .followBtn{
+	margin-top: 15px;position:relative;
+}
+.follow_list .followGroupBtn .followBtn .follow_suc_tip{
+	opacity:0;filter:alpha(opacity=0);position:absolute;left:0;top:-15px;
+	color:#2b8cd5;font-weight:bold;font-size:12px;
+}
+.follow_list .followGroupBtn .eachOther{
+background-position: 23px -52px;
+}
+.follow_list .followGroupBtn .eachOther:hover{
+background-position: -18px -79px;
+}
+.follow_list .followGroupBtn .followIng{
+background-position: 23px -160px;text-indent:58px;
+}
+.follow_list .followGroupBtn .followAdd{
+background-position: 23px -107px;text-indent:58px;
+}
+ .follow_list .followGroupBtn .followAdd:hover{
+background-position: -18px -134px;
+} 
+.follow_list .followGroupBtn .followdel{
+	background-position: 23px -397px;    
+	position: absolute;
+    top: -3px;
+    left: 0;
+    background-color: #fff;
+}
+
+
+.msgTypeCont .comingSoon .followFansBtn{color:#5eaeef;text-decoration:underline;}
+/*===========关注列表==========结束*/

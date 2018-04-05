@@ -1,0 +1,203 @@
+/*
+*add by tht 2017-5-17 
+*for recharge  common style
+*/
+body {
+	color: #333;
+}
+*{padding:0; margin:0;}
+
+.hide{ display:none; }
+/* margin 开始*/
+.m_t_5{ margin-top:5px !important; }
+.m_t_12{ margin-top:12px !important; }
+.m_t_16{ margin-top:16px !important; }
+.m_t_24{ margin-top:24px !important; }
+.m_t_26{ margin-top:26px !important; }
+/* margin 结束*/
+
+/*公用弹层===开始*/
+.popD {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index:100001;
+	background: url("http://img.gyyxcdn.cn/dao/wealth/images/pop_bg.jpg") repeat left top;
+	border:1px solid #cccccc;
+}
+
+.closeD { cursor:pointer;
+	display:block;
+	width:24px;
+	height:24px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat left top;
+	color:#fff;
+	transition:transform .2s linear; 
+	-moz-transition:transform .2s linear; 
+	-webkit-transition:transform .2s linear; 
+}
+.closeD:hover { 
+	transform:rotate(-180deg); 
+	-moz-transform:rotate(-180deg); 
+	-webkit-transform:rotate(-180deg);
+}
+
+.close_con{
+	position:absolute;
+	top:21px;
+	right:24px;
+	width:24px;
+	height:24px;
+	margin:0 !important;
+}
+.maskD{ 
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:100000;
+	width:100%; 
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);	
+}
+/*公用弹层===结束*/
+
+/*错误提示层===开始*/
+.popErrorCon{ 
+	position:fixed; left:50%; top:50%;
+	margin:-125px 0 0 -200px;
+	width:400px;height:250px;
+	z-index:1000001;
+	background: url("http://img.gyyxcdn.cn/dao/wealth/images/pop_bg.jpg") repeat left top;
+	border:1px solid #cccccc;
+
+ }
+ .popErrorCon .img{
+	 display:block;
+	 margin:40px auto 20px;
+	 width:45px;height:45px;
+	 background:url("http://img.gyyxcdn.cn/dao/wealth/images/popErrorTip.png") repeat left top;
+ }
+.popErrorCon p{
+	text-align:center;
+ }
+.popErrorCon p .link{
+	color:#0047fb;
+	text-decoration:underline;
+}
+/*封号换行左对齐样式 -开始*/
+.popErrorCon p .suspend{
+	display:block;
+	padding:0 0 0 90px;
+	text-align:left;
+}
+/*封号换行左对齐样式 -结束*/
+.popErrorCon .btn{
+	display:block;
+	margin:20px auto 0;
+	width:100px; height:40px; line-height:40px;text-decoration: none;
+	text-align: center;color:#fff;cursor:pointer;font-size:16px;
+	background:#52a8e8;border:none;
+}
+.maskErrorD{ 
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:1000000;
+	width:100%; 
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);	
+}
+/*错误提示层===结束*/
+
+/*第2版 错误、成功提示层===开始*/
+.popT {
+	position: fixed;left: 50%;top: 50%;z-index:100021;
+	margin:-129px 0 0 -264px;
+	width:528px;height:258px;
+	background: url("http://img.gyyxcdn.cn/dao/wealth/images/pop_tip_bg.jpg") repeat left top;
+}
+
+.closeT { 
+	position:absolute;top:18px;right:18px;
+	display:block;
+	width:24px;height:24px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popTipIcon.png") no-repeat -168px top;
+	color:#fff;cursor:pointer;
+	transition:transform .2s linear; 
+	-moz-transition:transform .2s linear; 
+	-webkit-transition:transform .2s linear; 
+}
+.closeT:hover { 
+	transform:rotate(-180deg); 
+	-moz-transform:rotate(-180deg); 
+	-webkit-transform:rotate(-180deg);
+}
+.maskT{ 
+	position:fixed;left:0;top:0;z-index:100020;
+	width:100%; height:100%;
+	background:#000;
+	opacity:0.5;filter:alpha(opacity=50);	
+}
+.pop_conT .pop_tips{ 
+	position:relative;
+	margin:60px auto 0; padding:0 0 0 66px;
+	width:254px;
+	font-size:20px;color:#4d4d4d;line-height:30px;text-align:left;
+}
+.pop_conT .pop_tips.suc{
+	line-height:48px;
+	margin:100px auto 0;
+}
+.pop_conT .pop_tips .tip_icon{
+	display:inline-block;
+	width:48px;height:48px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popTipIcon.png") no-repeat left top;
+}
+.pop_conT .pop_tips.err .tip_icon{
+	position: absolute;left:0px;top:6px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popTipIcon.png") no-repeat left top;
+}
+.pop_conT .pop_tips.suc .tip_icon{
+	position: absolute;left:0;top:0;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popTipIcon.png") no-repeat -48px top;
+}
+.pop_conT .pop_tips .pop_tips_con .blue{
+	color:#2d64b3;
+}
+.pop_conT .pop_tips .pop_tips_con .red{
+	color:#ff6f4d;
+}
+.pop_conT .pop_tips .pop_tips_con img{
+	margin:0 15px 0 7px;
+	width:24px;height:24px;
+	vertical-align:middle;
+}
+.pop_conT .pop_btns_wrap{
+	margin:50px 0 0;
+	text-align:center;
+}
+.pop_conT .pop_btns_wrap .cancel,
+.pop_conT .pop_btns_wrap .confirm{
+	display:inline-block;
+	margin:0 20px;
+	width:192px;height:48px;line-height:48px;
+	background:url("http://img.gyyxcdn.cn/dao/wealth/images/popTipIcon.png") no-repeat left top;
+	font-size:20px;color:#fff;letter-spacing:6px;cursor:pointer;
+}
+.pop_conT .pop_btns_wrap .confirm{
+	background-position:left -48px;
+}
+.pop_conT .pop_btns_wrap .confirm:hover{
+	background-position:left -96px;
+}
+.pop_conT .pop_btns_wrap .cancel{
+	background-position:left -144px;
+}
+.pop_conT .pop_btns_wrap .cancel:hover{
+	background-position:left -192px;
+}
+/*第2版 错误、成功提示层===结束*/

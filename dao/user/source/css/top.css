@@ -1,0 +1,1973 @@
+    @charset "utf-8";
+    /* CSS Document */
+    html{min-width:1200px;*min-width:1200px;}
+    body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0;}
+   input, textarea, select, button{
+   font: 14px "Microsoft YaHei";
+   }
+    table { border-collapse:collapse; border-spacing:0; }
+    textarea{resize:none;}
+    fieldset, img { border:0; }
+    img { vertical-align:bottom;border-style:none;border:0 none;outline:none;}
+    address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+    ol, ul { list-style:none; }
+    h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+    abbr, acronym { border:0; }
+    i{
+        font-style: normal;
+    }
+    .clear{zoom:1;}
+    .clear:after{ content:""; display:block; clear:both;}
+    a{ text-decoration:none; cursor:pointer; }
+    a:focus,input:focus,textarea:focus,select:focus { outline-style:none;}
+    body{font: 14px "Microsoft YaHei";}
+    .conteCenter{width:1200px;margin:0 auto;}
+    .userInfoMain{background:url("http://img.gyyxcdn.cn/dao/forum/images/indexCenter01.jpg") no-repeat center top #f7faff;}
+    .userCenterMain{background:url("http://img.gyyxcdn.cn/dao/forum/images/indexCenter01.jpg") no-repeat center top #f7faff;}
+    .public_nav_top{
+        display:none;
+        min-width:1200px !important;
+        *min-width:1200px !important;
+    }
+      #tieInfo_Table_0_paginate .numsa{
+      display:inline-block;
+      text-align:center;
+      line-height:24px;
+      color:#000;
+      border:1px solid #ccc;
+    }
+    #tieInfo_Table_0_paginate .paginate_active{
+      display:inline-block;
+      text-align:center;
+      line-height:24px;
+       background:#ccc;
+       color:#fff;
+    }
+    #testForNickname{
+     display:none;
+    }
+    .ovF{
+      zoom:1
+      
+    }
+    .ovF:after{
+      content:""; display:block; clear:both;
+    }
+    .cursor{
+        cursor:pointer;
+    }
+    .lf{
+        float:left;
+    }
+    .ri{
+        float:right;
+    }
+    .js_checkEveryUserInfo {
+      cursor:pointer;
+    }
+    .UserInfoMain{
+        width:100%;
+        margin:0 auto;
+        overflow:inherit;
+        width: 100%;
+        background: url(http://img.gyyxcdn.cn/dao/user/images/navTop_lingeBg.png) repeat-x;
+        z-index: 100;
+        min-width: 1200px;
+    }
+     .allScroll .UserInfoMain{
+        position:absolute;
+        margin:0 auto;
+        overflow:inherit;
+        height:54px;
+        width:100%;
+    }
+    .userInfoMain .js_defaultTextTips{
+           visibility: hidden;
+    }
+    .logo{
+        margin-right:62px;
+        margin-top: 5px;
+        cursor:pointer;
+    }
+    .searchs{
+        width:216px;
+        height:30px;
+        position:relative;
+        line-height:30px;
+        background: url("http://img.gyyxcdn.cn/dao/user/images/findTopBg.png");
+        margin-top: 13px;
+        display: block;
+    }
+    .header{
+        zoom:1;
+    }
+    .header:after{ content:""; display:block; clear:both;}
+    #search{
+        width:170px;
+        height:30px;
+        position: absolute;
+        top: 0px;
+        left: 14px;
+        border:0 none;
+        font-size:12px;
+        color:#5c5c5c;
+        background: none;
+    }
+    .searchImg{
+        display: inline-block;
+        width: 31px;
+        height: 30px;
+        right: 0;
+        top: 0;
+        cursor: pointer;position: absolute;
+    }
+    .searchMsgs{
+        display:none;
+        position: absolute;
+        width: 215px;
+        border: 1px solid #ccc;
+        left: 706px;
+        top: 92px;
+        background: #fff;
+    }
+    .searchMsgs .hot{
+        background:url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat 197px 8px;
+    }
+    .searchMsgs li{
+        height: 33px;
+        line-height: 33px;
+        padding-left: 13px;
+        color:#97a4ae;
+    }
+    .centerHeard{
+        width:125px;
+        float: right !important;
+    }
+    .centerHeard a.login{
+            display: inline-block;
+            width: 32px;
+            height: 54px;
+            background: url(http://img.gyyxcdn.cn/dao/user/images/loginTopBg.png) 0 center no-repeat;
+            font-size: 14px;
+            color: #7b8b9c;
+            margin-left: 35px;
+            line-height: 54px;
+            padding-left: 32px;
+    }
+    .sign{
+        display: block;
+        width: 84px;
+        height: 28px;
+        overflow: hidden;    
+        margin:12px 0 0 15px;position: relative;
+    }
+    
+    .sign .marks{
+        font-size: 14px;
+        width: 70px;
+        text-align: right;
+        display: block;
+        line-height: 28px;
+        cursor: pointer;
+        color: #fff;
+       
+        
+    }
+    .sign .cur i,.sign i{ background:url(http://img.gyyxcdn.cn/dao/user/images/buttonAll.png) -286px -660px no-repeat; width: 14px;height: 14px; overflow: hidden; position: absolute;top:8px;left: 19px;}
+    .sign i{background-position: -286px -660px; }
+   .cur_sign i{ background-position: -286px -690px;left: 10px;}
+    .signNo{
+        background:url(http://img.gyyxcdn.cn/dao/user/images/buttonAll.png) -218px -567px no-repeat;
+        color:#fff;
+    }
+    .signNo:hover{
+        background:url(http://img.gyyxcdn.cn/dao/user/images/buttonAll.png) -218px -615px no-repeat;
+        color:#fff;
+    }
+    /*-----全站页面顶部搜索框-------开始---*/
+    .page_top_wrap{
+        position:relative;
+        padding:0;
+        width:100%;
+        margin:0 auto;
+        overflow:inherit;
+    }
+    .top_search_wrap{
+        position: relative;
+        margin: 11px 1px 0 0;
+        width: 216px;
+        height: 36px;       
+    }
+    .top_search_wrap .top_search{
+        position: relative;
+        width: 214px;
+        height: 29px;
+        border: 1px solid #b2c3d1;
+        border-radius: 3px;
+
+    }
+    .top_search_wrap .top_search .search_text{
+        margin: 0 0 0 11px;
+        float: left;
+        width: 175px;
+        height: 30px;
+        line-height: 30px;
+        border: none;
+        color: #97a4ae;
+        background: 0 0;
+
+    }
+    .top_search_wrap .top_search .searchBtn{
+        float: left;
+        width: 28px;
+        height: 30px;
+        background: url(http://img.gyyxcdn.cn/dao/user/images/icon_T1.png) 0 -182px no-repeat;
+        cursor: pointer;
+    }
+    .top_search_wrap .top_search .search_recommends,
+    .top_search_wrap .top_search .search_guides
+    {
+        position: absolute;
+        left: 12px;
+        top: 0;
+        width: 175px;
+        height: 30px;
+        line-height: 30px;
+        color: #97a4ae;
+        font-size: 14px;
+    }
+    .top_search_wrap .top_search .search_guides
+    {
+        pointer-events:none;
+    }
+    .top_search_list{
+        display:none;
+        position: absolute;left:0px;top:39px;z-index:1;
+        padding:5px 0;
+        width: 214px;
+        border: 1px solid #ccc;border-radius:2px;background: #fff;
+    }
+    .top_search_list ul li{
+        height: 24px;
+        line-height: 24px;
+        padding-left: 11px;
+    }
+    .top_search_list ul li .nums,
+    .top_search_list ul li a{
+        float:left;
+    }
+    .top_search_list ul li .nums{
+        margin:4px 0 0;
+        width:15px;height:15px;line-height:15px;
+        background:#dccac6;border-radius:2px;
+        color:#fff;text-align:center;font-size:12px;
+    }
+    .top_search_list ul li a{
+        margin:0 0 0 8px;
+        color:#97a4ae;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        width: 180px;
+        white-space: nowrap;
+    }
+    .top_search_list ul li.hot .nums{
+        background:#f36969;
+    }
+    .top_search_list ul li.hot a{
+        color:#5c5c5c;
+
+    }
+    .top_search_list ul li a:hover{
+        color:#2a85c9;
+    }
+/*-----全站页面顶部搜索框-------结束---*/
+    /****新登录-start****/
+    .login_wrapper{
+	    overflow: hidden;
+	    width: 656px;
+	    height: 324px;
+	    background:#fff url(http://img.gyyxcdn.cn/dao/user/images/pop_bg.jpg) left top;
+	    padding:15px 0;
+    }
+
+    /*login-left*/
+    .login_wrapper .login_left{
+    	width: 274px;
+    	margin-top: 40px;
+    }
+    .login_wrapper .login_left .code_wrapper{
+        display: none;
+    	width: 274px;
+    	height: 230px;
+    	border-right:1px solid #dddddd;
+    	padding-top: 20px; 
+        background:none;
+    }
+    .login_wrapper .login_left .nocodeImg{
+    	width: 274px;
+    	height: 230px;
+    	border-right:1px solid #dddddd;display: none;
+    	padding-top: 20px; background:url(http://img.gyyxcdn.cn/dao/user/images/login_code.png) 39px 10px no-repeat;
+    }
+    .login_wrapper .login_left .code_icon,
+    .login_public .login_btn,
+    .login_code_shade .login_code_cover .login_code_loadIcon,
+    .login_code_shade .login_code_cover .login_code_getNew{
+    	background:url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) 0 0 no-repeat;
+    }
+    
+    .login_wrapper .login_left .code_icon{
+	    width:170px;
+	    height:170px;
+	    background-position:0 0;
+	    margin: 0px auto;
+	    position:relative;
+    }
+    
+    .login_wrapper .login_left .code_lefTxt{
+    	font-size:14px;
+    	color:#999999;
+    	text-align: center;
+    	margin-top: 15px;
+    }
+    .setting_pop .setPwd_wrapper li.remind{
+        font-size:12px;
+        color:#999999;padding-top: 5px;
+    }
+    .login_wrapper .login_left .code_lefTxt a{
+    	color:#55a9e7;
+    }
+    .login_wrapper .login_left .code_lefTxt a:hover{
+        text-decoration: underline;
+    }
+    .code_wrapper .code_icon{
+    	width:134px;height:134px;margin:0 auto;
+    }
+    .code_wrapper .code_icon .code_img{
+    	width: 132px;
+	    height: 132px;
+	    display: block;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    z-index: 10;
+	    margin: -66px;
+    }
+   .code_wrapper .code_box{
+        width: 132px;
+        height: 132px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -66px;
+    }
+    .code_wrapper .code_icon .login_code_shade{
+     	background: #52a8e8;
+	    width: 132px;
+	    height: 132px;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    margin: -66px;
+	    z-index: 20;
+	    text-align: center;
+	    cursor:pointer;
+	    filter: alpha(opacity=90);
+	    opacity: .9;
+     }
+     .code_wrapper .codeError{
+        display: block;
+        line-height: 20px;
+        width: 190px;
+        text-align: center;
+        color: #f86565;
+        font-size: 12px;
+        margin: 5px auto;
+     }
+    .login_code_shade .login_code_cover i{
+   		display: block;
+	    width: 37px;
+	    height: 37px;
+	    text-indent: -999px;
+	    overflow: hidden;
+	    margin: 35px auto 8px;
+    }
+    
+    /**获取验证码**/
+   	.login_code_shade .login_code_cover .login_code_loadIcon{
+   	    background-position: -239px 0px;
+    }
+    /**刷新验证码**/
+    .login_code_shade .login_code_cover .login_code_getNew{
+   	    background-position: -186px 0px;
+	    width: 40px;
+    }
+  
+    .code_wrapper .login_code_shade .login_code_get{
+   		color:#fff;
+    }
+    /*login-right*/
+    .login_wrapper .login_right{
+    	width: 282px;
+    	padding: 0 50px;
+    }
+    .login_wrapper .login_right .login_head_tab{
+     	overflow: hidden;
+    }
+    .login_wrapper .login_right .login_head_tab li{
+    	width:141px;color:#5a5a5a;height:40px;line-height:40px;font-size:16px;border-bottom:1px solid #ddd;text-align: center;cursor:pointer;
+    }
+    .login_wrapper .login_right .login_head_tab li.cur{
+    	color:#55a9e7;border-bottom:2px solid #55a9e7;height:40px;
+    }
+    .login_wrapper .login_right .login_content_tab{
+    padding-top:25px;    position: relative;
+    }
+    /*短信*/
+    .login_content_tab .login_public .phone_error{
+    color:#f86565;height: 20px;font-size:12px;
+    display: block;visibility: hidden;
+    }
+    .message_login .phone_li,
+    .pwd_login .phone_li{
+    position: relative;padding:8px 0 6px;
+    }
+    .login_public .login_li{
+    padding:7px 0 5px;
+    }
+    .login_content_tab .phone_li .phone,
+    .login_content_tab .phone_li .phone_code{
+	    width: 280px;
+	    height: 40px;
+	    line-height: 40px;
+	    border: 1px solid #ddd;
+	    text-indent: 10px;color:#4d4d4d
+    }
+    .message_login .phone_li .code_btn{
+        position: absolute;
+	    line-height: 20px;
+	    height: 20px;
+	    right: 5px;
+	    top: 20px;
+	    width: 90px;
+	    text-align: center;
+	    display: inline-block;
+	    border: none;
+	    background: none;
+	    color: #55a9e7;
+	    cursor: pointer;
+	    border-left: 1px solid #ddd;
+    }
+    /*禁止操作样式*/
+    .message_login .phone_li .notAllowed{
+        cursor: not-allowed;
+    }
+    .login_public .login_btn{
+        width: 282px;
+	    height: 42px;
+	    line-height: 42px;
+	    background-position:0px -172px;
+	    color:#fff;font-size:18px;
+	    border:none;
+	    cursor:pointer;
+	    letter-spacing:4px;
+    }
+    .login_public .seven_days{
+    	margin-right:5px;color:#707070;font-size:14px
+    }
+    .code_txt{
+    	font-size: 12px;
+	    position: absolute;
+	    color: #999;
+	    bottom: -18px;
+	    left: 0;
+    }
+    .pwd_login{
+       display:none;
+    }
+   .pwd_login .forget_pwd{
+        position: absolute;
+	    bottom: 6px;
+	    text-align: right;
+	    right: 0;
+    }
+    .pwd_login .forget_pwd a{color:#55a9e7}
+    .pwd_login .forget_pwd a:hover{
+    	text-decoration:underline
+    }
+    /****新登录-end****/
+    /***设置论坛密码弹框-start****/
+    .setting_pop{
+        width: 444px;
+	    height: 260px;
+	    padding: 25px 0 15px;
+	    background: #fff url(http://img.gyyxcdn.cn/dao/user/images/pop_bg.jpg) left top;
+    }
+    .setting_pop .title{
+        font-size: 18px;
+	    display: block;
+	    text-align: center;
+	    height: 30px;
+	    line-height: 30px;
+	    margin-bottom: 5px;
+    }
+    .setting_pop .setPwd_wrapper{
+	    width: 282px;
+	    margin: 0 auto;
+    }
+    .setting_pop .setPwd_wrapper .setPwd_li{
+	   position: relative;
+    	padding: 12px 0 0px;
+    }
+    .setting_pop .setPwd_wrapper .setPwd_btn{
+    	padding: 0px 0 6px;
+    }
+    .setting_pop .setPwd_wrapper .setPwd_li input{
+	    width: 280px;
+	    height: 40px;
+	    line-height: 40px;
+	    border: 1px solid #ddd;
+	    text-indent: 10px;
+	    color: #4d4d4d;
+    }
+    .setting_pop .setPwd_wrapper .setPwd_btn .submitPwd_btn{
+	    width: 282px;
+	    height: 42px;
+	    line-height: 42px;
+       	background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) 0px -172px no-repeat;
+	    color: #fff;
+	    font-size: 18px;
+	    border: none;
+	    cursor: pointer;
+	    letter-spacing: 4px;
+    }
+   .setting_pop .setPwd_wrapper .setPwd_txt{
+    	text-align: right;    padding: 10px 0;
+    }
+    .setPwd_wrapper .setPwd_txt .skip{
+    	color: #55a9e7;cursor: pointer;
+    }
+   .setting_pop .setPwd_wrapper  .code_txt{
+       font-size: 12px;
+    	color: #999;
+    }
+   .setting_pop .setPwd_li .setting_error{
+   	visibility: visible;
+   	height:20px;
+   	font-size:12px;
+   	line-height:20px;
+   	color:#f86565;
+    padding: 3px 0;
+    display: block;
+   }
+   .loginLoding{
+   	width: 200px;
+    display: block;
+    margin: 0 auto;
+   }
+    /***设置论坛密码弹框-end****/
+    /****同步数据层样式-start****/
+    .selectNewAccount_wrapper{
+        width: 826px;
+	    height: 530px;
+	    background: #fff url(http://img.gyyxcdn.cn/dao/user/images/pop_bg.jpg) left top;
+	    padding: 40px;
+    }
+   .selectNewAccount_wrapper .selectNewAccount_scroll{
+   		overflow-y: scroll; 
+   		height: 520px;
+   }
+    .selectNewAccount_wrapper .selectNewAccount_top{
+    
+    }
+    .selectNewAccount_wrapper .selectNewAccount_top .selectAccount_title{
+        font-size: 18px;
+    	color: #4398d8;
+    }
+    .selectNewAccount_wrapper .selectNewAccount_top .selectAccount_content{
+    	font-size: 14px;
+	    color: #999999;
+	    width: 80%;
+	    line-height: 24px;    
+	    margin: 15px 0;
+    }
+    .selectNewAccount_wrapper .account_userNick .nick_title{
+        color: #5a5a5a;
+    	font-size: 14px;    
+    	padding: 12px 0;
+    }
+    .selectNewAccount_wrapper .account_userNick .nick_dl,
+    .selectNewAccount_wrapper .nick_wrapper{
+    	overflow: hidden;
+    }
+    .selectNewAccount_wrapper .account_userNick .nick_dl{
+	    width: 362px;
+	    height: 86px;
+	    border: 1px solid #ddd;
+	    margin: 0 10px 10px 0;
+	    padding: 15px;    
+	    position: relative;
+	    cursor: pointer;
+    }
+    .account_userNick .nick_dl .checkbox_imitate{
+    	background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) -258px -78px no-repeat;
+    	display: block;
+	    width: 24px;
+	    height: 24px;
+	    position: absolute;
+	    right: 12px;
+    	top: 45px;
+    }
+    .account_userNick .nick_dl .checked{
+    	background-position:-258px -47px;
+    }
+    .selectNewAccount_wrapper .account_userNick .nick_dt,
+    .selectNewAccount_wrapper .account_userNick .nick_dt img{
+        width: 84px;
+    	height: 84px;
+    }
+    .selectNewAccount_wrapper .account_userNick .nick_dd{
+        width: 254px; color:#707070;
+    }
+    .selectNewAccount_wrapper .nick_dd .nick_title{
+	    color: #2d64b3;
+	    font-size: 14px;padding: 5px 0;
+    }
+    .selectNewAccount_wrapper .nick_dd .nick_areaServe
+    {
+        padding: 5px 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 220px;
+    }
+    .selectNewAccount_wrapper .nick_dd .synchroLine,
+    .selectNewAccount_wrapper .nick_dd .followLine{
+        font-size: 12px;
+        color: #ccc;
+        padding: 0 5px;
+    }
+   .nick_dd .hoverBox{
+       display: none;
+       position: absolute;
+       background: #fff;
+       border: 1px solid #ccc;
+       color: #9a9a9a;
+       padding: 5px;
+       border-radius: 3px;
+       bottom: 72px;
+       left: 120px;
+       font-size: 12px;
+   }
+   .nick_dd .hoverBox .arrow{
+    position: absolute;
+    left: 50%;
+    display: block;
+    margin: 0 0 0 -4px;
+    width: 8px;
+    height: 6px;
+    bottom: -6px;
+    background: url(http://img.gyyxcdn.cn/dao/wealth/images/Icon_info_f.png) -119px -50px no-repeat;
+    z-index: 99;
+   }
+    .selectNewAccount_wrapper .account_info{
+    	width: 800px; border: 1px solid #f5f5f5;
+    }
+    .selectNewAccount_wrapper .account_userNick .submit_error{
+    	color: #f86565;
+	    height: 20px;
+	    font-size: 12px;
+	    display: block;
+	    visibility: hidden;
+	    text-align: center;
+        padding: 15px 0 10px;
+    }
+    .selectNewAccount_wrapper .account_userNick .submit_btn{
+        width: 282px;
+    	height: 42px;
+	    line-height: 42px;
+	    background: url(http://img.gyyxcdn.cn/dao/user/images/login_icon.png) 0px -172px no-repeat;
+	    color: #fff;
+	    font-size: 18px;
+	    border: none;
+	    cursor: pointer;
+	    letter-spacing: 4px;
+	    display: block;
+	    margin: 0 auto;
+    }
+    .selectNewAccount_wrapper .account_info .account_infoLi{
+    	height:36px;line-height:36px; color:#666; font-size:14px;background:#f5f5f5;
+    }
+    .selectNewAccount_wrapper .account_info .nobg{
+    	background:#fff;
+    }
+    .account_info .account_infoLi .info_title,
+    .account_info .account_infoLi .info_notice{ color:#999;padding:0 15px;}
+    .account_info .account_infoLi .identity_img{
+	    display: inline-block;
+	    margin: 6px 5px 0 0;
+    }
+    .synchroLine{
+	    font-size: 12px;
+	    color: #ccc;
+	    padding: 0 5px;
+    }
+    .info_wealth{padding-right: 10px;}
+    .info_wealth .prop_img{
+        width:21px;height:21px;margin-top:5px;
+    }
+     /****同步数据层样式-end****/   
+    .alertMSG{
+       width:528px;
+       height:258px;
+       text-align: center;
+       font-size: 18px;
+       color: #52a8e8;
+       background:url("http://img.gyyxcdn.cn/dao/user/images/popInBg.png") no-repeat center center;
+    }
+    .js_alertMsg{
+       margin-top:102px;
+    }
+    .userInfoError{
+        display:none;
+        width: 100px;
+	    height: 30px;
+	    margin: 0 auto;
+	    margin-top: 30px;
+	    cursor: pointer;
+	    background: #46a3e4;
+	    color: #fff;
+	    line-height: 29px;
+	    text-align: center;
+    }
+    .users{
+        display:none;
+        float:left;height: 54px;
+    }
+    .tc{
+        display:none;
+        position:fixed;
+        overflow:hidden;
+        z-index:1002000;
+    }
+    
+    .tc .js_close{
+        width:30px;
+        height:24px;
+        position: absolute;
+        top:17px; 
+        *top:32px;
+        right:17px;
+        font-size:24px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -139px -321px;
+        transition: transform .2s linear;
+        -moz-transition: transform .2s linear;
+        -webkit-transition: transform .2s linear;
+    }
+    .tc .js_close:hover{
+      transform:rotate(-180deg);
+      -moz-transform:rotate(-180deg);
+      -webkit-transform:rotate(-180deg)
+    }
+    .tc01{
+        width:438px;
+        height:336px;
+        padding: 0 45px;
+        text-align:center;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/sevenTG.png") no-repeat center center;
+    }
+    .tc01 .tit{
+        margin:60px 0 30px 0;
+        font-size:20px;
+        color:#4d4d4d;
+    }
+    .tc01 .ts{
+        color:red;
+    }
+    .yesOrNo{
+        margin-top:83px;
+    }
+    .yesOrNo span{
+        display:inline-block;
+        width:192px;
+        height:48px;
+    }
+    .yesOrNo .y{
+        float:left;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -663px;
+    }
+    .yesOrNo .y:hover{
+        background:url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -711px;
+    }
+    .yesOrNo .n{
+        float:right;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -759px;
+    }
+    .yesOrNo .n:hover{
+        background:url("http://img.gyyxcdn.cn/dao/user/images/buttonAll.png") no-repeat 0 -807px;
+    }
+    .bgT{
+        display:none;
+        width:100%;
+        min-width:1200px;
+        *min-width:1200px;
+        height:100%;
+        position:fixed;
+        top:0;
+        left:0;
+        background: none repeat scroll 0 0 #000000;
+        opacity:0.6;
+        filter: alpha(opacity=60);
+        z-index:1001000;
+    }
+    .userInfo{
+        display:none;
+        position: relative;
+        float:left;
+        font-size:14px;
+        color:#4c4c4c;
+        padding-left: 15px;
+    }
+    .userInfo .icon{
+      width: 25px;
+      height: 25px;
+      overflow: hidden;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      margin-top: 13px;
+      margin-left: 13px;
+    }
+    .userInfo .sl{
+        float:left;
+    }
+    .userInfo .userName{
+      max-width:80px;
+      *max-width:80px;
+      overflow: hidden;
+      margin: 18px 19px 0 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color:#4c4c4c;
+      line-height: 19px;display:none;
+    }
+    .usStatus .accnt{display:none;}
+    .userInfo .logout{
+        margin: 18px 14px 0 0;
+    }
+    .userInfo .icon2 {
+        display: inline-block;
+        position: relative;
+        width: 24px;
+        height: 22px;
+        top: 14px;
+        background: url(http://img.gyyxcdn.cn/dao/user/images/icon_T1.png) -257px -363px no-repeat;
+        
+    }
+    .emailNum{
+      display: none;
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: red;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      color: #fff;
+      line-height: 15px;
+      left: 53px;
+      top: 14px;
+    }
+    .userInfo .iconEmailHas {
+      background: url(http://img.gyyxcdn.cn/dao/user/images/icon_T1.png) -260px -295px no-repeat
+    }
+    .myNews .msgClose{
+        display: block;
+        width: 7px;
+        height: 7px;
+        position: absolute;
+        background: url(http://img.gyyxcdn.cn/dao/user/images/xts.png) 0 0 no-repeat;
+        top: 62px;
+        left: 110px;
+        z-index: 100;
+        cursor: pointer;
+    }
+    .myNews .xxts{
+        position: absolute;
+        width: 161px;
+        height: 57px;
+        font-size: 12px;
+        background: url(http://img.gyyxcdn.cn/dao/user/images/popNewsBg.png) no-repeat;
+        left: -107px;
+        top: 52px;
+        padding-left: 72px;
+    }
+    .myNews .xxts .baoxtype{
+      display:none;
+    }
+    .myNews .xxts .newMsg{
+       margin-top: 10px;
+       margin-bottom: 2px;
+    }
+    .xxts .msgAlert{
+	   font-size: 12px;
+	   color: #696969;
+	   margin-top: 27px;
+    }
+    .xxts .soucerName{
+      display:inline-block;
+      position: relative;
+      width:70px;
+      overflow:hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color:#5a5a5a;
+      top: 3px;
+    }
+    .xxts .luNum,.xxts .luLx,.xxts .gifNum,.xxts .gifTypeName{
+      color:#ff6f4d;
+    }
+    .xxts .gifNum{
+      margin-left:3px;
+    }
+    .xxts .actionTo,.xxts .tieInfo,.xxts .froyou{
+        display:none;
+    }
+     .xxts .msgAlert .msgALL{
+       color:#ff6f4d;
+     }
+     .qyXx{
+       margin-top: 22px;
+     }
+     .qyXx span{
+       color:#aaaaaa;
+     }
+     .xxts .msgAlert .lookMsgs,.qyXx .fromNick,.qyXx .fromNum{
+       color:#5a5a5a;
+     }
+     .qyXx .fromNick{
+        margin-right: 5px;
+     }
+     .qyXx .fromNum{
+     padding:0 2px;
+     }
+    .userInfo .msgs{
+        padding-left:20px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/lingdang.png") no-repeat left top;
+        margin:3px 0 0 8px;
+        display: none;
+    }
+    .userInfo .lookMsg{
+        text-decoration: underline;
+        color:#2a7efc;
+    }
+/*右侧边栏 =======开始*/
+    .cbNav{
+        display:none;
+        position:fixed;
+        bottom: 15px;
+        z-index:10000;
+        width:60px;
+    }
+    .cbNav a{
+        display: block;
+        margin:5px 0 0;
+        width: 60px;height:60px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/cbNav.png") no-repeat 0 0 #52a8e8;
+        font-size: 14px; color: #ffffff;
+    }
+    
+    .cbNav a.cur{
+        background:url("http://img.gyyxcdn.cn/dao/user/images/cbNav.png") no-repeat 0 0 #d4efff;
+        color:#2d89ce;
+    }
+    .cbNav a span{
+        display:block;
+        height:14px;line-height:14px;
+        padding:41px 0 0;
+        text-align:center;cursor:pointer
+    }
+    
+    .cbNav a.s0{
+      background-position:0 -60px;
+    }
+    .cbNav a.s0:hover{
+       background-position:-60px -60px;
+    }
+    
+    .cbNav a.s1{
+      background-position:0 0;
+    }
+    .cbNav a.s1:hover{
+       background-position:-60px 0;
+    }
+    
+    .cbNav a.s2{
+      background-position:0 -120px;
+    }
+    .cbNav a.s2:hover{
+       background-position:-60px -120px;
+    }
+    
+    .cbNav a.s3{
+      background-position:0 -180px;
+    }
+    .cbNav a.s3:hover{
+       background-position:-60px -180px;
+    }
+/*右侧边栏 =======结束*/
+
+/*左侧边栏 =======开始*/
+.jinWealthWrap{
+	 display: block;
+     position:fixed;
+     top: 60%;
+     z-index:10000;
+     width:173px;
+     height:170px;
+}
+/*关闭提现层的按钮*/
+.jinWealthWrap .jinWealth_close{
+	display: block;
+	width: 18px;
+	height:18px;
+	background:none;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    top: 28px;
+    text-indent: -99px;
+    cursor:pointer;
+}
+/*提现图标*/
+.jinWealthWrap .jinWealth{
+	display: block;
+    width:173px;
+    height:170px;
+    background:url("http://img.gyyxcdn.cn/dao/user/images/jinWealth.png") no-repeat 0 0;
+    text-indent:-999px;
+    overflow:hidden;cursor:default;
+}
+
+/*左侧边栏=======结束*/
+    .myRank{
+      height:223px;
+      position: absolute;
+      width: 198px;
+      top: 38px;
+      left: -74px;
+      z-index: 99999;
+      display:none;
+      overflow: hidden;
+    }
+    .myNews{
+        display:none;
+        position: absolute;
+        width: 304px;
+        top: -1px;
+        left: -44px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    #identity .sfs{
+        height: 32px;
+        width: 148px;
+        padding-bottom: 12px;
+    }
+    #identity .sfs .js_nc{
+        padding-left: 10px;
+        line-height: 32px;
+    }
+    .frpExi{
+      text-align: left;
+      width:100%
+    }
+    .frpExi .logout{
+      display: block;
+      text-align: right;
+      width: 100%;
+    }
+    #identity .yfB, #identity .jfB{
+	    height: 38px;
+        line-height: 38px;
+	    padding-left: 34px;
+	    background: url(http://img.gyyxcdn.cn/dao/user/images/jinyin.png) no-repeat 10px -29px;
+        border-bottom: 1px solid #f5f5f5;
+        color:#999999;
+    }
+     #identity .jfB{
+	    background: url(http://img.gyyxcdn.cn/dao/user/images/jinyin.png) no-repeat 10px 7px;
+   }
+   #identity .nickInfo{
+      overflow: hidden;
+      padding-left: 12px;
+      border-bottom: 1px solid #f5f5f5;
+    }
+    #identity .icon_edit{
+        margin: 0;
+        float: none;
+        height: 38px;
+        line-height: 38px;
+        border-bottom: 1px solid #f5f5f5;
+        text-align: left;
+        padding-left: 34px;
+        color: #999999;
+        display: block;
+        background:url(http://img.gyyxcdn.cn/dao/user/images/fuBg.png) no-repeat 12px 13px;
+        cursor:pointer;
+    }
+    #identity .icon_edit:hover{
+      color:#5eaeef;
+      background:url(http://img.gyyxcdn.cn/dao/user/images/fuBg.png) no-repeat 12px -57px;
+    }
+    #identityForNick{
+      display:none;
+      width:212px;
+      font-size:14px;
+      color:#757575;
+      height:88px;
+      line-height:88px;
+      text-align:center;
+    }
+    #identityForNick .logout{
+       margin:0 0 0 18px;
+    }
+    #identity .logout{
+     margin:0;
+     float:none;
+     height:38px;
+     line-height:38px;
+     border-bottom: none;
+     text-align:left;
+     padding-left:34px;
+     color: #999999;
+     background: url(http://img.gyyxcdn.cn/dao/user/images/fuBg.png) no-repeat 12px -27px;
+    }
+    #identity .logout:hover{
+     color: #5eaeef;
+     background: url(http://img.gyyxcdn.cn/dao/user/images/fuBg.png) no-repeat 12px -97px;
+    }
+    .js_logout:hover{
+       color:#46a1e3;
+    }
+    .rankInfo{
+	    position: relative;
+	    overflow: hidden;
+	    background: url(http://img.gyyxcdn.cn/dao/user/images/jiaoPosition.png) no-repeat 0 0;
+	    height: 208px;
+        padding: 17px 4px 0 2px;
+    }
+      #identityForNick{
+        background: url(http://img.gyyxcdn.cn/dao/user/images/topIco.png) no-repeat 0 -124px;
+        height: 88px;
+        left: -85px;
+    }
+    #identityForNick .nickText{
+        margin-left:9px;
+    }
+    #identityForNick .js_editos{
+      color:#2a7efc;
+      text-decoration: underline;
+      cursor:pointer;
+    }
+    .rankInfo .t1{
+        overflow:hidden;
+        margin: 19px 0 0 18px;
+    }
+    .myRank .t1>span{
+        float:left;
+    }
+    .Pays, .convert {
+	    display: inline-block;
+	    width: 69px;
+	    height: 24px;
+	    line-height:24px;
+	    cursor: pointer;
+	    background: url(http://img.gyyxcdn.cn/dao/user/images/topIco.png) no-repeat 0 -69px;
+	    text-align:center;
+	    color:#fff;
+	    font-size:12px;
+   }
+    #identity .Pays,#identity .convert {
+        display: inline-block;
+        width: 29px;
+        height: 32px;
+        line-height: 32px;
+        cursor: pointer;
+         background: none; 
+        text-align: center;
+        color: #5eaeef;
+        font-size: 14px;
+    }
+   #identity .jinfu, #identity .yinfu{
+    display: inline-block;
+    width: 53px;
+    height: 29px;
+   }
+
+   #identity .myWork, #identity .myActive{
+      display:none;
+      width:110px;
+      font-size:16px;
+      color:#757575;
+      text-align:center;
+      overflow: hidden;
+   }
+   #identity .myActive{
+    margin-left:30px;
+   }
+   #identity .ck{
+	   display: block;
+	   width:67px;
+	   height:27px;
+	   margin-top: 6px;
+	   color:#757575;
+	   margin-left:21px;
+	   background: url(http://img.gyyxcdn.cn/dao/user/images/topIco.png) no-repeat 0 -42px;
+   }
+   #identity .ck:hover{
+    background: url(http://img.gyyxcdn.cn/dao/user/images/topIco.png) no-repeat 0 -15px;
+   }
+   #identity .myWork i, #identity .myActive i{
+    display:inline-block;
+    background:red;
+    font-size:12px;
+    color:#fff;
+    margin-left:4px;
+    text-align:center;
+   }
+   .Pays:hover, .convert:hover{
+      background: url(http://img.gyyxcdn.cn/dao/user/images/topIco.png) no-repeat 0 -93px;
+   }
+    .t1 .myT{
+        margin:10px;
+    }
+    .rankInfo .c1,.tc05 .c1,.currentSF{
+        display: inline-block;
+        width:37px;
+        height:23px;
+        margin:0 2px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/hpeopleL.png") no-repeat 0 -2px;
+    }
+    .rankInfo .currentSF{
+       position: relative;
+       top: 10px;
+    }
+.rankInfo .shenfenD1,.hasSF .shenfenD1{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -144px;
+}
+.rankInfo .shenfenD2,.hasSF .shenfenD2{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -120px;
+}
+.rankInfo .shenfenD3,.hasSF .shenfenD3{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -168px;
+}
+.rankInfo .shenfenD4,.hasSF .shenfenD4{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -216px;
+}
+.rankInfo .shenfenD5,.hasSF .shenfenD5{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -192px;
+}
+.rankInfo .shenfenD6,.hasSF .shenfenD6{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -24px;
+}
+.rankInfo .shenfenD7,.hasSF .shenfenD7{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 0;
+}
+.rankInfo .shenfenD8,.hasSF .shenfenD8{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -48px;
+}
+.rankInfo .shenfenD9,.hasSF .shenfenD9{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -96px;
+}
+.rankInfo .shenfenD10,.hasSF .shenfenD10{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/x_dqAll.png") no-repeat 0 -72px;
+}
+.rankInfo .shenfenD11,.hasSF .shenfenD11{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/ggsfx.png") no-repeat -63px -157px;
+}
+.rankInfo .shenfenD10,.tc05 .shenfenD10,.js-allInfo .shenfenD10{
+    background:url("http://img.gyyxcdn.cn/dao/user/images/mingrenBQ.png") no-repeat 0 0 !important;
+}
+.rankInfo  .shenfenD12,.tc05 .shenfenD12,.js-allInfo .shenfenD12{
+   background:url("http://img.gyyxcdn.cn/dao/forum/images/xx_dqAll.png") no-repeat 0 -241px;
+}
+    .daojiebq {
+    background: url(http://img.gyyxcdn.cn/dao/user/images/daojieBQ.png) 0px 1px no-repeat;
+}
+    .gonggaobq {
+    background:url("http://img.gyyxcdn.cn/dao/user/images/ggsfx.png") no-repeat -18px -154px;
+}
+    .rankInfo .c2{
+        width:37px;
+        height:42px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/xjzMr.png") no-repeat -39px 0;
+    }
+    /*.rankInfo .c2:hover{
+      background:url("http://img.gyyxcdn.cn/dao/user/images/xjzMr_h.png") no-repeat -39px 0;
+    }*/
+    .jyF{
+        width:104px;
+        height:48px;
+        overflow:hidden;
+        float: left;
+        margin-left: 56px;
+        color:#757575;
+    }
+    .jF{
+        margin-bottom: 4px;
+    }
+    .jyF i{
+        color:#52a8e8;
+    }
+    .jF .c3{
+        padding-left: 22px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/jinyin.png") no-repeat left -1px;
+    }
+    .yF .c4{
+        padding-left: 22px;
+        background:url("http://img.gyyxcdn.cn/dao/user/images/jinyin.png") no-repeat left -37px;
+    }
+    .actives {
+        visibility: hidden;
+        margin: 22px 18px 0 30px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #ccc;
+    }
+    .actives span.cur {
+        padding-bottom: 3px;
+        border-bottom: 2px solid #52a8e8;
+    }
+    .activeConvert{
+          float: right;
+         margin-right: 22px;
+    }
+    .t2 .Pays {
+        margin-top: 18px;
+    }
+    .t2 .myActive{
+      margin-left:11px;
+    }
+    .tc02{
+	     display:none;
+	     width:765px;
+	     height:606px;
+	     background:url("http://img.gyyxcdn.cn/dao/user/images/tc02Bg.png") no-repeat left 0;
+    }
+    .tc02 .js_close{
+	    top: 6px;
+	    right: 8px;
+    }
+    .tc02 .con{
+           width: 719px;
+          margin: 27px 0 0 5px;
+    }
+    .tc04,.tc03{
+         width: 528px;
+	    height: 258px;
+	    text-align: center;
+	    background: url(http://img.gyyxcdn.cn/dao/user/images/popInBg.png) no-repeat center center;
+        color: #000;
+        font-size: 20px;
+    }
+     .tc03 .easyvcord{
+        display: inline-block;
+	    width: 100px;
+	    border: 2px solid #52a8e8;
+	    height: 25px;
+	    line-height: 25px;
+	    *margin-top:16px;
+	    position: relative;
+        top: -18px;
+        *top:0px;
+    }
+     .js_getCord{
+       display: inline-block;
+	    width: 150px;
+	    height: 60px;
+	    text-align: center;
+	    color: #fff;
+	    border: 0 none;
+     } 
+     .tc03 .yzm{
+       margin:42px 0 0 0;
+       padding-left: 46px;
+     }
+     .js_cordUp,.cordCancel{
+            margin-right: 70px;
+		    background: #6495ed;
+		    padding: 5px;
+		    width: 83px;
+		    display: inline-block;
+		    color: #fff;
+     }
+     .cordCancel{
+       margin-right:0px;
+     }
+     .cordErr{
+        height: 18px;
+        line-height: 18px;
+       font-size:14px;
+       margin:18px 0;
+       color:red;
+       text-align:center; 
+     }
+    .tc04 .con{
+         margin-top: 75px;
+         line-height: 50px;
+    }
+    .tc04 .con span{
+      font-size:16px;
+      color:#ccc;
+    }
+    .tc04 .con span a{
+         margin-left:6px;
+	     text-decoration: underline;
+	     color:#5eaeef;
+    }
+    .payTit{
+      overflow: hidden;
+      padding: 0 40px;
+      border-bottom: 1px solid #52a8e8;
+    }
+    
+    .tc05{
+       position: absolute !important;
+       border: 1px solid #ccc;
+    }
+    .tc05 .con{
+       overflow: hidden;
+       width:480px;
+       height:228px;
+       background: #fff;
+    }
+    .tc05 .con .conDE{
+       overflow: hidden;
+       display:none;
+    }
+    .tc05 .loadingForInfos{
+       text-align: center;
+       margin-top: 100px;
+    }
+    .tc05 .headImg{
+      width:120px;
+      height:120px;
+      padding: 23px;
+    }
+    .tc05 .info_tx{
+      width:180px;
+      height: 100%;
+    }
+    .tc05 .headNiakName{
+      font-size:14px;
+      color:#2d64b3;
+      padding-left: 23px;
+      line-height: 19px;
+    }
+    .tc05 .concernNum{
+      font-size:14px;
+      color:#666666;
+      padding-left: 23px;
+      margin-top: 5px;
+    }
+    .tc05 .detailFor{
+      width:300px;
+      height:100%;
+      overflow:hidden;
+    }
+    .tc05 .c99Font{
+       	margin-top: 38px;
+    }
+    .tc05 .daohang{
+      margin-top:15px;
+    }
+    .tc05 .daohang .dh{
+      display: inline-block;
+      width: 145px;
+    }
+    .tc05 .daohang .tc05_dh{
+      display: inline-block;
+      width: 145px;
+    }
+    .tc05 .hasSF .sf{
+        display: inline-block;
+        width:36px;
+        height:23px;
+        margin:0 2px;
+        position: relative;
+        top: 8px;
+    } 
+    .tc05 .c1{
+        background:url("http://img.gyyxcdn.cn/dao/user/images/sf01.png") no-repeat 0 0;
+    }
+     .tc05 .c2{
+        background:url("http://img.gyyxcdn.cn/dao/user/images/sf02.png") no-repeat 0 0;
+    }
+    .tc05 .hasSF{
+     margin-top:15px;
+    }
+    .hasSF span{
+      color:#666666;
+    }
+    .tc05 .myinfos{
+      display:inline-block;
+      margin:50px 0 0 95px;
+    }
+    .tc05 .myPage{
+ 	  display:inline-block;
+      height:24px;
+      line-height:24px;
+      color:#61abe2;
+      margin-left:18px;
+      width:94px;
+      text-indent: 26px;
+      background: url(http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png) no-repeat 8px -315px;
+      border: 1px solid #d1d1d1;
+   	  color: #4c4c4c;
+ 	}
+ 	
+    .tc05 .myletter{
+      display:none;
+      height:26px;
+      line-height:26px;
+      color:#afb0b2;
+      padding-left:28px;
+      background:url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat -140px -53px;
+    }
+    /*他人悬浮框关注样式*/
+	.myinfos .followGropt .follow,
+	.myinfos .followGropt .addFollow,
+	.myinfos .followGropt .delFollow,
+	.myinfos .followGropt .eachOtherFollow
+	{
+		background: url(http://img.gyyxcdn.cn/dao/user/images/user_follow_icon.png) no-repeat 0 0;
+	}
+	
+	.myinfos .followGropt .follow{background-position:-3px -246px;}
+	.myinfos .followGropt .addFollow{background-position:-4px -428px;}
+	.myinfos .followGropt .delFollow{background-position: 9px -228px}
+	.myinfos .followGropt .eachOtherFollow{background-position: 9px -267px}
+	
+	.myinfos .followGropt .addFollow:hover{border:1px solid #52a8e8;color:#52a8e8;}
+	.myinfos .followGropt .delFollow:hover{background-position: 9px -226px;border:1px solid #52a8e8;color:#52a8e8;}
+	
+	.tc05 .myPage:hover{background-position:-13px -291px;border:1px solid #52a8e8;color:#52a8e8;}
+	
+   .tc05 .followGropt{
+    width:94px;
+   }
+   .tc05 .followGropt .follow,
+   .tc05 .followGropt .addFollow,
+   .tc05 .followGropt .delFollow,
+   .tc05 .followGropt .eachOtherFollow{
+		   width:94px;
+		   height:24px;
+		   border: 1px solid #d1d1d1;
+		   color: #4c4c4c;
+		   display: block;
+		   text-indent: 26px;
+		   line-height: 24px;
+	   }
+	.myinfos .followGropt .addFollow{
+		cursor:pointer;text-indent:36px;
+	}
+	.myinfos .followGropt .follow,.myinfos .followGropt .eachOtherFollow{
+		cursor:default
+	}
+    .payTit .jyjl{
+      display:block;
+      width:148px;
+      height:48px;
+      line-height:48px;
+      background:#52a8e8;
+      font-szie:16px;
+      color:#fff;
+      text-align:center;
+    }
+    .tc02 .jF i,.tc02 .yF i{
+      color:#dfa432;
+    }
+    .tc02 .jF{
+       margin:16px 22px 4px 237px;
+    }
+    .tc02 .yF{
+      margin-top:14px;
+    }
+    .typeQuery{
+     overflow:hidden;
+     padding:0 40px;
+    }
+    .typeQuery .cx{
+    overflow:hidden;
+     color:#757575;
+     font-size:14px;
+     margin:34px 0 15px 0; 
+    }
+    .cx .jfq,.cx .yfq,.cx .txdh{
+      padding-left: 27px;
+      margin:7px 40px 0 0;
+      background:url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat 0 -94px;
+      cursor:pointer;
+    }
+    .cx .jfq.active,.cx .yfq.active,.cx .txdh.active{
+       background:url("http://img.gyyxcdn.cn/dao/user/images/icon_T1.png") no-repeat 0 -141px;
+    }
+    .cx .tis{
+      margin-top:7px;
+    }
+    .selTimes{
+      width:113px;
+      height:30px;
+      line-height:30px;
+      color:#757575;
+    }
+    .noJL{
+       display:none;
+       text-align: center;
+       font-size: 18px;
+       color: #52a8e8;
+       margin-top: 100px
+    }
+    .cx .js_cx{
+      display:block;
+      width:88px;
+      height:32px;
+      line-height:32px;
+      color:#fff;
+      font-size:16px;
+      text-align:center;
+      background:#52a8e8;
+      cursor:pointer;
+    }
+    #jxTable{
+     width:100%;
+     text-align: center;
+     font-size:16px;
+     line-height:53px;
+     color:#666666;
+    }
+    #jxTable thead,#jxTable tbody tr{
+      border-bottom:1px dashed #ccc;
+    }
+    .pageCut{
+      margin: 23px 0 51px 0 !important;
+      text-align: center !important;
+    }
+    .dataTables_paginate a {
+    color: #000;
+    margin: 0 6px;
+}
+    .sourceTimes{
+     color:#a0a0a0;
+    }
+    .jlTiShi{
+	    font-size: 14px;
+	    color: #999999;
+	    text-align: center;
+	    position: absolute;
+	    bottom: 45px;
+	    left: 188px;
+    }
+    .jlTiShi a{
+     color:#0047fb;
+    }
+    .abandon{
+      display:none !important
+    }
+#tieInfo_Table_0_paginate a{
+	padding:0 10px;margin:0 2px;
+	height:25px; line-height:25px;border:1px solid #e2e2e2;
+	display:inline-block;
+	background:#fff;
+	font-size:12px;color:#333333;
+}
+#tieInfo_Table_0_paginate .nobg{
+	border:0 none;
+}
+#tieInfo_Table_0_paginate a:hover{
+	background:#f6f6f6;
+}
+
+#tieInfo_Table_0_paginate a.paginate_active,#tieInfo_Table_0_paginate a.paginate_active:hover{
+	background:#f6f6f6;
+	color:#b5b5b5;
+}
+#tieInfo_Table_0_paginate .first.paginate_button_disabled{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png")  no-repeat 11px -321px;
+	color:#b5b5b5;
+}
+#tieInfo_Table_0_paginate a.first{
+  padding:0 12px 0 22px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png") no-repeat 12px -296px;
+}
+#tieInfo_Table_0_paginate a.first:hover{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png")  no-repeat 11px -321px;
+	color:#b5b5b5;
+}
+#tieInfo_Table_0_paginate a.last{
+	padding:0 22px 0 12px;
+	background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png") no-repeat 60px -346px;
+}
+#tieInfo_Table_0_paginate a.last:hover{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png") no-repeat 60px -371px;
+	color:#b5b5b5;
+}
+#tieInfo_Table_0_paginate a.last.paginate_button_disabled{
+	background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png") no-repeat 60px -371px;
+	color:#b5b5b5;
+}
+
+/****NewPageStyle*****/
+.ellipsisTxt{display:block; width:100px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.pageMenu li::selection{background:transparent;}
+.clearfix{zoom:1;}
+.clearfix:after{content:"";display: block;clear: both;}
+.pageBox{height:354px; position:relative;margin: 0 auto;}
+.pageDiv{width: 98.75%;background: #fff;padding-left: 1.25%;margin-bottom: 10px;}
+.pageDiv li{margin-bottom: 10px;border:1px solid #dbdbdb;width: 21.5%;margin-right: 1.25%;float:left;margin-top: 10px;padding: 1%;text-align: center;}
+.hide{display: none;}
+.notContent{padding: 15px 0;text-align: center;font-size: 18px; color: #52a8e8;}
+.pageMenu{display:inline;justify-content:center;}
+.pageMenu li{border: solid thin #ddd;margin: 3px;font-size:12px;padding: 1px 7px;cursor: pointer;background: #fff;display:inline; zoom:1}
+.pageMenu li.firstPage{display:inline}
+.pageMenu li.prevPage{display:inline;padding-left: 15px;background: url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png") #fff no-repeat 5px -298px;}
+.pageMenu li.pageNum{display:inline}
+.pageMenu li.nextPage{display:inline;padding-right: 15px;background:url("http://img.gyyxcdn.cn/dao/user/images/Icon_tools_info.png") #fff no-repeat 47px -348px;}
+.pageMenu li.lastPage{display:inline}
+.pageMenu li.disabled{background-color: #f6f6f6;  cursor: not-allowed;}
+.pageMenu li.active{background-color: #f6f6f6;color: #b5b5b5;}
+.pageMenu li.last{background: transparent;border:0;position: relative;top: -4px;}
+.page .keuInput{padding: 0 5px;width: 30px;border: solid thin #ddd;height: 29px;outline: none;text-align: center;font-size: 16px;}
+.page .btnSure{padding: 4px 8px;border: solid thin #ddd;outline: none;text-align: center;font-size: 16px;background: #fff;position: relative;top: 2px;}
+.page .btnSure:hover{cursor: pointer;}
+.pageMenu .pageObj{display:inline; overflow:hidden;}
+.page{padding:8px 0;  text-align:center}
+.jinfu, .yinfu{
+	color:#666666 !important;
+}
+/*==新用户设置昵称奖励层===开始==*/
+.newUserSetNickNamePop {
+    width: 727px;height: 601px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/action_bg_20171123.png) no-repeat 0 0;
+}
+.newUserSetNickNamePop.wap{
+	width: 727px;height: 1062px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/action_bg_mobile_20171123.png) no-repeat 0 0;
+}
+.newUserSetNickNamePop.wap .action_wrap{
+	display:none;
+}
+.newUserSetNickNamePop .close{
+    width: 44px;height: 44px;
+    position: absolute;top: -1px;right: 3px;
+    font-size: 24px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/setInfoClose.png) no-repeat 0 0;
+}
+.newUserSetNickNamePop .action_wrap{
+	clear:both;
+	padding:165px 0 0 30px;
+	height:390px;
+}
+.newUserSetNickNamePop .action_wrap .scroll_content{ 
+	float:left;
+	position:relative;
+	overflow:hidden; width:632px; height:390px; 
+}
+.newUserSetNickNamePop .action_wrap .scroll_content img{ 
+	display:block;
+	position:absolute; top:0; left:0;
+	 height:auto;
+}
+.newUserSetNickNamePop .action_wrap .scrollbar{ 
+	float:left; 
+	margin:79px 0 0 28px;
+	width:6px; 
+}
+.newUserSetNickNamePop .action_wrap .scrollbar .track{ 
+	position:relative; 
+	width:1px; height:262px; background:#ac330f; 
+}
+.newUserSetNickNamePop .action_wrap .scrollbar .track .thumb{ 
+	position:absolute; top:0; 
+	margin-left:-2px; 
+	background:#ac330f; width:5px; height:20px; border-radius:3px; 
+}
+/*==新用户设置昵称奖励层===结束==*/
+.cbNav .activeBox{
+	visibility: hidden;
+}
+/*12.1活动提示*/
+.cbNav .activeBoxpo {
+    display: none;
+    width: 68px;
+    padding: 0;
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: -4px;
+}
+.boxForJYPOPpo {
+    position: relative;
+}
+.boxForJYPOPpo .boxs{
+	display: block;
+    position: relative;
+    width: 68px;
+    height: 65px;
+    cursor: pointer;
+}
+.boxForJYPOPpo .activ01{
+	position: relative;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/active1723.gif) no-repeat 0 0;
+}
+.boxForJYPOPpo .activ01 .ljrules{
+	display:none;
+	width: 508px;
+    height: 339px;
+    position: absolute;
+    left: -503px;
+    top: -118px;
+    background: url(http://img.gyyxcdn.cn/dao/user/images/ljrules01.png) no-repeat 0 0;
+}
+.boxForJYPOPpo .activ02 .js_ctalert{
+	display:none;
+	position: absolute;
+	left: -411px;
+    top: -67px;
+}
+.boxForJYPOPpo .activ02{
+	background: url(http://img.gyyxcdn.cn/dao/user/images/active1724.gif) no-repeat 0 0;
+}
+.goactiveCJ{
+	background:0 none !important;
+}
+input::-ms-clear{display:none;}
+input::-ms-reveal{display:none;}
+/*领奖活动*/
+.rewardactive{
+    background: #fff;
+    width:360px;
+    height:162px;
+    text-align: left;
+    font-size: 18px;
+}
+.rewardactive .con{
+	display: block;
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 51px;
+    overflow: hidden;
+}
+
+.rewardactive .con .iconDang{
+	width:32px;
+	height:32px;
+	background: url(http://img.gyyxcdn.cn/dao/user/images/thts.png) no-repeat 0 0;
+	float:left;
+}
+.rewardactive .con .dngMsg{
+    float: left;
+    width: 221px;
+    display: block;
+    font-size:18px;
+    color:#4d4d4d;
+    padding-left: 5px;
+}
+.rewardactive .js_close,.rewardactiveRed .js_close{
+	width:24px !important;
+	height:24px !important;
+	top: 8px !important;
+    right: 8px !important;
+    background:url("http://img.gyyxcdn.cn/dao/user/images/closeMin.png") no-repeat 0 0 !important;
+}
+.rewardactive .linkeUnd{
+	color:#138fe4;
+	text-decoration: underline;
+}
+.rewardactiveRed{
+	width:380px;
+	background:#f45427;
+}
+.rewardactiveRed .con{
+	width:298px;
+	padding:23px 0;
+	margin:0 auto;
+	color:#fff;
+	text-align: center;
+}
+.rewardactiveRed .con .dngMsg{
+	font-size:18px;
+	color:#fff;
+}
+.rewardactiveRed .f22{
+	font-size:22px;
+}
+.rewardactiveRed .f18h{
+	color:#f8fe5a;
+}
+.goCjForReward{
+	color:#ffff00;
+	text-decoration: underline;
+}
+.public_nav_bottom .bottompub_bg{background:none}
+/*滚动条样式-star*/
+.selectNewAccount_wrapper .selectNewAccount_scroll{overflow-x:hidden}
+.selectNewAccount_wrapper .selectNewAccount_scroll::-webkit-scrollbar{
+    width:5px;height:10px; 
+}
+.selectNewAccount_wrapper .selectNewAccount_scroll::-webkit-scrollbar-button{
+    background:#fff;display:none;
+}
+.selectNewAccount_wrapper .selectNewAccount_scroll::-webkit-scrollbar-track{
+    background:#fff;
+}
+.selectNewAccount_wrapper .selectNewAccount_scroll::-webkit-scrollbar-track-piece{
+    background:#fff;
+}
+.selectNewAccount_wrapper .selectNewAccount_scroll::-webkit-scrollbar-thumb{
+     background:#eee;border-radius:10px;
+}
+
+ /*滚动条样式-end*/
+ /*顶部导航样式修改start*/
+.UserInfoLine {width:100%;height: 58px;}
+.nav_top{padding-right: 305px;}
+.nav_top ul{ overflow:hidden;}
+.nav_top li{ width:96px; height:54px; float:left; text-align:center; line-height:54px;}
+.nav_top li a{ display:block;width:100%; height:54px;text-align:center; line-height:54px;color:#6d8298; font-size:14px;}
+.nav_top li a:hover { background:#ebf4fb;}
+.gxn,.zsd {color:#aaaaaa;}
+/*个人信息浮层*/
+.js_touxiang {width:32px; height:32px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;}
+#identity .sfs {overflow:hidden;}
+#identity .sfs .js_nc {padding-left: 10px;line-height: 32px;width: 97px;float: left;  overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+#identity .sfs .currentSF{width: 37px;height: 24px;float: left;top: 4px;}
+.newsTarget {color:#555}
+/*全屏焦点图*/
+.allScroll {background:#f8fbff!important;}
+.flexslider{position:relative;overflow:hidden;background:url(http://img.gyyxcdn.cn/dao/user/images/loading.gif) 50% no-repeat;}
+.slides{position:relative;z-index:1;}
+.slides li{}
+/*图片背景图设置*/
+.header {width: 1200px;margin: 0 auto;}
+.scroll_box{min-width: 1200px;}
+.scroll_box li a{ display:block;}
+.scroll_box img{width:100%}
+.fixedYun img {width:100%}
+.flex-control-nav{position: absolute;bottom: 100px;z-index: 20;width: 1132px;left: 50%;margin: 0 0 0 -600px;text-align: center;line-height: 100px;
+overflow: hidden;}
+.flex-control-nav li{display:inline-block;width:21px;height:21px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav li a{display:inline-block;width:21px;height:21px;text-indent: -9999px;overflow:hidden;background:url(http://img.gyyxcdn.cn/dao/user/images/scrollIconBg.png) -30px 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top: 50%;margin-top: -36px;}
+.flex-direction-nav li a{display:block;width:42px;height:72px;overflow:hidden;cursor:pointer;position:absolute;text-indent: -9999px;}
+.flex-direction-nav li a.flex-prev{left:0px;background:url(http://img.gyyxcdn.cn/dao/user/images/FocusBtn.png) 0 0 no-repeat;}
+.flex-direction-nav li a.flex-next{right:0px;background:url(http://img.gyyxcdn.cn/dao/user/images/FocusBtn.png) 0 -73px no-repeat;}
+.fixedYun {position: absolute;overflow: hidden;width: 100%;z-index: 10; bottom:-4px;}
+.allScroll .conteCenter {width: 1200px;margin: -255px auto 0;position: relative;z-index: 9999;}
+
+
+
+
+
+
+

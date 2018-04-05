@@ -1,0 +1,824 @@
+/*
+* add by tht 
+* 2017-7-31
+* for gift pop
+*/
+
+html{
+    font-family: "Microsoft YaHei";
+}
+*{
+    padding:0;margin:0;
+}
+.hide{
+    display:none;
+}
+/*全部送礼弹层公共部分======开始*/
+.popG{
+    z-index:100001;
+    position:fixed;left:50%;top:50%;
+    margin:-179px 0 0 -348px;
+    width:697px;height:357px;
+
+}
+.maskG{ 
+    z-index:100000;
+    position:fixed; left:0; top:0;
+    width:100%;height:100%;
+    background:#000;opacity:0.5;filter:alpha(opacity=50);
+}
+.closeG{ 
+    position:absolute;top:14px;right:14px;cursor:pointer;
+    width:18px;height:18px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left top;
+    cursor:pointer;color:#fff;
+    transition:transform .2s linear; 
+    -moz-transition:transform .2s linear; 
+    -webkit-transition:transform .2s linear; 
+}
+.closeG:hover { 
+    transform:rotate(-180deg); 
+    -moz-transform:rotate(-180deg); 
+    -webkit-transform:rotate(-180deg);
+}
+.popG_con{
+    
+    width:695px;height:355px;border:1px solid #cccccc;border-radius:3px;
+    background:#fff;
+}
+/*全部送礼弹层公共部分======结束*/
+/*全部送礼弹层 ======开始*/
+.all_gifts .all_gifts_top{
+    padding:40px 50px 0;
+    height:16px;
+}
+.all_gifts .all_gifts_top .l{
+    float:left;
+}
+.all_gifts .all_gifts_top .l .gived_info{
+    height:16px;line-height:16px;
+    font-size:16px;color:#9f9f9f;font-weight:100;
+}
+.all_gifts .all_gifts_top .l .gived_info .name{
+    margin:0 0 0 10px;
+    color:#3798e1;
+}
+.all_gifts .all_gifts_top .l .gived_info .default{
+    color:#aaa!important;
+}
+.all_gifts .all_gifts_top .r{
+    float:right;
+}
+.all_gifts .all_gifts_top .r .gold,
+.all_gifts .all_gifts_top .r .silver{
+    float:left;
+    padding:0 0 0 21px;
+    height:16px;line-height:16px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left top;
+    font-size:14px;color:#cfaf78;
+}
+.all_gifts .all_gifts_top .r .gold{
+    background-position:-104px -18px;
+}
+.all_gifts .all_gifts_top .r .silver{
+    margin:0 0 0 21px;
+    background-position:-104px -34px;
+}
+.all_gifts .gifts_wrap{
+    position:relative;
+    margin:18px 0 0;
+}
+.all_gifts .gifts_wrap .gifts_lists{
+    clear:both;overflow:hidden;position:relative;
+    margin:0 0 0 50px;
+    width:596px;height:120px;
+}
+.all_gifts .gifts_wrap .gifts_lists .gifts_lists_con{
+    position:absolute;left:0;top:0;
+    width:auto;height:120px;
+}
+.all_gifts .gifts_wrap .gifts_lists ul{
+    width:auto;height:120px;
+}
+.all_gifts .gifts_wrap .gifts_lists ul li.first{
+    margin:0;
+}
+.all_gifts .gifts_wrap .gifts_lists ul li{
+    position:relative;
+    float:left;
+    margin:0 0 0 -1px;
+    width:118px;height:118px;border:1px solid #dddddd;list-style:none;
+}
+.all_gifts .gifts_wrap .gifts_lists ul li img{
+    display:block;
+    margin:17px auto 0;
+    width:64px;height:64px;
+}
+.all_gifts .gifts_wrap .gifts_lists ul li .title{
+    margin:12px 0 0;
+    height:14px;line-height:14px;
+    font-size:14px;color:#4d4d4d;text-align:center;
+}
+.all_gifts .gifts_wrap .gifts_lists ul li .num{
+    position:absolute;top:0px;right:0px;
+    min-width:26px;height:26px;line-height:26px;border-bottom-left-radius:4px;
+    background:#b5dcee;padding: 0 2px;
+    font-size:14px;color:#fff;text-align:center;
+}
+.all_gifts .gifts_wrap .gifts_lists .gift_selected{
+    position:absolute; top:0; left:0;z-index:2;
+    width:120px;height:120px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left -122px;
+}
+.all_gifts .gifts_wrap .gifts_lists .gift_hover{
+    position:absolute; top:0; left:0px;z-index:1;
+    width:120px;height:120px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/gift_hover_bg.png") repeat left top;
+    color:#fff;
+}
+.all_gifts .gifts_wrap .gifts_lists .gift_hover .title{
+    padding:19px 0 7px;
+    height:18px;line-height:18px;
+    font-size:18px;font-weight:100;text-align:center;
+}
+.all_gifts .gifts_wrap .gifts_lists .gift_hover .des{
+    margin:10px auto 0;
+    width:100px;line-height:18px;
+    font-size:12px;text-align:center;
+}
+.all_gifts .gifts_wrap .gifts_lists .gift_hover .val{
+    width:100%;
+    margin:8px auto 0;
+    line-height:18px;
+    font-size:14px;text-align:center;
+    position:absolute;top:85px;left:0;
+}
+.all_gifts .gifts_wrap .gifts_lists .gift_hover .val span{
+    color:#ffe65a;
+}
+.all_gifts .gifts_wrap .prev,
+.all_gifts .gifts_wrap .next{
+    position:absolute; top:33px;
+    display:block;
+    width:26px;height:54px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") left top;
+    cursor:pointer;
+}
+.all_gifts .gifts_wrap .prev{
+    left:0;
+    background-position:-26px -242px;
+}
+.all_gifts .gifts_wrap .next{
+    right:0;
+    background-position:-26px -296px;
+}
+.all_gifts .gifts_wrap .prev:hover{
+    left:0;
+    background-position:-52px -242px;
+}
+.all_gifts .gifts_wrap .next:hover{
+    right:0;
+    background-position:-52px -296px;
+}
+.all_gifts .gifts_wrap .prev.dis{
+    left:0;
+    background-position:0px -242px;
+}
+.all_gifts .gifts_wrap .next.dis{
+    right:0;
+    background-position:0px -296px;
+}
+/*选择数量====开始*/
+.all_gifts .gift_count_wrap{
+    margin:24px 0 0;padding:0 0 0 50px;*padding:0 0 0 45px;
+    height:36px;line-height:36px;
+}
+.all_gifts .gift_count_wrap .title{
+    float:left;
+    width:85px;
+    font-size:14px;color:#999999;text-align:left;
+    
+}
+.all_gifts .gift_count_wrap .gift_count_list{
+    position:relative;
+    float:left;
+    height:36px;
+}
+.all_gifts .gift_count_wrap .gift_count_list ul{
+    height:36px;
+}
+.all_gifts .gift_count_wrap .gift_count_list ul li{
+    float:left;
+    margin:0 0 0 -1px;
+    width:84px;height:34px;border:1px solid #dddddd;
+    list-style:none;
+    font-size:14px;color:#4d4d4d;text-align:center;cursor:pointer;
+}
+.all_gifts .gift_count_wrap .gift_count_list ul li.first{
+    margin:0;
+}
+.all_gifts .gift_count_wrap .gift_count_list ul li.txt input{
+    display:block;
+    border:none;border:0;
+    width:84px;height:34px;line-height:34px;*width:80px;*height:25px;*line-height:25px;
+    text-align:center;
+}
+.all_gifts .gift_count_wrap .gift_count_list ul li.txt input::-webkit-input-placeholder,      
+.all_gifts .gift_count_wrap .gift_count_list ul li.txt input:-moz-placeholder,                  
+.all_gifts .gift_count_wrap .gift_count_list ul li.txt input::-moz-placeholder,                   
+.all_gifts .gift_count_wrap .gift_count_list ul li.txt input:-ms-input-placeholder {             
+   text-align:center;
+    text-indent:0px;
+}
+.all_gifts .gift_count_wrap .gift_count_list .selected{
+    position:absolute;left:0;top:0;
+    width:86px;height:36px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left -350px;
+}
+/*选择数量====结束*/
+
+/*底部元素====开始*/
+.all_gifts .all_gifts_bottom{
+    padding:0 49px 0 50px;margin:24px 0 0;
+    height:36px; line-height:36px;
+}
+.all_gifts .all_gifts_bottom .consume_title{
+    float:left;
+    width:85px;
+    font-size:14px;color:#999999;text-align:left;
+}
+.all_gifts .all_gifts_bottom .consume{
+    float:left;
+    padding:0 0 0 27px;
+    font-size:18px;color:#dfa432; font-weight:bold;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat -102px -50px;
+}
+.all_gifts .all_gifts_bottom .consume.gold{
+    background-position:-102px -50px;
+}
+.all_gifts .all_gifts_bottom .consume.silver{
+    background-position:-102px -86px;
+}
+.all_gifts .all_gifts_bottom .gift_btn{
+    float:right;
+    width:96px;height:36px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left -386px;
+    font-size:16px;color:#fff;text-align:center;cursor:pointer;letter-spacing:6px;
+}
+.all_gifts .all_gifts_bottom .gift_btn:hover{
+    background-position:left -422px;
+}
+/*验证码  -start*/
+.all_gifts_bottom .gifts_price{
+    overflow: hidden;
+    float: left;
+    width: 200px;
+}
+.all_gifts_bottom .js_gift_captcha_mall_wrap a.js_refreshConfigCaptcha{ display: none;}
+.all_gifts_bottom .js_gift_captcha_mall_wrap img.js_refreshConfigCaptcha{ display: block;}
+.all_gifts_bottom .js_gift_captcha_mall_wrap label{text-align: center;float: left;}
+.all_gifts_bottom .js_gift_captcha_mall_wrap input,
+.js_gift_captcha_recommend_wrap input,
+.js_gift_confirm_captcha__wrap input{
+    float: left;
+    height: 32px;
+    width: 100px;border: 1px solid #ddd;
+}
+
+.js_gift_captcha_recommend_wrap,
+.js_gift_captcha_mall_wrap{
+    display:none;
+}
+.all_gifts_bottom .js_gift_captcha_mall_wrap img,
+.js_gift_captcha_recommend_wrap img,
+.js_gift_confirm_captcha__wrap img {
+    height: 38px;
+    float: left;
+}
+.all_gifts_bottom .js_gift_captcha_mall_wrap{
+    float: left;
+    width: 300px;
+    position: relative;
+    height: 50px;
+}
+
+.js_gift_captcha_recommend_wrap{ 
+    width:447px; 
+    padding:15px 34px 10px;
+    overflow: hidden;
+    }
+.js_gift_confirm_captcha__wrap{
+    position: absolute;
+    left: 120px;
+    top: 125px;
+}
+.all_gifts_bottom .error_yzm{
+    display: none;
+    color: red;font-size: 12px;
+}
+.gift_count_wrap .error_yzm{
+    display: none;
+    color: red;
+    height: 32px;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;width: 100px; text-align: left;
+    line-height: 32px;float: left;font-size: 12px;
+}
+.js_gift_captcha_recommend_wrap label,
+.js_gift_confirm_captcha__wrap label{
+    float: left;
+    width: 70px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    color: #999999;
+}
+.js_gift_captcha_recommend_wrap a.js_refreshConfigCaptcha,.js_gift_confirm_captcha__wrap a.js_refreshConfigCaptcha{
+display: none;
+}
+.js_gift_captcha_recommend_wrap img.js_refreshConfigCaptcha,.js_gift_confirm_captcha__wrap img.js_refreshConfigCaptcha{
+display: block;
+}
+.all_gifts .warning_captcha{
+    white-space: nowrap;
+    color: red;
+    position: absolute;
+    font-size: 12px;
+    left: 50px;
+    bottom: 14px;
+}
+.js_gift_confirm_captcha__wrap .warning_captcha{
+    white-space: nowrap;
+    color: red;
+    position: absolute;font-size: 12px;
+    left: 0;
+    bottom: -80px;
+}
+.single_gift .warning_captcha{
+    white-space: nowrap;
+    font-size: 12px;
+    position: absolute;
+    left: 37px;
+    bottom: 10px;
+    color: red;
+}
+/*验证码  -end*/
+/*底部元素====结束*/
+
+/*全部送礼弹层 ======结束*/
+
+/*单个道具弹层 ======开始*/
+/*   弹层元素=======开始 */
+.single{
+    z-index:100001;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    width:527px;
+    height: 297px;
+}
+.single .popG_con{
+    width:525px;
+    height: 295px;
+}
+.single .arrow{
+    position:absolute;
+    left:258px;
+    bottom: -5px;
+    width:10px;
+    height:6px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat -111px -488px;
+}
+.single .in_floor{
+    position:absolute;bottom:-15px;left:0;
+    width:525px;height:15px;
+}
+/*   弹层元素=======结束 */
+
+/*   单个道具顶部=======开始 */
+.single_gift .single_gift_top{
+    padding:34px 34px 0;
+    height:16px;
+}
+.single_gift .single_gift_top .l{
+    float:left;
+}
+.single_gift .single_gift_top .l .gived_info{
+    height:16px;line-height:16px;
+    font-size:16px;color:#9f9f9f;font-weight:100;
+}
+.single_gift .single_gift_top .l .gived_info .name{
+    margin:0 0 0 10px;
+    color:#3798e1;
+}
+.single_gift .single_gift_top .l .gived_info .default{
+    color:#aaa!important;
+}
+.single_gift .single_gift_top .r{
+    float:right;
+}
+.single_gift .single_gift_top .r .gold,
+.single_gift .single_gift_top .r .silver{
+    float:left;
+    padding:0 0 0 21px;
+    height:16px;line-height:16px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left top;
+    font-size:14px;color:#cfaf78;
+}
+.single_gift .single_gift_top .r .gold{
+    background-position:-104px -18px;
+}
+.single_gift .single_gift_top .r .silver{
+    margin:0 0 0 21px;
+    background-position:-104px -34px;
+}
+/*   单个道具顶部=======结束 */
+
+/*   单个道具信息=======开始 */
+.single_gift .single_gift_wrap{
+    padding:0 0 0 59px;margin:28px 0 0;
+    height:80px;
+}
+.single_gift .single_gift_wrap img{
+    float:left;
+    width:80px;height:80px;
+}
+.single_gift .single_gift_wrap .single_gift_info{
+    float:left;
+    margin:0 0 0 35px;
+}
+.single_gift .single_gift_wrap .single_gift_info .title{
+    clear:both;overflow:hidden;
+    height:36px;line-height:36px;
+}
+.single_gift .single_gift_wrap .single_gift_info .title label{
+    float:left;
+    font-size:18px;color:#ff6f4d;font-weight:bold;
+}
+.single_gift .single_gift_wrap .single_gift_info .title .consume{
+    float:left;
+    padding:0 0 0 27px;margin:0 0 0 24px;
+    font-size:18px;color:#dfa432; font-weight:bold;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat -102px -50px;
+}
+.single_gift .single_gift_wrap .single_gift_info .title .consume.gold{
+    background-position:-102px -50px;
+}
+.single_gift .single_gift_wrap .single_gift_info .title .consume.silver{
+    background-position:-102px -86px;
+}
+.single_gift .single_gift_wrap .single_gift_info .des{
+    line-height:24px;
+    font-size:14px;color:#9f9f9f;
+}
+.single_gift .single_gift_wrap .single_gift_info .tip{
+    line-height:24px;
+    font-size:14px;color:#ff6f4d;
+}
+/*   单个道具信息=======结束 */
+
+/*   选择数量====开始*/
+.single_gift .gift_count_wrap{
+    margin:24px 0 0;padding:0 0 0 34px;
+    height:36px;line-height:36px;
+}
+.single_gift .gift_count_wrap .gift_count_list{
+    position:relative;
+    float:left;
+    height:36px;
+}
+.single_gift .gift_count_wrap .gift_count_list ul{
+    height:36px;
+}
+.single_gift .gift_count_wrap .gift_count_list ul li{
+    float:left;
+    margin:0 0 0 -1px;
+    width:57px;height:34px;border:1px solid #dddddd;
+    list-style:none;
+    font-size:14px;color:#4d4d4d;text-align:center;cursor:pointer;
+}
+.single_gift .gift_count_wrap .gift_count_list ul li.first{
+    margin:0;
+}
+.single_gift .gift_count_wrap .gift_count_list ul li.txt input{
+    display:block;
+    border:none;border:0;
+    width:57px;height:34px;line-height:34px;*height:25px;*line-height:25px;
+    text-align:center;color:#4d4d4d;
+}
+.single_gift .gift_count_wrap .gift_count_list ul li.txt input::-webkit-input-placeholder,       /* WebKit, Blink, Edge */
+.single_gift .gift_count_wrap .gift_count_list ul li.txt input:-moz-placeholder,                  /* Mozilla Firefox 4 to 18 */
+.single_gift .gift_count_wrap .gift_count_list ul li.txt input::-moz-placeholder,                   /* Mozilla Firefox 19+ */
+.single_gift .gift_count_wrap .gift_count_list ul li.txt input:-ms-input-placeholder {             /* Internet Explorer 10-11 */
+   text-align:center;
+    text-indent:0px;
+}
+.single_gift .gift_count_wrap .gift_count_list .selected{
+    position:absolute;left:0;top:0;
+    width:59px;height:36px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left -458px;
+}
+/*   选择数量====结束*/
+
+.single_gift .gift_btn{
+    /* float:left;
+    margin:0 0 0 12px; */
+    width:96px;height:36px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftIcon.png") no-repeat left -386px;
+    font-size:16px;color:#fff;
+    text-align:center;
+    cursor:pointer;
+    letter-spacing:6px;
+    right: 34px;    
+    position: absolute;
+}
+.single_gift .gift_btn:hover{
+    background-position:left -422px;
+}
+
+/*单个道具弹层 ======结束*/
+
+/*赠送道具充值层 =====开始*/
+.popGR {
+    position: fixed;left: 50%;top: 50%;z-index:100011;
+    margin:-223px 0 0 -264px;
+    width:528px;height:446px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/pop_giftRecharge_bg.jpg") no-repeat left top;
+}
+.closeGR { 
+    position:absolute;top:18px;right:18px;
+    display:block;
+    width:24px;height:24px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/popTipIcon.png") no-repeat -168px top;
+    color:#fff;cursor:pointer;
+    transition:transform .2s linear; 
+    -moz-transition:transform .2s linear; 
+    -webkit-transition:transform .2s linear; 
+}
+.closeGR:hover { 
+    transform:rotate(-180deg); 
+    -moz-transform:rotate(-180deg); 
+    -webkit-transform:rotate(-180deg);
+}
+.maskGR{ 
+    position:fixed;left:0;top:0;z-index:100010;
+    width:100%; height:100%;
+    background:#000;
+    opacity:0.5;filter:alpha(opacity=50);   
+}
+.pop_conGR .not_enough_tip_wrap{
+    text-align:center;
+}
+.pop_conGR .not_enough_tip_wrap .not_enough_tip{
+    display:inline-block;*display:inline;*zoom:1;
+    padding:0 0 0 33px;margin:55px auto 0;
+    height:24px;line-height:24px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/gitRechargeIcon.png") no-repeat left top;
+    text-align:center;font-size:20px;
+}
+.pop_conGR .not_enough_tip .real_num{
+    line-height:24px;
+    font-size:20px;color:#ff6f4d;white-space: nowrap;
+}
+.pop_conGR .recharge_num_tip{
+    margin:8px 0 0;
+    height:20px; line-height:20px;
+    font-size:20px;text-align: center;
+}
+.pop_conGR .recharge_num_tip .red{
+    margin:0 5px;
+    color:#ff6f4d;font-weight:bold;
+}
+.pop_conGR .attach_num_tip{
+    margin:11px 0 0;
+    height:14px;line-height:14px;
+    font-size:14px;color:#ff6f4d;text-align: center;
+}
+.pop_conGR .qrcode_con{ 
+    margin:24px auto 0;padding:3px 0 0;
+    width:266px;height:195px; 
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/giftQrcodeBg.png") no-repeat left top;
+}
+.pop_conGR .qrcode_con img{ 
+    display:block;
+    margin:0px 0 3px 40px;
+    width:192px;height:192px;
+}
+.pop_conGR .qrcode_con .qrcode_cover{ 
+    position:relative;
+    margin:-195px 0 0 40px;
+    width:192px;height:192px;
+ }
+.pop_conGR .qrcode_con .qrcode_cover .mask{ 
+    width:192px;height:192px;
+    background:#000;opacity:0.8;
+ }
+.pop_conGR .qrcode_con .qrcode_cover .con{
+    position:absolute; left:0; top:0;
+    padding:44px 0 0;
+    z-index:1;
+    width:192px;height:148px;text-align: center;
+}
+.pop_conGR .qrcode_con .qrcode_cover .con .loadIcon{ 
+    margin:0 auto;
+    width:36px;height:36px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/rechageIcon.png") no-repeat -49px -270px;
+}
+.pop_conGR .qrcode_con .qrcode_cover .con p{
+    margin:12px 0 0;
+    font-size:18px;color:#ffffff;font-weight:100;
+}
+.pop_conGR .qrcode_con .qrcode_cover .con p.qrcode_reload{
+    font-weight:100;text-decoration:underline;cursor: pointer;
+}
+.pop_conGR .bottom_tip{
+    margin:24px 0 0;
+    height:14px;
+    font-size:14px;color:#999999;text-align:center;
+}
+.pop_conGR .bottom_tip .recharge{
+    color:#0047fb;text-decoration:underline;cursor:pointer;
+}
+/*手机未绑定提示连接样式*/
+.alertMSG .unbindPhoneLink{
+    color: #5eaeef;text-decoration: underline;
+}
+.alertMSG .unbindPhoneLink:hover{
+    color:#16d0d3;
+}
+/*赠送道具充值层 =====结束*/
+/*帖子礼物和赠送道具-start*/
+.info_wrap_f .clearfix,.bottom_tools .clearfix{overflow:hidden;zoom:1}
+.pull_left{float:left;}
+.pull_right{float:right;}
+.forum_info .bottom_tools .giver_wrap_num .giver_icon,
+.forum_info .bottom_tools .giver_wrap_person .giver_prev,
+.forum_info .bottom_tools .giver_wrap_person .giver_next
+{
+    text-indent:-999px;overflow:hidden;display:block;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/Icon_info_f.png") no-repeat right top;
+    
+    }
+.forum_info .bottom_tools .giver_wrap_num .giver_icon{
+    position: ABSOLUTE;
+    bottom:0;left:0;
+    background-position: -268px -449px;
+    width:32px;height:32px;
+    z-index:1;
+}
+.forum_info .bottom_tools .giver_wrap_num .giver_num{
+    position: absolute;top:-13px;right:0px;
+    background:#ff0000;
+    width:22px;
+    height:22px;
+    color:#fff;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 12px;line-height: 20px;z-index: 999;
+    background: url(http://img.gyyxcdn.cn/dao/wealth/images/Icon_info_f.png) no-repeat -278px -92px;
+}
+.forum_info .bottom_tools .giver_wrap_num .giver_numlarge{
+    position: absolute;top:-13px;right:0px;
+    background:#ff0000;
+    width:31px;
+    height:22px;    
+    letter-spacing: 0px;
+    color:#fff;
+    text-align: center;
+    font-size: 11px;line-height: 20px;z-index: 999;
+    background: url(http://img.gyyxcdn.cn/dao/wealth/images/Icon_info_f.png) no-repeat -269px -114px;
+}
+.forum_info .bottom_tools .giver_wrap_num .js_showBox i.arrow,
+.forum_info .bottom_tools .giver_wrap_num .js_showTxtBox i.arrow{
+    position:absolute;left:50%;
+    display: block;margin:0 0 0 -4px;
+    width:8px;height:6px;bottom:-6px;
+    background:url("http://img.gyyxcdn.cn/dao/wealth/images/Icon_info_f.png") no-repeat -119px -50px;z-index:99;
+}
+
+.forum_info .bottom_tools .giver_wrap_num .js_showBox,
+.forum_info .bottom_tools .giver_wrap_num .js_showTxtBox{
+    position: absolute;
+    top: -45px;
+    left: 15%;
+    padding: 0 5px;
+    height: 23px;
+    line-height: 23px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color: #9a9a9a;
+    font-size: 12px;
+    z-index: 99; 
+}
+.forum_info .bottom_tools .giver_wrap_num .showNoGiverNum{
+    width:110px;top: 0px;left: 42px;
+}
+.forum_info .bottom_tools .giver_wrap_num .js_showTxtBox i.showNoGiverNumIcon{
+    background-position:-119px -30px;left:-3px;top:8px;
+}
+.forum_info .bottom_tools .giver_wrap_person{
+height: 42px;
+margin: 5px 0 0 10px;
+padding: 0;
+}
+.forum_info .bottom_tools .js_givers_list{position:absolute;top:-7px;}
+.forum_info .bottom_tools .giver_wrap_person .giver_prev,
+.forum_info .bottom_tools .giver_wrap_person .giver_next{
+    width:18px;
+    height: 32px;
+    display: block;
+    margin: 5px 0 0;overflow:hidden;cursor:pointer;
+}
+.forum_info .bottom_tools .giver_wrap_person .giver_prev{
+    background-position: -78px -453px;
+}
+.forum_info .bottom_tools .giver_wrap_person .giver_next{
+    background-position: -97px -453px;
+    
+}
+.forum_info .bottom_tools .giver_wrap_person .giver_prev:hover{
+    background-position: -119px -453px;
+    
+}
+.forum_info .bottom_tools .giver_wrap_person .giver_next:hover{
+    background-position: -138px -453px;
+    
+}
+.forum_info .bottom_tools .giver_wrap_person .giver_touxiang{
+    width: 9999px;
+    overflow: hidden;
+    
+}
+.forum_info .bottom_tools .giver_wrap_person li.pull_left,
+.forum_info .bottom_tools .giver_wrap_person li{height: 32px;border-radius: 50%;padding: 5px; width:32px;}
+.forum_info .bottom_tools .giver_wrap_person li.pull_left a.smallimage{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    
+    float: none;
+    display: block;
+    margin: 0;
+    background: none;border:1px solid #acbdcd;border-radius: 50%; overflow:hidden;transition: all 0.6s;
+    position:relative;
+    }
+
+.forum_info .bottom_tools .giver_wrap_person li.pull_left img{
+    width:34px;
+    height:34px;
+    border-radius: 50%;
+    position:absolute;left:-1px;top:-1px;
+    cursor: pointer;
+    display: block;
+    border:none;
+}
+.forum_info .bottom_tools .giver_wrap_person li.pull_left a.smallimage:hover{
+    transform: scale(1.2);   
+    cursor: pointer;
+}
+.forum_info .bottom_tools a.griver_btn{
+    background: url("http://img.gyyxcdn.cn/dao/wealth/images/Icon_info_f.png") no-repeat 0 -392px;
+    display:block;
+    width:111px;
+    line-height:40px;
+    height: 40px;
+    font-size: 16px;
+    text-indent: 50px;
+    color:#fff;
+    padding:0;
+    margin: 0 15px 0 0;
+}
+.forum_info .bottom_tools a.griver_btn:hover{
+    background-position: -111px -392px;
+}
+.forum_info .bottom_tools a.giver_dian{
+    background:none;color:#f95c4f;margin:0;padding:0; font-size:40px; height:40px; line-height:18px;cursor:pointer
+}
+.forum_info .bottom_tools a.giver_dian:hover{color:#ff7d60; }
+.forum_info .bottom_tools .griver_wrap_middle{width:330px; margin:0 auto;}
+/*礼物头像滚动*/
+.js_giver_wrap {position:relative;margin:0px auto;width: 270px;}
+ .js_giver_wrap .js_giverPrev,.js_giver_wrap .js_giverNext {
+    width: 18px;
+    height: 32px;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer; background-color:#000;
+    color:#FFF; text-align:center; 
+ }
+ .js_giver_wrap .js_giverPrev { left:0;cursor:pointer;}
+ .js_giver_wrap .js_giverNext { right:0;cursor:pointer;}
+ .js_listBox {
+    position: relative;
+    width: 210px;
+    height: 100px;
+    overflow: hidden;
+    }
+ .js_listBox ul { width:9999px;}
+ .js_listBox li {float:left;display:inline;width: 42px;height:32px;background-color:none;text-align:center;}
+
+/*帖子礼物和赠送道具-end*/
